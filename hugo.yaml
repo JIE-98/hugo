@@ -54,19 +54,19 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        # subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: cat.jpg
 
     article:
         math: false
         toc: true
         readingTime: true
-        license:
-            enabled: true
-            default: Licensed under CC BY-NC-SA 4.0
+        # license:
+        #     enabled: true
+        #     default: Licensed under CC BY-NC-SA 4.0
 
     comments:
         enabled: true
@@ -203,15 +203,15 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/JIE-98
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+        - identifier: qq
+          name: qq 
+          url: https://qm.qq.com/cgi-bin/qm/qr?k=xaCUgNDPBMHWFD5JqbhyUBj3eVYP4taE
+          params: 
+              icon: brand-qq
 
 related:
     includeNewer: true

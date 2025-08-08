@@ -26,10 +26,24 @@
 &lt;h4 id=&#34;怎么写&#34;&gt;怎么写
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;参考官方教程 &lt;a href=&#34;https://wiki.gnuradio.org/index.php/OutOfTreeModules&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gnuradio.org/index.php/OutOfTreeModules&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wiki.gnuradio.org/index.php/OutOfTreeModules&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+    &gt;https://wiki.gnuradio.org/index.php/OutOfTreeModules
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 真的是这些 wiki 都怎么写的，懂的都懂，不懂的就是不懂，&lt;/li&gt;
 &lt;li&gt;参考这篇中文的 &lt;a href=&#34;https://blog.csdn.net/Flag_ing/article/details/118568932&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/Flag_ing/article/details/118568932&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://blog.csdn.net/Flag_ing/article/details/118568932&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+    &gt;https://blog.csdn.net/Flag_ing/article/details/118568932
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 大约就是上一篇的中文翻译，建议看这个吧，我觉得不是我英文差看不懂上面那个&lt;/li&gt;
 &lt;li&gt;本质上就是写 C++，改 &lt;code&gt;lib/block_name.cc&lt;/code&gt; 这个文件，自己的 C++ 函数写好套个壳，壳怎么套参考上面两点&lt;/li&gt;
 &lt;li&gt;具体怎么写 &lt;code&gt;lib/block_name.cc&lt;/code&gt; 建议参考 gnuradio 自带的 block 的写法&lt;/li&gt;
@@ -75,7 +89,14 @@ Enter valid argument list, including default arguments: &lt;/code&gt;&lt;/pre&gt
 &lt;/h4&gt;&lt;h5 id=&#34;work-是什么&#34;&gt;work 是什么
 &lt;/h5&gt;&lt;ul&gt;
 &lt;li&gt;先看这个 wiki &lt;a href=&#34;https://wiki.gnuradio.org/index.php/Types_of_Blocks&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gnuradio.org/index.php/Types_of_Blocks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wiki.gnuradio.org/index.php/Types_of_Blocks&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+    &gt;https://wiki.gnuradio.org/index.php/Types_of_Blocks
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 然后你会觉得你懂了，但是你不懂&lt;/li&gt;
 &lt;li&gt;大概就是指定输入输出的速度比例&lt;/li&gt;
 &lt;/ul&gt;
@@ -170,7 +191,14 @@ k input, 1 output&lt;br&gt;
   } /* namespace blocks */
   } /* namespace gr */&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;pack&lt;/code&gt; 怎么写的在这里 &lt;a href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;  for i &amp;lt; noutput_items:
       for j &amp;lt; k:
           in&amp;#91;i * k + j] 一些计算
@@ -190,10 +218,24 @@ k input, 1 output&lt;br&gt;
 &lt;li&gt;&lt;strong&gt;Interpolation&lt;/strong&gt;&lt;br&gt;
 不会&lt;br&gt;
 &lt;a href=&#34;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc&lt;/a&gt;&lt;/a&gt;，七年前，我猜 &lt;code&gt;sync_interpolator&lt;/code&gt; 现在已经不用了&lt;/li&gt;
+    &gt;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;，七年前，我猜 &lt;code&gt;sync_interpolator&lt;/code&gt; 现在已经不用了&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;General work&lt;/strong&gt;&lt;br&gt;
 pack 用的 decimation，unpack 用的 general work，想不到吧 &lt;a href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc&lt;/a&gt;&lt;/a&gt; 改了&lt;code&gt;forecast&lt;/code&gt;，我不会&lt;/li&gt;
+    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt; 改了&lt;code&gt;forecast&lt;/code&gt;，我不会&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
 &lt;/div&gt;

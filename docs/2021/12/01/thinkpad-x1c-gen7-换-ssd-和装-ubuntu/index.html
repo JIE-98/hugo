@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="因为换了块 SSD，顺便装一下 ubuntu\n原来的 8G + 256G 真的是丐中丐，2021 年了太难受了好吧\n买的三星 EVO 970 EVO PLUS，1T 的。德亚 89 欧，运到瑞典就要 95 欧 +5 欧运费。在瑞亚买了一天德亚就降价了 20 欧，只好退了再买，然后瑞亚也降了，无语。\n安装新 SSD 备份\n旧 SSD 里也就几十G的东西，拷拷很快的 做U盘启动盘，https://www.microsoft.com/zh-cn/software-download/windows10 上面说要 8G 的空间，但实际上装完就 5G，我觉得应该 8G 大小的U盘够了，我猜的。装的是家庭中文版，因为我知道我的是家庭中文版。之后安装完后需要激活 windows，用的激活码应该在注册表里。 断电\n把充电器拔了，进 BIOS 选彻底断电。我看也有人拆了后盖之后把电池的线断开的。 换 SSD\n一直不敢掰有卡扣的，铰链那条边是螺丝拧下来就松开了，两条短边用塑料片把卡扣撬开，最后一条边用力向上掰。原来底板是金属的。装回去的时候螺丝掉了个垫片，算了。\n打开来发现几根猫毛，铰链粘了好多灰。\n原来是有散热贴的，可是为什么是朝向主板那一面。新的 SSD 背面有个厚贴纸，不知道是啥，没撕，可能是散热用的吧，上面写着撕了就不给保修，要是有人去保修 SSD 也太惨了吧。 装 win10\nU盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然后进设置激活一下。 这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧 装 win10 专业版 按照传统去淘宝花 8 块大洋买了 pro 版本的激活码，激活了。然而还是改不了语言。\n然后又去淘宝从镜像装了 pro 版本，好慢好慢好慢好慢。装完之后记事本文件打不开，奸商让我重装，我真的好无语。可能我就是盗版软件的受害者吧，在设置里把记事本卸载重装就行了。\n装完感觉我电脑中文字题显示有问题，算了，不想搞。\n">
+<title>ThinkPad x1c gen7 换 SSD 和装 ubuntu</title>
+
+<link rel='canonical' href='http://10.147.20.5:1313/2021/12/01/thinkpad-x1c-gen7-%E6%8D%A2-ssd-%E5%92%8C%E8%A3%85-ubuntu/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="ThinkPad x1c gen7 换 SSD 和装 ubuntu">
+<meta property='og:description' content="因为换了块 SSD，顺便装一下 ubuntu\n原来的 8G + 256G 真的是丐中丐，2021 年了太难受了好吧\n买的三星 EVO 970 EVO PLUS，1T 的。德亚 89 欧，运到瑞典就要 95 欧 +5 欧运费。在瑞亚买了一天德亚就降价了 20 欧，只好退了再买，然后瑞亚也降了，无语。\n安装新 SSD 备份\n旧 SSD 里也就几十G的东西，拷拷很快的 做U盘启动盘，https://www.microsoft.com/zh-cn/software-download/windows10 上面说要 8G 的空间，但实际上装完就 5G，我觉得应该 8G 大小的U盘够了，我猜的。装的是家庭中文版，因为我知道我的是家庭中文版。之后安装完后需要激活 windows，用的激活码应该在注册表里。 断电\n把充电器拔了，进 BIOS 选彻底断电。我看也有人拆了后盖之后把电池的线断开的。 换 SSD\n一直不敢掰有卡扣的，铰链那条边是螺丝拧下来就松开了，两条短边用塑料片把卡扣撬开，最后一条边用力向上掰。原来底板是金属的。装回去的时候螺丝掉了个垫片，算了。\n打开来发现几根猫毛，铰链粘了好多灰。\n原来是有散热贴的，可是为什么是朝向主板那一面。新的 SSD 背面有个厚贴纸，不知道是啥，没撕，可能是散热用的吧，上面写着撕了就不给保修，要是有人去保修 SSD 也太惨了吧。 装 win10\nU盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然后进设置激活一下。 这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧 装 win10 专业版 按照传统去淘宝花 8 块大洋买了 pro 版本的激活码，激活了。然而还是改不了语言。\n然后又去淘宝从镜像装了 pro 版本，好慢好慢好慢好慢。装完之后记事本文件打不开，奸商让我重装，我真的好无语。可能我就是盗版软件的受害者吧，在设置里把记事本卸载重装就行了。\n装完感觉我电脑中文字题显示有问题，算了，不想搞。\n">
+<meta property='og:url' content='http://10.147.20.5:1313/2021/12/01/thinkpad-x1c-gen7-%E6%8D%A2-ssd-%E5%92%8C%E8%A3%85-ubuntu/'>
+<meta property='og:site_name' content='APODIZED'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='电子产品' /><meta property='article:published_time' content='2021-12-01T13:11:45&#43;00:00'/><meta property='article:modified_time' content='2021-12-01T13:11:45&#43;00:00'/>
+<meta name="twitter:title" content="ThinkPad x1c gen7 换 SSD 和装 ubuntu">
+<meta name="twitter:description" content="因为换了块 SSD，顺便装一下 ubuntu\n原来的 8G + 256G 真的是丐中丐，2021 年了太难受了好吧\n买的三星 EVO 970 EVO PLUS，1T 的。德亚 89 欧，运到瑞典就要 95 欧 +5 欧运费。在瑞亚买了一天德亚就降价了 20 欧，只好退了再买，然后瑞亚也降了，无语。\n安装新 SSD 备份\n旧 SSD 里也就几十G的东西，拷拷很快的 做U盘启动盘，https://www.microsoft.com/zh-cn/software-download/windows10 上面说要 8G 的空间，但实际上装完就 5G，我觉得应该 8G 大小的U盘够了，我猜的。装的是家庭中文版，因为我知道我的是家庭中文版。之后安装完后需要激活 windows，用的激活码应该在注册表里。 断电\n把充电器拔了，进 BIOS 选彻底断电。我看也有人拆了后盖之后把电池的线断开的。 换 SSD\n一直不敢掰有卡扣的，铰链那条边是螺丝拧下来就松开了，两条短边用塑料片把卡扣撬开，最后一条边用力向上掰。原来底板是金属的。装回去的时候螺丝掉了个垫片，算了。\n打开来发现几根猫毛，铰链粘了好多灰。\n原来是有散热贴的，可是为什么是朝向主板那一面。新的 SSD 背面有个厚贴纸，不知道是啥，没撕，可能是散热用的吧，上面写着撕了就不给保修，要是有人去保修 SSD 也太惨了吧。 装 win10\nU盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然后进设置激活一下。 这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧 装 win10 专业版 按照传统去淘宝花 8 块大洋买了 pro 版本的激活码，激活了。然而还是改不了语言。\n然后又去淘宝从镜像装了 pro 版本，好慢好慢好慢好慢。装完之后记事本文件打不开，奸商让我重装，我真的好无语。可能我就是盗版软件的受害者吧，在设置里把记事本卸载重装就行了。\n装完感觉我电脑中文字题显示有问题，算了，不想搞。\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/cat_hu_9efc32f8b1843d27.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">APODIZED</a></h1>
+            <h2 class="site-description">博客博客博客</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/JIE-98'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://qm.qq.com/cgi-bin/qm/qr?k=xaCUgNDPBMHWFD5JqbhyUBj3eVYP4taE'
+                        target="_blank"
+                        title="qq"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="#000000" width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon">
+  <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm210.5 612.4c-11.5 1.4-44.9-52.7-44.9-52.7 0 31.3-16.2 72.2-51.1 101.8 16.9 5.2 54.9 19.2 45.9 34.4-7.3 12.3-125.6 7.9-159.8 4-34.2 3.8-152.5 8.3-159.8-4-9.1-15.2 28.9-29.2 45.8-34.4-35-29.5-51.1-70.4-51.1-101.8 0 0-33.4 54.1-44.9 52.7-5.4-.7-12.4-29.6 9.4-99.7 10.3-33 22-60.5 40.2-105.8-3.1-116.9 45.3-215 160.4-215 113.9 0 163.3 96.1 160.4 215 18.1 45.2 29.9 72.8 40.2 105.8 21.7 70.1 14.6 99.1 9.3 99.7z"/>
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#安装新-ssd">安装新 SSD</a></li>
+        <li><a href="#装-win10-专业版">装 win10 专业版</a></li>
+        <li><a href="#其他">其他</a></li>
+        <li><a href="#装-ubuntu-双系统">装 ubuntu 双系统</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E7%94%9F%E6%B4%BB/" >
+                生活
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/2021/12/01/thinkpad-x1c-gen7-%E6%8D%A2-ssd-%E5%92%8C%E8%A3%85-ubuntu/">ThinkPad x1c gen7 换 SSD 和装 ubuntu</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 01, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>因为换了块 SSD，顺便装一下 ubuntu<br>
+原来的 8G + 256G 真的是丐中丐，2021 年了太难受了好吧<br>
+买的三星 EVO 970 EVO PLUS，1T 的。德亚 89 欧，运到瑞典就要 95 欧 +5 欧运费。在瑞亚买了一天德亚就降价了 20 欧，只好退了再买，然后瑞亚也降了，无语。</p>
+<h3 id="安装新-ssd">安装新 SSD
+</h3><ol>
+<li>备份<br>
+旧 SSD 里也就几十G的东西，拷拷很快的</li>
+<li>做U盘启动盘，<a data-wplink-edit="true" href="https://www.microsoft.com/zh-cn/software-download/windows10"><a class="link" href="https://www.microsoft.com/zh-cn/software-download/windows10"  target="_blank" rel="noopener"
+    >https://www.microsoft.com/zh-cn/software-download/windows10
+<span style="white-space: nowrap;"><svg width=".7em"
+    height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+    <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+    <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+        fill="currentColor">
+</svg></span>
+</a></a><br>
+上面说要 8G 的空间，但实际上装完就 5G，我觉得应该 8G 大小的U盘够了，我猜的。装的是家庭中文版，因为我知道我的是家庭中文版。之后安装完后需要激活 windows，用的激活码应该在注册表里。</li>
+<li>断电<br>
+把充电器拔了，进 BIOS 选彻底断电。我看也有人拆了后盖之后把电池的线断开的。</li>
+<li>换 SSD<br>
+一直不敢掰有卡扣的，铰链那条边是螺丝拧下来就松开了，两条短边用塑料片把卡扣撬开，最后一条边用力向上掰。原来底板是金属的。装回去的时候螺丝掉了个垫片，算了。<br>
+打开来发现几根猫毛，铰链粘了好多灰。<br>
+原来是有散热贴的，可是为什么是朝向主板那一面。新的 SSD 背面有个厚贴纸，不知道是啥，没撕，可能是散热用的吧，上面写着撕了就不给保修，要是有人去保修 SSD 也太惨了吧。</li>
+<li>装 win10<br>
+U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然后进设置激活一下。</li>
+</ol>
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-202" width="512" height="429"  sizes="(max-width: 512px) 100vw, 512px" />
+  </div><figcaption>这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧</figcaption></figure>
+</div>
+<h3 id="装-win10-专业版">装 win10 专业版
+</h3><p>按照传统去淘宝花 8 块大洋买了 pro 版本的激活码，激活了。然而还是改不了语言。<br>
+然后又去淘宝从镜像装了 pro 版本，好慢好慢好慢好慢。装完之后记事本文件打不开，奸商让我重装，我真的好无语。可能我就是盗版软件的受害者吧，在设置里把记事本卸载重装就行了。<br>
+装完感觉我电脑中文字题显示有问题，算了，不想搞。</p>
+<h3 id="其他">其他
+</h3><p>重装完我发现我的油猴脚本没了，原来默认是没备份的啊，我以为会跟着谷歌账号走呢。其实也无所谓，反正都是用的别人的没有我自己写的。<br>
+发现 Typora 居然要收费了，然后文档里的图片全没了，因为默认保存在 <code>&quot;C:\Users\用户名\AppData\Roaming\Typora\typora-user-images&quot;</code>这种地方，显然我没注意备份。算了。感觉在本地写文档很容易丢内容，一不小心剪切一下都没了，不像 google doc 有历史版本。</p>
+<h3 id="装-ubuntu-双系统">装 ubuntu 双系统
+</h3><p>就参考的这个：<a class="link" href="https://regulus.cc/2019/10/05/Windows10&#43;Ubuntu18.04%E5%8F%8C%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85%E6%8C%87%E5%8C%97/"  title="链接"
+     target="_blank" rel="noopener"
+    >链接
+<span style="white-space: nowrap;"><svg width=".7em"
+    height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+    <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+    <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+        fill="currentColor">
+</svg></span>
+</a>{.wp-editor-md-post-content-link} ，看这个就行了</p>
+<ol>
+<li>装启动盘</li>
+<li>SSD 分一下区<br>
+分了 300G 也不知道够不够用</li>
+<li>关闭 secure boot 和 fast boot<br>
+我也不知道要不要关，反正我关了，关闭 secure boot 之后要输入 BitLocker 密钥，我也不知道是什么。</li>
+<li>从U盘启动<br>
+先关机，然后按 Enter，然后 F12 选择启动方式。</li>
+<li>装 ubuntu<br>
+装就是了，在之前分出来的地方分两个区，<code>/boot</code> 和<span style="font-size: revert; color: initial;"> </span><code>/</code> 。</li>
+<li>剩下的<br>
+把 secure boot 打开。<br>
+我装完默认是从 ubuntu 启动。我不会改启动顺序，我的 BIOS 界面和普通的不一样，我不理解。不想搞了，算了，反正我平时也不关机。</li>
+</ol>
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-192" width="726" height="450"  sizes="(max-width: 726px) 100vw, 726px" />
+  </div></figure>
+</div>
+<p>写英文区分大小写真烦啊，还要空格。<br>
+哎这个 wordpress 主题好像还不支持 markdown 的编辑器。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81/">电子产品</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Dec 01, 2021 13:11 UTC
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/2025/01/27/aria2/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Aria2 配置</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/2024/10/23/dolomites/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">10 月多洛米蒂流水账</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/2024/03/27/helan/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">又去见网友了之荷(hé)兰(lán)篇</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/2023/12/08/%E5%9C%A8%E7%91%9E%E5%85%B8%E8%80%83%E9%A9%BE%E7%85%A7/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">在瑞典考驾照</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/2023/10/10/%E6%8C%AA%E5%A8%81%E5%8D%97%E9%83%A8%E4%B8%83%E5%A4%A9/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">挪威南部七天</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 HJ
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.2bdcb95dfc2a2257db59f1ab8ff225d5bbc09af4f5a24b5815c01e28cfd254db.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -22,7 +22,14 @@ Aria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和
 &lt;/ol&gt;
 &lt;p&gt;一个种子下载工具&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/aria2/aria2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/aria2/aria2&lt;/a&gt;&lt;/p&gt;
+    &gt;https://github.com/aria2/aria2
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;（似乎可以直接 apt 安装）&lt;/li&gt;
 &lt;li&gt;Git clone&lt;/li&gt;
@@ -31,7 +38,14 @@ Aria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和
 &lt;li&gt;make check 我没编译通过，不懂&lt;/li&gt;
 &lt;li&gt;编译出的执行文件在 src/aria2c&lt;/li&gt;
 &lt;li&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://wiki.archlinux.org/title/Aria2&#34; target=&#34;_blank&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Aria2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wiki.archlinux.org/title/Aria2&lt;/a&gt;&lt;/a&gt; 根据这里新建配置文件，里面要添加 enable rpc 的配置&lt;/li&gt;
+    &gt;https://wiki.archlinux.org/title/Aria2
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt; 根据这里新建配置文件，里面要添加 enable rpc 的配置&lt;/li&gt;
 &lt;li&gt;ufw 设置一下&lt;/li&gt;
 &lt;li&gt;变成 service：具体内容在上面链接中的 &lt;code&gt;Using aria2 as a Daemon&lt;/code&gt;, 然后 start，然后 enable
 &lt;ul&gt;
@@ -46,7 +60,14 @@ Aria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和
   &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mayswind/AriaNg&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mayswind/AriaNg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/mayswind/AriaNg&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+    &gt;https://github.com/mayswind/AriaNg
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;AriaNg 是一个 Web 用户界面，控制 Aria2 的下载等等&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;下载 AriaNg-1.3.7-AllInOne.zip，解压出来 index.html&lt;/li&gt;
@@ -57,7 +78,14 @@ sudo mkdir -p /var/www/html/aria&lt;br&gt;
 sudo cp index.html /var/www/html/aria&lt;br&gt;
 sudo chown -R www-data:www-data /var/www/html/aria&lt;/li&gt;
 &lt;li&gt;访问 &lt;a class=&#34;link&#34; href=&#34;http://192.168.xx.xx/aria/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;http://192.168.xx.xx/aria/index.html&lt;/a&gt;
+    &gt;http://192.168.xx.xx/aria/index.html
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;可以看到 Aria2 是连接上的&lt;/li&gt;
 &lt;li&gt;然后可以修改 Aria2 的一些配置，我只改了下载路径&lt;/li&gt;
@@ -65,8 +93,22 @@ sudo chown -R www-data:www-data /var/www/html/aria&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;上面的 Aria2，AiraNg 步骤实现后，就能在另一台电脑上通过访问 &lt;a class=&#34;link&#34; href=&#34;http://192.168.xx.xx/aria/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;http://192.168.xx.xx/aria/index.html&lt;/a&gt; 来下载动画片，我用的 &lt;a class=&#34;link&#34; href=&#34;https://mikanani.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://mikanani.me/&lt;/a&gt; 找种子。应该可以 RSS 自动下，没搞懂呢。&lt;/p&gt;
+    &gt;http://192.168.xx.xx/aria/index.html
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt; 来下载动画片，我用的 &lt;a class=&#34;link&#34; href=&#34;https://mikanani.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://mikanani.me/
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt; 找种子。应该可以 RSS 自动下，没搞懂呢。&lt;/p&gt;
 &lt;div class=&#34;wp-block-image&#34;&gt;
   &lt;figure class=&#34;aligncenter size-large is-resized&#34;&gt;
   &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;https://apodized.com/wp-content/uploads/2024/11/Snipaste_2024-11-05_15-45-32-1024x492.jpg&#39;&gt;
@@ -200,7 +242,14 @@ guest ok = yes&lt;/p&gt;
 &lt;p&gt;我们定计划的时候觉得山路太难开了，不是很信任自己的开车水平，就决定坐公交了（自驾也会贵一点）。不过看下来我觉得山路也没有那么难开，路况是好的，弯比较多罢了，就算是公交车，过 U 型弯的时候也是开 20 码的。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;刀锋山：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在 web camera 上看到刀锋山不下雪了，开心。前一天看还是风雪交加，camera 视野里一片糊的。&lt;a class=&#34;link&#34; href=&#34;https://www.valgardena.it/en/webcams/seceda-live/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.valgardena.it/en/webcams/seceda-live/&lt;/a&gt; 写文章的时候看了下，雪都无了。&lt;/p&gt;
+    &gt;https://www.valgardena.it/en/webcams/seceda-live/
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt; 写文章的时候看了下，雪都无了。&lt;/p&gt;
 &lt;p&gt;上午催着同行人一起去坐缆车。缆车好新，每一辆车都坐不满，感慨一下欧洲人还是少啊。坐两段缆车上山，山看到了 √。风很大、很冷、路很滑。毕竟海拔每上升 1000 米，温度平均下降 6 度。但还是挺好玩的。中国人浓度很高。谷歌查了一下没有 刀锋山是 ⛰️ emoji 的来源 这种说法。&lt;figure class=&#34;wp-block-gallery has-nested-images columns-default is-cropped&#34;&gt; &lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;
 &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;https://apodized.com/wp-content/uploads/2024/10/Weixin-Image_20241022143321-768x1024.jpg&#39;&gt;
   &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; width=&#34;768&#34; height=&#34;1024&#34; data-id=&#34;631&#34;  data-original=&#34;https://apodized.com/wp-content/uploads/2024/10/Weixin-Image_20241022143321-768x1024.jpg&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-631&#34;  sizes=&#34;(max-width: 768px) 100vw, 768px&#34; /&gt;
@@ -305,7 +354,14 @@ guest ok = yes&lt;/p&gt;
     Telecabina Sassolungo
   &lt;/p&gt;
 &lt;p&gt;&lt;cite&gt;因此，与现代缆车不同，Telecabina Sassolungo 仅采用单缆推进系统，这意味着车厢在山谷站和山顶站内不会减速。此外，乘客需通过车厢后方的手动门进入车厢。因此，乘客会发现自己处于一个相当奇怪的境地，不得不追着车厢才能上车。手动门由缆车操作员打开、关闭并锁定，操作员紧跟在乘客身后。 &lt;a href=&#34;https://www.gondolaproject.com/2013/05/08/telecabina-sassolungo/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gondolaproject.com/2013/05/08/telecabina-sassolungo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.gondolaproject.com/2013/05/08/telecabina-sassolungo/&lt;/a&gt;&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+    &gt;https://www.gondolaproject.com/2013/05/08/telecabina-sassolungo/
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;说是追着车厢上车，不过还是很轻松就能追上。&lt;/p&gt;
 &lt;div class=&#34;wp-block-image&#34;&gt;
@@ -452,7 +508,14 @@ guest ok = yes&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;阿姆的市徽：&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9%E5%B8%82%E6%97%97&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;[wiki]&lt;/a&gt; 好邪恶&lt;/p&gt;
+    &gt;[wiki]
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt; 好邪恶&lt;/p&gt;
 &lt;div class=&#34;wp-block-image&#34;&gt;
   &lt;figure class=&#34;aligncenter size-large is-resized&#34;&gt;
   &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;https://apodized.com/wp-content/uploads/2024/03/Flag_of_Amsterdam.svg_-1024x683.png&#39;&gt;
@@ -508,7 +571,14 @@ guest ok = yes&lt;/p&gt;
 TUD 周围就能看到一些 townhouse，感觉非常宁静，（本地人）在这里生活一定很幸福吧&lt;/p&gt;
 &lt;p&gt;下午去了海牙，好大的风，好冷的雨&lt;br&gt;
 席凡宁根海滩 &lt;a class=&#34;link&#34; href=&#34;https://amsterdamian.com/see/photos/scheveningen-a-charming-seaside-resort-with-a-rich-history/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://amsterdamian.com/see/photos/scheveningen-a-charming-seaside-resort-with-a-rich-history/&lt;/a&gt;&lt;br&gt;
+    &gt;https://amsterdamian.com/see/photos/scheveningen-a-charming-seaside-resort-with-a-rich-history/
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;br&gt;
 栈桥里面是饭店，还有一些街机，感觉有点老了&lt;/p&gt;
 &lt;div class=&#34;wp-block-columns&#34;&gt;
   &lt;div class=&#34;wp-block-column&#34;&gt;
@@ -573,7 +643,14 @@ TUD 周围就能看到一些 townhouse，感觉非常宁静，（本地人）在
 第二部分是模拟开车在很滑的路面上，旁边窜出来一个动物，紧急刹车然后避让。只能说在很滑的地面上打方向是一点用没有，吓人，我完全没有记忆了，人生第一次体验漂移。有一辆车刹车比较拉，刹车打方向的时候整个车转了 180 度，是我我就吓死了。&lt;/p&gt;
 &lt;h3 id=&#34;理论&#34;&gt;理论
 &lt;/h3&gt;&lt;p&gt;好难，不过国内做题家过来的我觉得没什么问题，虽然也有认识理论挂了的（x）。刷题买的 &lt;a class=&#34;link&#34; href=&#34;https://korkortonline.se/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://korkortonline.se/&lt;/a&gt; ，一共 1000 题好像。体感这个题库不行，建议买别的，这个题库的题比考题简单。书没必要买，直接刷题。刷题刷到最后就会变成只记得住选项答案。我准备了两三个礼拜的样子，就刷了一遍题。&lt;/p&gt;
+    &gt;https://korkortonline.se/
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt; ，一共 1000 题好像。体感这个题库不行，建议买别的，这个题库的题比考题简单。书没必要买，直接刷题。刷题刷到最后就会变成只记得住选项答案。我准备了两三个礼拜的样子，就刷了一遍题。&lt;/p&gt;
 &lt;p&gt;理论是机考，tc 有一个考场，约理论考试比较容易，基本提前一两周就行。如果去更远的考场，考位更多。&lt;/p&gt;
 &lt;p&gt;第一次去要拍照，那个自动拍照机我拍了两三次都不成功，好气。&lt;/p&gt;
 &lt;h3 id=&#34;练车&#34;&gt;练车
@@ -603,13 +680,27 @@ Level crossing: 如何观察火车&lt;/p&gt;
 &lt;/h3&gt;&lt;p&gt;Sollentuna 考场真难约。&lt;/p&gt;
 &lt;p&gt;听别人说的：如果在驾校学，驾校老师觉得你能考试了，就会帮你报考试，然后老师会开驾校的车带你去考场考试。记得看到过新闻报道，驾校带过去考试的通过率比自己直接去的高。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/@yhli8942&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.youtube.com/@yhli8942&lt;/a&gt; 推荐一下这个博主的 sollentuna 路线视频，很有用。记路是有用的，尤其大环岛。比如考试的时候考官跟你说往 E4 方向开，如果能记路，就能在看到路牌之前就判断要不要变道。多开欧卡练习（x）。其他比如说限速、人行道、公交车道，有的环岛外侧车道也能左转，记住这些也有用的（老做题家思维 ）。&lt;/p&gt;
+    &gt;https://www.youtube.com/@yhli8942
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt; 推荐一下这个博主的 sollentuna 路线视频，很有用。记路是有用的，尤其大环岛。比如考试的时候考官跟你说往 E4 方向开，如果能记路，就能在看到路牌之前就判断要不要变道。多开欧卡练习（x）。其他比如说限速、人行道、公交车道，有的环岛外侧车道也能左转，记住这些也有用的（老做题家思维 ）。&lt;/p&gt;
 &lt;h3 id=&#34;驾校&#34;&gt;驾校
 &lt;/h3&gt;&lt;p&gt;我猜驾校大多都是中东人开的，我去的 Kista 的一个驾校。驾校老师是有在好好教，但是肯定也是想让我多买课的，表现出来的素质比国内驾校师傅还是高很多的。我后来没去中东驾校了，因为练车时间没有周末的，而且沟通总归有点难的。&lt;/p&gt;
 &lt;h3 id=&#34;花费&#34;&gt;花费
 &lt;/h3&gt;&lt;p&gt;参考这个计算表格&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://korkortonline.se/en/facts/#calculator&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://korkortonline.se/en/facts/#calculator&lt;/a&gt;&lt;/p&gt;
+    &gt;https://korkortonline.se/en/facts/#calculator
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;wp-block-image&#34;&gt;
   &lt;figure class=&#34;aligncenter size-full is-resized&#34;&gt;
   &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;http://apodized.com/wp-content/uploads/2023/12/2023-12-07_16-51.png&#39;&gt;
@@ -634,7 +725,14 @@ Level crossing: 如何观察火车&lt;/p&gt;
 花费：没算&lt;br&gt;
 住宿：都是 airbnb&lt;br&gt;
 做攻略推荐查英文 ，强烈推荐这个官方网站 &lt;a class=&#34;link&#34; href=&#34;https://www.nasjonaleturistveger.no/en/routes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.nasjonaleturistveger.no/en/routes/&lt;/a&gt;&lt;/p&gt;
+    &gt;https://www.nasjonaleturistveger.no/en/routes/
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;以下日程和我们一开始做的攻略相差不大，我们太牛了。其实坐飞机前我们的攻略也就差不多这一张表的内容，第二天的攻略都是前一天晚上现查的。&lt;/p&gt;
 &lt;p&gt;DAY1：飞机下午到达斯塔万格，斯塔万格逛逛，住斯塔万格&lt;br&gt;
 DAY2：上午布道石，下午回斯塔万格市区逛逛，住斯塔万格&lt;br&gt;
@@ -1145,7 +1243,14 @@ DAY4：睡到中午去吃猪排饭，下午返回，晚上抗原测出来 covid 
 &lt;/ul&gt;
 &lt;p&gt;有剧透。steam 70 rmb，玩这个游戏蛮能看出人的性格的。&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#39;argon-hidden-text argon-hidden-text-blur&#39;&gt;作者 Wren Brier 不是女同，得了多发性硬化，所以游戏里女主背部有疾病（厕所里治疗背痛的药），并不一定是画家的职业病 &lt;a href=&#34;https://www.msqld.org.au/unpacking-video-game-success-wrens-story/&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.msqld.org.au/unpacking-video-game-success-wrens-story/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.msqld.org.au/unpacking-video-game-success-wrens-story/&lt;/a&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+    &gt;https://www.msqld.org.au/unpacking-video-game-success-wrens-story/
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;看了些皮套人玩这个游戏，果然很多人对于搬到男朋友家那一段感到很不适，虽然我主要是关注为什么要搬到男生家里住这个事实，具体细节比如东西没地方放、奖状只能塞到衣柜里、两个人风格很不搭这种事情，我倒是没什么感觉，只是考虑怎么把东西全藏进柜子里。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;梦境档案2&lt;/strong&gt;&lt;/li&gt;
@@ -1204,7 +1309,14 @@ DAY4：睡到中午去吃猪排饭，下午返回，晚上抗原测出来 covid 
   &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; width=&#34;1024&#34; height=&#34;576&#34; data-original=&#34;http://apodized.com/wp-content/uploads/2022/05/wp-1653052203795-1024x576.jpg&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-322&#34;  sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
 &lt;/div&gt;&lt;/figure&gt; 
 &lt;p&gt;很窄的河道还这么搞，这座桥上面是能走 tram 的，&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://youtu.be/NABUEdAD2QI&#34; target=&#34;_blank&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/NABUEdAD2QI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://youtu.be/NABUEdAD2QI&lt;/a&gt;&lt;/a&gt; 讲比利时 tram 的&lt;figure class=&#34;wp-block-gallery aligncenter has-nested-images columns-default is-cropped&#34;&gt; &lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;
+    &gt;https://youtu.be/NABUEdAD2QI
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt; 讲比利时 tram 的&lt;figure class=&#34;wp-block-gallery aligncenter has-nested-images columns-default is-cropped&#34;&gt; &lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;
 &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;http://apodized.com/wp-content/uploads/2022/05/wp-1653052203970-1-scaled.jpg&#39;&gt;
   &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; width=&#34;1920&#34; height=&#34;2560&#34; data-id=&#34;321&#34;  data-original=&#34;http://apodized.com/wp-content/uploads/2022/05/wp-1653052203970-1-scaled.jpg&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-321&#34;  sizes=&#34;(max-width: 1920px) 100vw, 1920px&#34; /&gt;
 &lt;/div&gt;&lt;figcaption&gt;战斗机？&lt;/figcaption&gt;&lt;/figure&gt; &lt;figure class=&#34;wp-block-image size-large&#34;&gt;
@@ -1355,7 +1467,14 @@ DAY4：睡到中午去吃猪排饭，下午返回，晚上抗原测出来 covid 
 &lt;/li&gt;
 &lt;li&gt;还有一次卡和 10 次卡，10 次卡感觉很难受，因为坐 tram 和公交你说你刷不刷卡呢&lt;/li&gt;
 &lt;li&gt;brupass 范围：不清楚，大概布鲁塞尔市区都行，具体看&lt;a class=&#34;link&#34; href=&#34;https://www.stib-mivb.be/article.html?l=en&amp;amp;_guid=a07ff6ea-e7be-3410-3d9b-c0c492335ebb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;这里&lt;/a&gt;&lt;/li&gt;
+    &gt;这里
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;其他：注意区分谷歌地图上地铁和 tram 的标志。有的 tram 站也是在地下的，如果地面上找不到 tram 的轨道的话。&lt;/li&gt;
@@ -1543,10 +1662,24 @@ weeeeeeeeeeb&lt;/li&gt;
 &lt;h4 id=&#34;怎么写&#34;&gt;怎么写
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;参考官方教程 &lt;a href=&#34;https://wiki.gnuradio.org/index.php/OutOfTreeModules&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gnuradio.org/index.php/OutOfTreeModules&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wiki.gnuradio.org/index.php/OutOfTreeModules&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+    &gt;https://wiki.gnuradio.org/index.php/OutOfTreeModules
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 真的是这些 wiki 都怎么写的，懂的都懂，不懂的就是不懂，&lt;/li&gt;
 &lt;li&gt;参考这篇中文的 &lt;a href=&#34;https://blog.csdn.net/Flag_ing/article/details/118568932&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/Flag_ing/article/details/118568932&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://blog.csdn.net/Flag_ing/article/details/118568932&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+    &gt;https://blog.csdn.net/Flag_ing/article/details/118568932
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 大约就是上一篇的中文翻译，建议看这个吧，我觉得不是我英文差看不懂上面那个&lt;/li&gt;
 &lt;li&gt;本质上就是写 C++，改 &lt;code&gt;lib/block_name.cc&lt;/code&gt; 这个文件，自己的 C++ 函数写好套个壳，壳怎么套参考上面两点&lt;/li&gt;
 &lt;li&gt;具体怎么写 &lt;code&gt;lib/block_name.cc&lt;/code&gt; 建议参考 gnuradio 自带的 block 的写法&lt;/li&gt;
@@ -1592,7 +1725,14 @@ Enter valid argument list, including default arguments: &lt;/code&gt;&lt;/pre&gt
 &lt;/h4&gt;&lt;h5 id=&#34;work-是什么&#34;&gt;work 是什么
 &lt;/h5&gt;&lt;ul&gt;
 &lt;li&gt;先看这个 wiki &lt;a href=&#34;https://wiki.gnuradio.org/index.php/Types_of_Blocks&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gnuradio.org/index.php/Types_of_Blocks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wiki.gnuradio.org/index.php/Types_of_Blocks&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+    &gt;https://wiki.gnuradio.org/index.php/Types_of_Blocks
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 然后你会觉得你懂了，但是你不懂&lt;/li&gt;
 &lt;li&gt;大概就是指定输入输出的速度比例&lt;/li&gt;
 &lt;/ul&gt;
@@ -1687,7 +1827,14 @@ k input, 1 output&lt;br&gt;
   } /* namespace blocks */
   } /* namespace gr */&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;pack&lt;/code&gt; 怎么写的在这里 &lt;a href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;  for i &amp;lt; noutput_items:
       for j &amp;lt; k:
           in&amp;#91;i * k + j] 一些计算
@@ -1707,10 +1854,24 @@ k input, 1 output&lt;br&gt;
 &lt;li&gt;&lt;strong&gt;Interpolation&lt;/strong&gt;&lt;br&gt;
 不会&lt;br&gt;
 &lt;a href=&#34;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc&lt;/a&gt;&lt;/a&gt;，七年前，我猜 &lt;code&gt;sync_interpolator&lt;/code&gt; 现在已经不用了&lt;/li&gt;
+    &gt;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;，七年前，我猜 &lt;code&gt;sync_interpolator&lt;/code&gt; 现在已经不用了&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;General work&lt;/strong&gt;&lt;br&gt;
 pack 用的 decimation，unpack 用的 general work，想不到吧 &lt;a href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc&lt;/a&gt;&lt;/a&gt; 改了&lt;code&gt;forecast&lt;/code&gt;，我不会&lt;/li&gt;
+    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt; 改了&lt;code&gt;forecast&lt;/code&gt;，我不会&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
 &lt;/div&gt;
@@ -1852,7 +2013,14 @@ pack 用的 decimation，unpack 用的 general work，想不到吧 &lt;a href=&#
     &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; data-original=&#34;https://apodized.com/wp-content/uploads/2022/01/Snipaste_2022-01-02_22-26-35.png&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-236&#34; width=&#34;588&#34; height=&#34;530&#34;  sizes=&#34;(max-width: 588px) 100vw, 588px&#34; /&gt;
   &lt;/div&gt;&lt;figcaption&gt;图源 
 &lt;p&gt;&lt;a href=&#34;http://bangumi.tv/subject/topic/20107&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://bangumi.tv/subject/topic/20107&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;http://bangumi.tv/subject/topic/20107&lt;/a&gt;&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+    &gt;http://bangumi.tv/subject/topic/20107
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;讲的是韦驮天（某种神明）和魔族斗智斗勇的故事。智斗的部分很有趣，有点全职猎人那种感觉，战斗蛮猎奇的，是我喜欢的那种独具一格的作品。似乎原作也没更新完，好想知道后面的剧情。第一季剧情断在一个让人很难受的地方。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;转生成蜘蛛又怎样！&lt;/strong&gt;&lt;/p&gt;
@@ -1930,7 +2098,14 @@ pack 用的 decimation，unpack 用的 general work，想不到吧 &lt;a href=&#
 &lt;li&gt;备份&lt;br&gt;
 旧 SSD 里也就几十G的东西，拷拷很快的&lt;/li&gt;
 &lt;li&gt;做U盘启动盘，&lt;a data-wplink-edit=&#34;true&#34; href=&#34;https://www.microsoft.com/zh-cn/software-download/windows10&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/zh-cn/software-download/windows10&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.microsoft.com/zh-cn/software-download/windows10&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+    &gt;https://www.microsoft.com/zh-cn/software-download/windows10
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 上面说要 8G 的空间，但实际上装完就 5G，我觉得应该 8G 大小的U盘够了，我猜的。装的是家庭中文版，因为我知道我的是家庭中文版。之后安装完后需要激活 windows，用的激活码应该在注册表里。&lt;/li&gt;
 &lt;li&gt;断电&lt;br&gt;
 把充电器拔了，进 BIOS 选彻底断电。我看也有人拆了后盖之后把电池的线断开的。&lt;/li&gt;
@@ -1957,7 +2132,14 @@ U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然
 &lt;h3 id=&#34;装-ubuntu-双系统&#34;&gt;装 ubuntu 双系统
 &lt;/h3&gt;&lt;p&gt;就参考的这个：&lt;a class=&#34;link&#34; href=&#34;https://regulus.cc/2019/10/05/Windows10&amp;#43;Ubuntu18.04%E5%8F%8C%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85%E6%8C%87%E5%8C%97/&#34;  title=&#34;链接&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;链接&lt;/a&gt;{.wp-editor-md-post-content-link} ，看这个就行了&lt;/p&gt;
+    &gt;链接
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;{.wp-editor-md-post-content-link} ，看这个就行了&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;装启动盘&lt;/li&gt;
 &lt;li&gt;SSD 分一下区&lt;br&gt;
@@ -2047,110 +2229,129 @@ DLC蛮值得买，有魔吉拉面具和古代马具，还有四英杰额外的�
         <guid>http://10.147.20.5:1313/2021/10/01/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%92%AD%E5%AE%A2/</guid>
         <description>&lt;p&gt;从大学的时候开始听播客，之后还在QQ的说说里写了一段小作文推荐播客。总之是为了消磨时间，我不是很喜欢在走路的时候听歌，可能因为我当时没有无线降噪耳机。还有一部分是出于学英语的考虑，当然这里面五成是为了练听力，五成是为了吹嘘我用这种方式学英语。&lt;/p&gt;
 &lt;p&gt;大学的时候喜欢时长20分钟左右的，比如planet money之类的，大概就是从韵院走到东九的时候（但我明明有电动车？)，自己一个人吃饭的时候可以听。当时很不屑于听日谈公园这种长一个多小时的闲聊节目，也可能是我抵触北京口音，现在就不一样了。中文播客也就是18、19年兴起的吧，之前估计只有日谈公园、机核这种老牌播客节目。现在有很多&lt;s&gt;境外势力&lt;/s&gt;有海外留学工作背景的人创建的播客节目。闲聊节目不算，从主播的个人背景基本上就能知道这节目是讲什么的。&lt;/p&gt;
-&lt;div class=&#34;wp-block-image&#34;&gt;
+&lt;!-- &lt;div class=&#34;wp-block-image&#34;&gt;
   &lt;figure class=&#34;aligncenter size-large is-resized&#34;&gt;
+  
   &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;https://apodized.com/wp-content/uploads/2021/09/Screenshot_20210928-170717-1024x858.jpg&#39;&gt;
     &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; data-original=&#34;https://apodized.com/wp-content/uploads/2021/09/Screenshot_20210928-170717-1024x858.jpg&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-64&#34; width=&#34;423&#34; height=&#34;354&#34;  sizes=&#34;(max-width: 423px) 100vw, 423px&#34; /&gt;
   &lt;/div&gt;&lt;figcaption&gt;app是castbox，有的是听着听着睡着了&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;p&gt;聊聊我喜欢的播客&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;
+&lt;/div&gt; --&gt;
+&lt;figure class=&#34;wp-block-image&#34;&gt;
+  &lt;img src=&#34;https://apodized.com/wp-content/uploads/2021/09/Screenshot_20210928-170717-1024x858.jpg&#34; alt=&#34;&#34; style=&#34;width: 60%;&#34;&gt;
+  &lt;figcaption&gt;app是castbox，有的是听着听着睡着了&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;聊聊我喜欢的播客&lt;/p&gt;
+&lt;!-- &lt;figure class=&#34;wp-block-image size-large&#34;&gt;
+
 &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;https://apodized.com/wp-content/uploads/2021/10/Screenshot_20210930-233824-1-1024x347.png&#39;&gt;
   &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; width=&#34;1024&#34; height=&#34;347&#34; data-original=&#34;https://apodized.com/wp-content/uploads/2021/10/Screenshot_20210930-233824-1-1024x347.png&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-70&#34;  sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
-&lt;/div&gt;&lt;figcaption&gt;有的虽然订阅了但从来不会听，总觉得以后有机会会听&lt;/figcaption&gt;&lt;/figure&gt; 
+&lt;/div&gt;&lt;figcaption&gt;有的虽然订阅了但从来不会听，总觉得以后有机会会听&lt;/figcaption&gt;&lt;/figure&gt;  --&gt;
+&lt;figure class=&#34;wp-block-image&#34;&gt;
+  &lt;img src=&#34;https://apodized.com/wp-content/uploads/2021/10/Screenshot_20210930-233824-1-1024x347.png&#34; alt=&#34;&#34; style=&#34;width: 80%;&#34;&gt;
+  &lt;figcaption&gt;有的虽然订阅了但从来不会听，总觉得以后有机会会听&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;几乎每期都会听的&#34;&gt;几乎每期都会听的
-&lt;/h2&gt;&lt;div class=&#34;wp-container-2 wp-block-group&#34;&gt;
-  &lt;div class=&#34;wp-block-group__inner-container&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        Fit4life
-      &lt;/li&gt;
-    &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;wp-container-1 wp-block-group&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;wp-block-group__inner-container&amp;quot;&amp;gt;
-    &amp;lt;p&amp;gt;
-      两个35岁北京女人的闲聊节目，运动、生活相关。提到暴饮暴食，抵触运动的情绪的时候，我会想原来大家都一样。这两个女的真的蛮privileged的。
-    &amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-
-&amp;lt;div style=&amp;quot;height:6px&amp;quot; aria-hidden=&amp;quot;true&amp;quot; class=&amp;quot;wp-block-spacer&amp;quot;&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fit4life&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Anyway.FM 设计杂谈&lt;/li&gt;
+&lt;li&gt;两个35岁北京女人的闲聊节目，运动、生活相关。提到暴饮暴食，抵触运动的情绪的时候，我会想原来大家都一样。这两个女的真的蛮privileged的。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;“由UI设计师JJ Ying和Leon Gao主播的设计杂谈播客“&lt;br&gt;
-难得的南方口音的男主播的播客，讲一些网页设计相关的，感觉比较理工科思维。不请嘉宾，蛮难得的，每期都有新主题，可能因为我不懂UI设计，感觉很时髦。&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anyway.FM 设计杂谈&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;疯投圈&lt;/li&gt;
+&lt;li&gt;“由UI设计师JJ Ying和Leon Gao主播的设计杂谈播客“&lt;br&gt;
+难得的南方口音的男主播的播客，讲一些网页设计相关的，感觉比较理工科思维。不请嘉宾，蛮难得的，每期都有新主题，可能因为我不懂UI设计，感觉很时髦。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;商业类，请嘉宾，更新比较慢。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;疯投圈&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;商业类，请嘉宾，更新比较慢。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;有感兴趣的内容就听&#34;&gt;有感兴趣的内容就听
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;随机波动 StochasticVolatility&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;剩余价值的秽土转生，推荐一下讲疫情的&lt;a href=&#34;https://chartable.com/podcasts/sheng-yu-jie-zhi-surplusvalue/episodes/49368461-051wen-yi-yu-yan-he-ju-ti-de-ren-yu-li-shi-xue-jia-luo-xin-de-liao-tian&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;这期&lt;/a&gt;。节目质量取决于请的嘉宾的质量，特别喜欢性别议题。&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;li&gt;
+&lt;p&gt;随机波动 StochasticVolatility&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Loud Murmurs 小声喧哗&lt;/li&gt;
+&lt;li&gt;剩余价值的秽土转生，推荐一下讲疫情的&lt;a class=&#34;link&#34; href=&#34;https://chartable.com/podcasts/sheng-yu-jie-zhi-surplusvalue/episodes/49368461-051wen-yi-yu-yan-he-ju-ti-de-ren-yu-li-shi-xue-jia-luo-xin-de-liao-tian&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这期
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;。节目质量取决于请的嘉宾的质量，特别喜欢性别议题。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;讲电影的&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Loud Murmurs 小声喧哗&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;声东击西，不合时宜，忽左忽右，无时差研究所&lt;/li&gt;
+&lt;li&gt;讲电影的&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;都是访谈类节目，忽左忽右的内容一般比较严肃。主播的存在感比较弱，对主播没啥印象。&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;声东击西，不合时宜，忽左忽右，无时差研究所&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;天才捕手FM&lt;/li&gt;
+&lt;li&gt;都是访谈类节目，忽左忽右的内容一般比较严肃。主播的存在感比较弱，对主播没啥印象。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;访谈类节目，每期请一位特殊职业的嘉宾。整体层次比较低。&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;天才捕手FM&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;机核，日谈公园，无聊斋，谐星聊天会，跟宇宙结婚&lt;/li&gt;
+&lt;li&gt;访谈类节目，每期请一位特殊职业的嘉宾。整体层次比较低。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;感觉这些节目的主播都是同一批人，闲聊中的闲聊，五成时间是打诨插科，主要就听一个气氛。&lt;br&gt;
-推荐下机核的这一期，讲8bit音乐的：&lt;em&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://www.gcores.com/radios/26610&#34; target=&#34;_blank&#34;&gt;我们用8bit音乐原理告诉你，FC的游戏音乐是如何制作的&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;机核，日谈公园，无聊斋，谐星聊天会，跟宇宙结婚&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;东亚观察局&lt;/li&gt;
+&lt;li&gt;感觉这些节目的主播都是同一批人，闲聊中的闲聊，五成时间是打诨插科，主要就听一个气氛。&lt;br&gt;
+推荐下机核的这一期，讲8bit音乐的：_ &lt;a class=&#34;link&#34; href=&#34;https://www.gcores.com/radios/26610&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;我们用8bit音乐原理告诉你，FC的游戏音乐是如何制作的
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt; _&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;东亚（日韩，不包括中国）政治相关，有时候会讲一些文化、日韩娱乐圈方面的。&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;东亚观察局&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Canadian True Crime&lt;/li&gt;
+&lt;li&gt;东亚（日韩，不包括中国）政治相关，有时候会讲一些文化、日韩娱乐圈方面的。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;加拿大今日说法。印象最深的一期讲的是一个和妈妈住在一起的男的把去camping的一家人枪杀了，放火烧了车。判刑入狱后推翻了之前的口供，承认自己是恋童癖，他把受害者中的父母杀了之后，没有立即杀两个小孩，而是强奸了其中一个一段时间，然后杀了。我大为震撼。&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Canadian True Crime&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;贝望录&lt;/li&gt;
+&lt;li&gt;加拿大今日说法。印象最深的一期讲的是一个和妈妈住在一起的男的把去camping的一家人枪杀了，放火烧了车。判刑入狱后推翻了之前的口供，承认自己是恋童癖，他把受害者中的父母杀了之后，没有立即杀两个小孩，而是强奸了其中一个一段时间，然后杀了。我大为震撼。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Justpod的节目，“一档由中国广告界和营销科技界领军人Bessie李倩玲担任主持的谈话节目，展现媒体人、行销行业及企业管理者、创意人、创业者在应对当下技术革新与市场变化时的思考和行动“。&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;贝望录&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;99% Invisible, Planet Money, More or Less: Behind the Stats&lt;/li&gt;
+&lt;li&gt;Justpod的节目，“一档由中国广告界和营销科技界领军人Bessie李倩玲担任主持的谈话节目，展现媒体人、行销行业及企业管理者、创意人、创业者在应对当下技术革新与市场变化时的思考和行动“。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;经典英文节目。&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;99% Invisible, Planet Money, More or Less: Behind the Stats&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The Good Time Podcast&lt;/li&gt;
+&lt;li&gt;经典英文节目。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在英瑞典人，主要是听听瑞典口音英语。&lt;/p&gt;
-&lt;div style=&#34;height:6px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Good Time Podcast&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在英瑞典人，主要是听听瑞典口音英语。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;不得不提一下Nice try，世界上竟然有这么无聊的节目，还在小宇宙的热榜上，难以置信。只能说南方口音不行。&lt;/p&gt;
 &lt;p&gt;在我用的castbox这个app上，有的英文播客的节目是内插广告的，app插的，是我听不懂的瑞典语广告。中文播客就没法用这种方式赚钱。&lt;/p&gt;
 &lt;p&gt;听过有的英文节目的主题，比如说怎么给动物世界（纪录片）配音，残疾人用的义肢的性价比，deepfake，怎么统计新冠病例数，这种节目大多是这样结构：主播的念一段叙述性内容介绍主题 -&amp;gt; 主播和嘉宾A对谈或者嘉宾一个人的一段叙述 -&amp;gt; 和嘉宾B -&amp;gt; 主播念一段叙述性内容结束，时长一般控制在20分钟左右。嘉宾一般都是大学研究员或是什么相关行业从业人士，就显得这期节目可信度很高。一般也不会非常深刻地谈论这个话题，有点像科普。我好想听这种中文播客，为啥没有呢。中文播客一般都是1小时左右的和嘉宾对谈，而且主要是人文社科，想听技术类的，或者科技人文关怀之类的。&lt;/p&gt;
@@ -2164,10 +2365,15 @@ DLC蛮值得买，有魔吉拉面具和古代马具，还有四英杰额外的�
         <pubDate>Sun, 26 Sep 2021 21:53:45 +0000</pubDate>
         
         <guid>http://10.147.20.5:1313/2021/09/27/bravely-default-ii/</guid>
-        <description>&lt;p&gt;勇气默示录2 一点感想，有剧透&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;
+        <description>&lt;p&gt;勇气默示录2 一点感想，有剧透&lt;/p&gt;
+&lt;!-- &lt;figure class=&#34;wp-block-image size-large&#34;&gt;
+
 &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;http://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg&#39;&gt;
   &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; width=&#34;1024&#34; height=&#34;576&#34; data-original=&#34;http://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-39&#34;  sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
-&lt;/div&gt;&lt;/figure&gt; 
+&lt;/div&gt;&lt;/figure&gt;  --&gt;
+&lt;figure class=&#34;wp-block-image&#34;&gt;
+&lt;img src=&#34;https://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg&#34; alt=&#34;&#34; style=&#34;width: 80%;&#34;&gt;
+&lt;/figure&gt;
 &lt;p&gt;30h一周目普通难度通关真结局，隐藏的boss（龙？）和剩余职业升级到15级没打，本来想打龙，刷刷馒头，但是打了几次盗贼的试炼不掉道具就不想打了。二周目是不可能的，还不如去打八方旅人的最终大boss。&lt;/p&gt;
 &lt;h2 id=&#34;配队&#34;&gt;配队
 &lt;/h2&gt;&lt;p&gt;把24个职业都练到宗师了，配合凡人的大器晚成，boss都是脚打&lt;br&gt;
@@ -2176,10 +2382,16 @@ DLC蛮值得买，有魔吉拉面具和古代马具，还有四英杰额外的�
 bdff2没看攻略完全不会玩，全怪简中互联网游戏攻略全tm是垃圾内容。&lt;/p&gt;
 &lt;p&gt;不懂bdff2怎么设计数值平衡的，玩八方旅人的时候我也看攻略去后面的地图偷了高级装备，也练了级，但没感觉到数值崩坏，boss还是要看攻略打。&lt;/p&gt;
 &lt;h2 id=&#34;系统&#34;&gt;系统
-&lt;/h2&gt;&lt;p&gt;音乐感觉一般般，翻译是sb，切换到繁中的字体比较好看。下面那句话日语语音直译就是：_随着使用者的力量而变强变弱，这就是晨星。_哎这就是画蛇添足吗，翻译找这么多存在感干嘛。&lt;figure class=&#34;wp-block-image size-large&#34;&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;音乐感觉一般般，翻译是sb，切换到繁中的字体比较好看。下面那句话日语语音直译就是：_随着使用者的力量而变强变弱，这就是晨星。_哎这就是画蛇添足吗，翻译找这么多存在感干嘛。&lt;/p&gt;
+&lt;!-- &lt;figure class=&#34;wp-block-image size-large&#34;&gt;
+
 &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;http://apodized.com/wp-content/uploads/2021/09/bdff2_1-1024x576.jpg&#39;&gt;
   &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; width=&#34;1024&#34; height=&#34;576&#34; data-original=&#34;http://apodized.com/wp-content/uploads/2021/09/bdff2_1-1024x576.jpg&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-40&#34;  sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;
-&lt;/div&gt;&lt;figcaption&gt;幸好这个讲话文绉绉的的老头（其实根本没有）最开始的一章就挂了&lt;/figcaption&gt;&lt;/figure&gt; 
+&lt;/div&gt;&lt;figcaption&gt;幸好这个讲话文绉绉的的老头（其实根本没有）最开始的一章就挂了&lt;/figcaption&gt;&lt;/figure&gt;  --&gt;
+&lt;figure class=&#34;wp-block-image&#34;&gt;
+  &lt;img src=&#34;https://apodized.com/wp-content/uploads/2021/09/bdff2_1-1024x576.jpg&#34; alt=&#34;&#34; style=&#34;width: 80%;&#34;&gt;
+  &lt;figcaption&gt;幸好这个讲话文绉绉的的老头（其实根本没有）最开始的一章就挂了&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;优化有问题，会卡。切换地图读盘要好久。&lt;br&gt;
 打牌真好玩。&lt;/p&gt;
 &lt;p&gt;说一下我自己刷jp的经验，个人认为是去沙漠那一章，地图中间有个湖，吃吸引精灵/水生的连战道具，刷湖周围的精灵和鱼人。个人认为比“赶海”效率高。配合狂战士平A变群攻，或某个职业的技能怪低于一定等级秒杀刷起来很快。主要是这个地图的怪一个turn能有5、6个，夜晚刷起来很爽。适合一遍看剧一边用ns掌机模式刷。&lt;br&gt;

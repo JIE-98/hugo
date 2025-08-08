@@ -21,7 +21,14 @@
 &lt;li&gt;备份&lt;br&gt;
 旧 SSD 里也就几十G的东西，拷拷很快的&lt;/li&gt;
 &lt;li&gt;做U盘启动盘，&lt;a data-wplink-edit=&#34;true&#34; href=&#34;https://www.microsoft.com/zh-cn/software-download/windows10&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/zh-cn/software-download/windows10&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.microsoft.com/zh-cn/software-download/windows10&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+    &gt;https://www.microsoft.com/zh-cn/software-download/windows10
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
 上面说要 8G 的空间，但实际上装完就 5G，我觉得应该 8G 大小的U盘够了，我猜的。装的是家庭中文版，因为我知道我的是家庭中文版。之后安装完后需要激活 windows，用的激活码应该在注册表里。&lt;/li&gt;
 &lt;li&gt;断电&lt;br&gt;
 把充电器拔了，进 BIOS 选彻底断电。我看也有人拆了后盖之后把电池的线断开的。&lt;/li&gt;
@@ -48,7 +55,14 @@ U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然
 &lt;h3 id=&#34;装-ubuntu-双系统&#34;&gt;装 ubuntu 双系统
 &lt;/h3&gt;&lt;p&gt;就参考的这个：&lt;a class=&#34;link&#34; href=&#34;https://regulus.cc/2019/10/05/Windows10&amp;#43;Ubuntu18.04%E5%8F%8C%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85%E6%8C%87%E5%8C%97/&#34;  title=&#34;链接&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;链接&lt;/a&gt;{.wp-editor-md-post-content-link} ，看这个就行了&lt;/p&gt;
+    &gt;链接
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+&lt;/a&gt;{.wp-editor-md-post-content-link} ，看这个就行了&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;装启动盘&lt;/li&gt;
 &lt;li&gt;SSD 分一下区&lt;br&gt;
