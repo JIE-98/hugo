@@ -1,0 +1,52 @@
+# 关于申请瑞典硕士延毕签
+
+主要写一些申请延毕签信息。针对瑞典 2 年的硕士项目，毕设在毕业当年 6 月底前完不成的。包含延毕签需要提交哪些文件和移民局多久能下 decision。还有其余有关毕业的东西，比如：找工作签，毕业证书，SSSB 的房子。
+
+#### 基本信息
+
+我 2019 年 9 月入学，应当是 2021 年 6 月毕业，签证是 6 月下旬过期。我申请的日期大概是这样的：
+
+&#8211; 6 月提交延毕签证申请，理由是毕设做不完，写的是希望延长到 10 月底  
+&#8211; 10 月移民局下 decision  
+等于说我这四个月都在瑞典坐牢不能出去玩。
+
+给另外一个例子参考：5 月中旬申请，理由是毕设做不完和有一门线下考试在 6 月之后，6 月下旬签证下了。等于说都是看脸。
+
+#### 需要提交的材料
+
+移民局网站上都有，申请 extension of study permit，除了基本的护照，bank statement 啥的，还需要毕设的 examiner 出具一份 attestation of delayed studies，模板参考移民局的 <a href="https://www.migrationsverket.se/download/18.2d998ffc151ac3871591578e/1632833792325/Checklists%20and%20examples%20for%20attestation%20of%20delayed%20studies%20-%20extension%20of%20studies%20(Bachelor%E2%80%99s%20or%20Master%E2%80%99s).pdf" target="_blank" rel="noreferrer noopener">pdf</a>（链接可能失效）
+
+就问 examiner 要就行了，我觉得大部分 examiner 都写过这个，这是我 examiner 写给我的，可见大部分都是模板罢了。
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-full is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2022/03/Snipaste_2022-03-30_10-35-32.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2022/03/Snipaste_2022-03-30_10-35-32.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-262" width="400" height="475"  sizes="(max-width: 400px) 100vw, 400px" />
+  </div></figure>
+</div>
+
+#### 找工作签
+
+1 年有效期，需要在学生签有效的时候申请。要申请的话必须已经拿到所有学分，等于说必须 6 月底就答辩完拿到学分，不用拿到毕业证。以上内容是别人告诉我的，我没做过。
+
+1 年签证的话必须要有 12 * 八九千 kr 的存款，比较多，有点麻烦。
+
+#### 毕业证
+
+我还没拿到毕业证，标准流程是：申请后，2 个月下毕业证。根据别人的经验，疯狂催 KTH 可以快点下。此外，毕业证上的日期，是毕业证发给你的日期，不是申请日期。
+
+#### 其他
+
+以下是别人告诉我的，我没做过。回国的时候如果签证过期了，提供你正在申请延签的证明就行。等于说只要在申请签证的过程中，就可以合法待在瑞典。
+
+但如果想在瑞典工作，比较合理的时间安排还是：申延毕签 -> 在延毕签到期前找到工作 -> 拿到工签。属于难度比较低，我身边很多人都是这样。申找工作签一般因为毕设做不完来不及（如果能在 6 月前找到工作当我没说）。如果错过这个时间，可能会比较麻烦，万一移民局要求你必须回中国申请工签。
+
+#### 其他的其他
+
+关于 SSSB 的房子能住到什么时候。比如我 2021 年 6 月理论上毕业，所以我无法通过 2021 年我忘了什么时候的 tenancy review，我必须在 2022 年 2 月底前搬出。以上是正常情况。感觉 SSSB 能多住半年真的很人性化了。
+
+以下是延长 SSSB 的方法，我没做过，都是道听途说。
+
+  1. 利用延毕的学分延长到 2022 年 8 月，不知道具体怎么操作的
+  2. 拿到工签后在 university admission 申请一门课，有学分即可通过 review，因为有了工签所以课是不要钱的。也是可以延长到 2022 年 8 月。

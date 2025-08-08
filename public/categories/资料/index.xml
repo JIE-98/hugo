@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>资料 on APODIZED</title>
+        <link>http://10.147.20.5:1313/categories/%E8%B5%84%E6%96%99/</link>
+        <description>Recent content in 资料 on APODIZED</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>HJ</copyright>
+        <lastBuildDate>Sun, 10 Apr 2022 11:52:25 +0000</lastBuildDate><atom:link href="http://10.147.20.5:1313/categories/%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>GNU Radio OOT</title>
+        <link>http://10.147.20.5:1313/2022/04/10/gnu-radio-oot/</link>
+        <pubDate>Sun, 10 Apr 2022 11:52:25 +0000</pubDate>
+        
+        <guid>http://10.147.20.5:1313/2022/04/10/gnu-radio-oot/</guid>
+        <description>&lt;p&gt;GNU Radio OOT, Out Of Tree Modules&lt;/p&gt;
+&lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;安装-gnuradio&#34;&gt;安装 gnuradio
+&lt;/h4&gt;&lt;p&gt;不会&lt;br&gt;
+我装的版本是 3.10，在 ubuntu 22.04 上&lt;/p&gt;
+&lt;h4 id=&#34;什么是-oot&#34;&gt;什么是 OOT
+&lt;/h4&gt;&lt;p&gt;就是自己写 gnuradio 的 block&lt;/p&gt;
+&lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;怎么写&#34;&gt;怎么写
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;参考官方教程 &lt;a href=&#34;https://wiki.gnuradio.org/index.php/OutOfTreeModules&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gnuradio.org/index.php/OutOfTreeModules&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiki.gnuradio.org/index.php/OutOfTreeModules&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+真的是这些 wiki 都怎么写的，懂的都懂，不懂的就是不懂，&lt;/li&gt;
+&lt;li&gt;参考这篇中文的 &lt;a href=&#34;https://blog.csdn.net/Flag_ing/article/details/118568932&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/Flag_ing/article/details/118568932&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.csdn.net/Flag_ing/article/details/118568932&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+大约就是上一篇的中文翻译，建议看这个吧，我觉得不是我英文差看不懂上面那个&lt;/li&gt;
+&lt;li&gt;本质上就是写 C++，改 &lt;code&gt;lib/block_name.cc&lt;/code&gt; 这个文件，自己的 C++ 函数写好套个壳，壳怎么套参考上面两点&lt;/li&gt;
+&lt;li&gt;具体怎么写 &lt;code&gt;lib/block_name.cc&lt;/code&gt; 建议参考 gnuradio 自带的 block 的写法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;哎可能是用的人太少了，都没什么教程&lt;/p&gt;
+&lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;以下内容算笔记&lt;/p&gt;
+&lt;h4 id=&#34;添加-arguments&#34;&gt;添加 arguments
+&lt;/h4&gt;&lt;p&gt;在添加新 block 时就设置 arguments 类型和名称，比如 &lt;code&gt;int arg1, float arg2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;如果添加新 block 时没有写，后期想加，很麻烦，得手动改&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;gr-howto$ gr_modtool add -t general -l cpp square_ff
+GNU Radio module name identified: howto
+Language: C++
+Block/code identifier: square_ff
+Enter valid argument list, including default arguments: &lt;/code&gt;&lt;/pre&gt;
+&lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;oot-核心&#34;&gt;OOT 核心
+&lt;/h4&gt;&lt;p&gt;就是 &lt;code&gt;block_name_impl::general_work&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;gnuradio 是个 streaming 的系统，但并不是进一个 sample 就处理一个，而是有一个 buffer。buffer 的大小就是下面这个例子里的 &lt;code&gt;i &amp;lt; noutput_items&lt;/code&gt;, &lt;code&gt;noutput_items&lt;/code&gt;的大小大概几千吧（不确定）。当这个 buffer 都 consume 完后，就再进来一个大小类似的 buffer。（我猜的）&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;    int
+    square_ff_impl::general_work (int noutput_items,
+                                  gr_vector_int &amp;ninput_items,
+                                  gr_vector_const_void_star &amp;input_items,
+                                  gr_vector_void_star &amp;output_items)
+    {
+      const float *in = (const float *) input_items&amp;#91;0];
+      float *out = (float *) output_items&amp;#91;0];
+
+      for(int i = 0; i &amp;lt; noutput_items; i++) {
+        out&amp;#91;i] = in&amp;#91;i] * in&amp;#91;i];
+      }
+      // Tell runtime system how many input items we consumed on
+      // each input stream.
+      consume_each (noutput_items);
+      // Tell runtime system how many output items we produced.
+      return noutput_items;
+    }&lt;/code&gt;&lt;/pre&gt;
+&lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;关于-work&#34;&gt;关于 work
+&lt;/h4&gt;&lt;h5 id=&#34;work-是什么&#34;&gt;work 是什么
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;先看这个 wiki &lt;a href=&#34;https://wiki.gnuradio.org/index.php/Types_of_Blocks&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gnuradio.org/index.php/Types_of_Blocks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiki.gnuradio.org/index.php/Types_of_Blocks&lt;/a&gt;&lt;/a&gt;&lt;br&gt;
+然后你会觉得你懂了，但是你不懂&lt;/li&gt;
+&lt;li&gt;大概就是指定输入输出的速度比例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;work-的类型&#34;&gt;work 的类型
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;在添加 block 时就需要指定 block 的类型&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$ gr_modtool add -t general -l cpp some_name&lt;/code&gt;&lt;br&gt;
+-t 后面&lt;/li&gt;
+&lt;li&gt;后期要改怎么办：我不会，删了重新添加&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-t&lt;/code&gt; 后面指定 block 的类型，我也不知道剩下的是啥 sink|source|sync|decimator|interpolator|general|tagged_stream|hier|noblock&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;具体类型：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Synchronous Blocks&lt;/strong&gt; (1:1): &lt;code&gt;-t sync&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One input, one output&lt;/li&gt;
+&lt;li&gt;比如上面那个 &lt;code&gt;square_ff&lt;/code&gt; 的例子，其实用 &lt;code&gt;square_ff_impl::work&lt;/code&gt; 就行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Decimation Blocks&lt;/strong&gt; (N:1): &lt;code&gt;-t decimator&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;N input, 1 output&lt;/li&gt;
+&lt;li&gt;需要设置下面这个&lt;code&gt;decimation&lt;/code&gt;的值&lt;br&gt;
+比如 1024 个 input，1 output，第四个变量就写 1024，这样的话，gnuradio 的 buffer 就必然是 1024 的倍数（我猜的）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;  #include &amp;lt;gr_sync_decimator.h&amp;gt;
+
+  class my_decim_block : public gr_sync_decimator
+  {
+  public:
+    my_decim_block(...):
+      gr_sync_decimator(&#34;my decim block&#34;, 
+                        in_sig,
+                        out_sig,
+                        decimation)
+    {
+      //constructor stuff
+    }
+    //work function here...
+  };&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Interpolation Blocks&lt;/strong&gt; (1:M): &lt;code&gt;-t interpolator&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;同上，没写过&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Basic (a.k.a. General) Blocks&lt;/strong&gt; (N:M): &lt;code&gt;-t general&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不会&lt;/li&gt;
+&lt;li&gt;wiki 里竟然这么写，observations？？？ 我真的无语&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;Some observations:
+
+· This class overloads the general_work() method, not work()
+· The general work has a parameter: ninput_items
+    · ninput_items is a vector describing the length of each input buffer
+· Before return, general_work must manually consume the used inputs
+· The number of items in the input buffers is assumed to be noutput_items
+    ·This behaviour can be altered by overloading the forecast() method but is not mandatory&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;我试过，没成功过&lt;br&gt;
+比如 1024 input，1 output 情况下，必须保证 &lt;code&gt;ninput_items[0]&lt;/code&gt;是 1024 的倍数，应当在 &lt;code&gt;forecast&lt;/code&gt; 中写一些东西（我不会）&lt;br&gt;
+如果不写的话，&lt;code&gt;ninput_items[0]&lt;/code&gt; 等于 5000（比如），这样的话，前 4 个 output 会是正确的，后 5000 – 1024*4 个 input 会 pad 一些 0 到 1024 长，计算 output，结果会不对。（我猜的）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
+&lt;/div&gt;
+&lt;h5 id=&#34;不同类型的-work-怎么写&#34;&gt;不同类型的 work 怎么写
+&lt;/h5&gt;&lt;p&gt;建议参考 gnuradio 自己的模块，看上面的 wiki 链接是不会懂的&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Decimation&lt;/strong&gt;&lt;br&gt;
+参考 &lt;a href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits_bb_impl.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;gnuradio/gr-blocks/lib/pack_k_bits_bb_impl.cc&lt;/a&gt;&lt;br&gt;
+k input, 1 output&lt;br&gt;
+不懂 &lt;code&gt;d_pack(k)&lt;/code&gt; 是干什么用的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;  pack_k_bits_bb_impl::pack_k_bits_bb_impl(unsigned k)
+      : sync_decimator(&#34;pack_k_bits_bb&#34;,
+                       io_signature::make(1, 1, sizeof(unsigned char)),
+                       io_signature::make(1, 1, sizeof(unsigned char)),
+                       k),
+        d_pack(k)
+  {
+      d_k = k;
+      set_tag_propagation_policy(TPP_CUSTOM);
+  }
+
+  int pack_k_bits_bb_impl::work(int noutput_items,
+                                gr_vector_const_void_star&amp; input_items,
+                                gr_vector_void_star&amp; output_items)
+  {
+      const unsigned char* in = (const unsigned char*)input_items&amp;#91;0];
+      unsigned char* out = (unsigned char*)output_items&amp;#91;0];
+      d_pack.pack(out, in, noutput_items);
+      return noutput_items;
+  }
+
+  } /* namespace blocks */
+  } /* namespace gr */&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;pack&lt;/code&gt; 怎么写的在这里 &lt;a href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits.cc&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;  for i &amp;lt; noutput_items:
+      for j &amp;lt; k:
+          in&amp;#91;i * k + j] 一些计算
+      out&amp;#91;i] = xxx&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;因为保证了&lt;code&gt;noutput_items&lt;/code&gt;是 k 的倍数，所以就可以这么写，这么简单我居然想不到（x）&lt;/p&gt;
+&lt;p&gt;虽然我觉得把这两个 for 放到上面 &lt;code&gt;impl.cc&lt;/code&gt; 里是不是合理一点&lt;/p&gt;
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;  void pack_k_bits::pack(unsigned char* bytes, const unsigned char* bits, int nbytes) const
+  {
+      for (int i = 0; i &amp;lt; nbytes; i++) {
+          bytes&amp;#91;i] = 0x00;
+          for (unsigned int j = 0; j &amp;lt; d_k; j++) {
+              bytes&amp;#91;i] |= (0x01 &amp; bits&amp;#91;i * d_k + j]) &amp;lt;&amp;lt; (d_k - j - 1);
+          }
+      }
+  }&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Interpolation&lt;/strong&gt;&lt;br&gt;
+不会&lt;br&gt;
+&lt;a href=&#34;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/BogdanDIA/gr-dvbt/blob/master/lib/convolutional_interleaver_impl.cc&lt;/a&gt;&lt;/a&gt;，七年前，我猜 &lt;code&gt;sync_interpolator&lt;/code&gt; 现在已经不用了&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;General work&lt;/strong&gt;&lt;br&gt;
+pack 用的 decimation，unpack 用的 general work，想不到吧 &lt;a href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/packed_to_unpacked_impl.cc&lt;/a&gt;&lt;/a&gt; 改了&lt;code&gt;forecast&lt;/code&gt;，我不会&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;编译错误怎么办&#34;&gt;编译错误怎么办
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;我根本搞不懂 cmakelists.txt 怎么写&lt;/li&gt;
+&lt;li&gt;如果出问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;build 下，&lt;code&gt;$ make clean&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;module 目录下 &lt;code&gt;$ gr_modtool bind block_name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;重新 make&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;有时候 &lt;code&gt;make install&lt;/code&gt; 没问题，但是实际运行 block 时出错，那就是 c++ 的问题了，c++ 太难了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;github 想搜点别人写的例子，搜出来全是 folk gnuradio 的 gnuradio，烦死了，folk 有用吗，能直接安装吗&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

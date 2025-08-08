@@ -1,0 +1,223 @@
+# 又去见网友了之荷(hé)兰(lán)篇
+
+自己的语言表达能力真的很差。  
+不过我读其他人的非技术类的博客的时候，也是快速看一遍图片罢了。
+
+去之前对荷兰的想象：小红书上的霍肯霍夫公园照片和传统木质风车。  
+去了之后：风大是真的。
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-full">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/aav8dxe_460swp9208948845296929570.webp'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="460" height="409" data-original="https://apodized.com/wp-content/uploads/2024/03/aav8dxe_460swp9208948845296929570.webp" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-578"  sizes="(max-width: 460px) 100vw, 460px" />
+  </div></figure>
+</div>
+
+以下是流水账  
+2024 三月末的周五周六周日，为什么不复活节去呢，因为 May 和 Mar. 长得真的很像。
+
+<hr class="wp-block-separator" />
+
+<p class="has-text-align-center">
+  <strong>周五</strong>
+</p>
+
+早上使用了最后有机会使用的 160 kr 阿兰达快线青年票到机场，然后是 SAS 青年票。飞机坐满了，好臭。
+
+AMS 机场：感觉旧旧的，体验了带我名字的接机服务（
+
+然后乘坐城际列车来到阿姆市区。在荷兰的三天被查了一次车票，车票买的值了（
+
+**阿姆市区**  
+主火旁边好乱  
+好多自行车√ 老头乐√ 奶牛鸭（白骨顶鸡）√
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165618801450136809310675880-1024x769.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165618801450136809310675880-1024x769.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-582" width="768" height="577"  sizes="(max-width: 768px) 100vw, 768px" />
+  </div><figcaption>黄赌毒罢了</figcaption></figure>
+</div>
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165516264698243285036465874-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165516264698243285036465874-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-584" width="512" height="512"  sizes="(max-width: 512px) 100vw, 512px" />
+  </div><figcaption>游客商店，试吃了个爽</figcaption></figure>
+</div>
+
+**梵高博物馆：**  
+好多人，我为什么要去，为什么灯光那么暗。  
+纪念品商店必须买票才能进去，好坏。  
+旁边的美术馆有玛丽娜·阿布拉莫维奇的展览，排了好多人
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165400747521919598186260880-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165400747521919598186260880-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-589" width="512" height="512"  sizes="(max-width: 512px) 100vw, 512px" />
+  </div><figcaption>梵高周边</figcaption></figure>
+</div>
+
+**A&#8217;DAM lookout**  
+从楼上可以看到下面的摆渡船里飞快地骑进骑出的自行车  
+秋千还挺好玩的  
+视频是两倍速
+
+<div class="wp-container-3 wp-block-group">
+  <div class="wp-block-group__inner-container">
+    <div class="wp-block-columns">
+      <div class="wp-block-column" style="flex-basis:100%">
+        <div class="wp-block-columns are-vertically-aligned-center">
+          <div class="wp-block-column is-vertically-aligned-center">
+            <div class="wp-block-image">
+              <figure class="aligncenter size-large is-resized">
+              
+              <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326193315508337364764205720825-549x1024.jpg'>
+                <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326193315508337364764205720825-549x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-588" width="-46" height="-85"  sizes="(max-width: 549px) 100vw, 549px" />
+              </div></figure>
+            </div>
+          </div>
+          
+          <div class="wp-block-column is-vertically-aligned-center">
+            <figure class="wp-block-video"><video controls src="https://apodized.com/wp-content/uploads/2024/03/80684343d657bcbe3448a4e4043bcec0.mp4"></video><figcaption>見ろ，人がゴミのようだ！</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+阿姆的市徽：[[wiki]][1] 好邪恶
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/Flag_of_Amsterdam.svg_-1024x683.png'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/Flag_of_Amsterdam.svg_-1024x683.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-590" width="279" height="186"  sizes="(max-width: 279px) 100vw, 279px" />
+  </div></figure>
+</div>
+
+<hr class="wp-block-separator" />
+
+<p class="has-text-align-center">
+  <strong>周六 </strong>
+</p>
+
+住在 delft，第二天天晴了
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165756696039080180760933868-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165756696039080180760933868-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-583" width="512" height="512"  sizes="(max-width: 512px) 100vw, 512px" />
+  </div></figure>
+</div>
+
+↓ 直通火车站的双层自行车车库，我大为震惊
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165828457206073936090811406-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326165828457206073936090811406-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-580" width="512" height="512"  sizes="(max-width: 512px) 100vw, 512px" />
+  </div></figure>
+</div>
+
+然后去鹿特丹进行一番 city walk  
+风好大，好现代的都市  
+吃了天才拉面，没拍照，好油，家系拉面代餐（没吃过）
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326172110453997076651272574179-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326172110453997076651272574179-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-581" width="512" height="512"  sizes="(max-width: 512px) 100vw, 512px" />
+  </div></figure>
+</div>
+
+↓ 骑自行车的人，明明公共交通也很发达。他们自行车蹬得贼快，我过马路好危险
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326180157126927550140411383941-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326180157126927550140411383941-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-595" width="512" height="512"  sizes="(max-width: 512px) 100vw, 512px" />
+  </div></figure>
+</div>
+
+蓝色的自行车轮胎：swapfiets，一个自行车租赁平台
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/2024-03-26_20-16-1024x604.png'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/2024-03-26_20-16-1024x604.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-597" width="713" height="420"  sizes="(max-width: 713px) 100vw, 713px" />
+  </div><figcaption>&#8220;for cyclist from 1.60 to 2.00 meters.&#8221; 🤡</figcaption></figure>
+</div>
+
+<hr class="wp-block-separator" />
+
+<p class="has-text-align-center">
+  <strong>周日</strong>
+</p>
+
+第三天上午去看了 TUD 图书馆，去的公交上碰到了一位曾经在 lund 上学的女生  
+TUD 周围就能看到一些 townhouse，感觉非常宁静，（本地人）在这里生活一定很幸福吧
+
+下午去了海牙，好大的风，好冷的雨  
+席凡宁根海滩 <https://amsterdamian.com/see/photos/scheveningen-a-charming-seaside-resort-with-a-rich-history/>  
+栈桥里面是饭店，还有一些街机，感觉有点老了
+
+<div class="wp-block-columns">
+  <div class="wp-block-column">
+    <figure class="wp-block-video"><video controls src="https://apodized.com/wp-content/uploads/2024/03/7ffbcfce88ea9351e21120ba3702488f.mp4"></video><figcaption>请开声音</figcaption></figure>
+  </div>
+  
+  <div class="wp-block-column">
+    <figure class="wp-block-image size-large">
+    
+    <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326202513636315809020263237812-576x1024.jpg'>
+      <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="576" height="1024" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326202513636315809020263237812-576x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-598"  sizes="(max-width: 576px) 100vw, 576px" />
+    </div><figcaption>很难评我当时在想什么</figcaption></figure>
+  </div>
+</div>
+
+然后晚上就回去了，不出意料的晚点了。史基浦机场是 CT机 安检，高级。浅查了一下没找到哪些机场都是 CT机 安检，chatgpt 也不知道
+
+年纪大了玩不动了，回去又双叒叕感冒（or流感or新冠or支原体or过敏加重）了
+
+<hr class="wp-block-separator" />
+
+三天下来听到好多陌生人讲英语，好不适应能听懂陌生人的讲话，感觉好尴尬  
+还是斯德哥尔摩适合 i 人生存
+
+战利品 ↓ 感谢两位老师的礼物
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/retouch_20240326181636954663937310408399583-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326181636954663937310408399583-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-577" width="512" height="512"  sizes="(max-width: 512px) 100vw, 512px" />
+  </div></figure>
+</div>
+
+吃的： 好吃好吃好吃好吃好吃
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/03/mtxx_pt20240326_2040222266568017025509879028-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/03/mtxx_pt20240326_2040222266568017025509879028-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-600" width="512" height="512"  sizes="(max-width: 512px) 100vw, 512px" />
+  </div></figure>
+</div>
+
+  
+回想一下网友们来斯德哥尔摩的时候都吃了什么，哈哈哈
+
+以上，短短 800 字的内容就出现了 22 次 [好]
+
+ [1]: https://zh.wikipedia.org/wiki/%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9%E5%B8%82%E6%97%97

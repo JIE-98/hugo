@@ -1,0 +1,241 @@
+# 去柏林玩的流水账
+
+去柏林玩的游记，2022 年 12 月 28 日 &#8211; 2023 年 1 月 1 日，过了两个月已经完全忘了，只能把手机里的照片找出来看图说话了。
+
+住了 4 个晚上，还跨了年，1 月 1 号正好是周日，大部分的店都没开门。只玩一个城市的感觉还蛮好的，不用坐火车赶场子，柏林能玩的蛮多的。
+
+我对历史完全不感兴趣，去了等于没去，逛博物馆/美术馆的时候，我就是假装自己在读英文的说明文字，其实一点都没有进脑子。
+
+（描述都在图片的上方）
+
+## 交通
+
+公共交通上要求戴 FFP2 口罩，实际上只有一半乘客戴吧，没人管。这种规定真的非常形式主义。
+
+有 tram，U-Bahn (Untergrundbahn) 地铁，S-Bahn (Stadtbahn) 就是 city railway，叫区域火车吧我猜的。交通还蛮方便的，柏林好大。
+
+## 景点
+
+Berlinische Galerie：一个美术馆
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_142240__01-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_142240__01-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-395" width="393" height="393"  sizes="(max-width: 393px) 100vw, 393px" />
+  </div></figure>
+</div>
+
+Pergamonmuseum：佩加蒙博物馆。博物馆岛上的一个博物馆，建议买博物馆岛的通票，因为博物馆岛上好多博物馆。建议对历史不感兴趣的就不要买票了。下面的图是在复原 Mshatta Facade。&nbsp;
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_143351__01-1-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_143351__01-1-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-415" width="395" height="395"  sizes="(max-width: 395px) 100vw, 395px" />
+  </div></figure>
+</div>
+
+勃兰登堡门：图片是背面，跨年有演唱会，都给围起来了。在酒店房间看了电视直播，都是一些我不知道的歌手。
+
+国会大厦：上面玻璃穹顶部分似乎可以上去参观。<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_113608__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="407"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_113608__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-407"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_114336-1024x768.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1024" height="768" data-id="453"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_114336-1024x768.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-453"  sizes="(max-width: 1024px) 100vw, 1024px" />
+</div></figure> </figure> 
+
+Memorial to the Murdered Jews of Europe (欧洲被害犹太人纪念碑)：好多水泥都裂了
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_115657__01-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_115657__01-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-408" width="411" height="411"  sizes="(max-width: 411px) 100vw, 411px" />
+  </div></figure>
+</div>
+
+查理检查站
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_105526__01-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_105526__01-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-424" width="404" height="404"  sizes="(max-width: 404px) 100vw, 404px" />
+  </div></figure>
+</div>
+
+柏林犹太博物馆
+
+感觉柏林的无障碍设施做得感觉一般，怎么那么多楼梯啊。
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_105956-768x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_105956-768x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-462" width="303" height="404"  sizes="(max-width: 303px) 100vw, 303px" />
+  </div></figure>
+</div>
+
+以上所有景点，我想说，我真的看不懂，文盲是这样的。
+
+## 吃的
+
+好多韩国菜和越南菜，没有免费的水龙头水给你喝，得花 3 欧买那种 300 ml 的可乐，感觉很亏。菜量感觉都蛮大的
+
+左边：焗饭，我的评价是一般
+
+右边：第一个晚上吃的越南米粉，好大的盆<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_125923__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="396"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_125923__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-396"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221228_210716__01.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2343" height="2343" data-id="391"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221228_210716__01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-391"  sizes="(max-width: 2343px) 100vw, 2343px" />
+</div></figure> </figure> 
+
+经典街头小吃，currywurst，跟淀粉肠差不多好吃的水平
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_173656__01-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_173656__01-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-425" width="409" height="409"  sizes="(max-width: 409px) 100vw, 409px" />
+  </div></figure>
+</div>
+
+左边：韩国菜，中国人开的，感觉真不错，量好多，有东百菜的感觉，泡菜土豆好吃
+
+右边：另外一家韩国菜，没有第一家好吃<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221231_135246__01-1-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="1919" data-id="441"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221231_135246__01-1-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-441"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_131957__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="430"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_131957__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-430"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> </figure> 
+
+经典德国菜，不是 tourist trap，味道还行，量好多，我比较喜欢上面的韩国菜。肘子里面的肉好干 。
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_183007-768x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_183007-768x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-454" width="361" height="482"  sizes="(max-width: 361px) 100vw, 361px" />
+  </div></figure>
+</div>
+
+Ming Dynastie，经典小红书推荐餐厅，图片是麻辣香锅，色还行、香没有、味道还行。吃川菜，水要收费，真的很难受。
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2023/01/IMG_20221229_174517__01-edited.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2023/01/IMG_20221229_174517__01-edited.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-508" width="365" height="365"  sizes="(max-width: 365px) 100vw, 365px" />
+  </div></figure>
+</div>
+
+经典只收现金的圣诞集市<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2023/02/IMG_20221230_132410__01-edited-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="1921" data-id="515"  data-original="https://apodized.com/wp-content/uploads/2023/02/IMG_20221230_132410__01-edited-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-515"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2023/02/IMG_20230101_163614-edited-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="516"  data-original="https://apodized.com/wp-content/uploads/2023/02/IMG_20230101_163614-edited-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-516"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> </figure> 
+
+## 逛街
+
+我感觉柏林的物质精神生活都是蛮丰富的。
+
+KaDeWe：一个购物中心，乡下人进城了<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221231_110054-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1920" height="2560" data-id="457"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221231_110054-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-457"  sizes="(max-width: 1920px) 100vw, 1920px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221231_123211-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1920" height="2560" data-id="463"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221231_123211-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-463"  sizes="(max-width: 1920px) 100vw, 1920px" />
+</div></figure> </figure> 
+
+Dussmann das KulturKaufhaus：市中心好大的一个书店，怎么这种日本漫画都有德文翻译啊<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_123554-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1920" height="2560" data-id="451"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_123554-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-451"  sizes="(max-width: 1920px) 100vw, 1920px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_124915__01-1-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="416"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_124915__01-1-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-416"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> </figure> 
+
+## 跨年
+
+说是今年没有官方放的烟火 💥，都是市民自己买的放 🤔，太混乱了 😱。人最多的地方，烟火就在你旁边几米的地方放 🔥。烟火就平平无奇超市里的那种 🤨。跨年那天柏林的推特热门 #police 🚔，就是警察的官方账号发布他们收到的报警 😒，类似于烟火掉到家里阳台上 💔，警察收到 fire cracker 的攻击 💥。
+
+<s>怎么写起来那么累啊，想用 chatgpt 帮我润色一下，结果还是狗屁不通的话，还是得加 emoji</s>
+
+超市里卖的烟火，我们 12 月 31 号想再去买就都卖光了。<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_095306__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="392"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_095306__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-392"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221231_234821__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="426"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221231_234821__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-426"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_002330__01-1-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="432"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_002330__01-1-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-432"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> </figure> 
+
+## 其他
+
+Warschauer Straße 附近，很久没见到这么脏乱差的地方了<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_193127__01-1-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="412"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_193127__01-1-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-412"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_192939__01-1-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="411"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_192939__01-1-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-411"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> </figure> 
+
+城市里有个动物园，蛮老的了，但是有大熊猫，没去。去了旁边的水族馆，也很旧，但也还蛮好玩的。
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_153234__01-1024x1024.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_153234__01-1024x1024.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-431" width="338" height="338"  sizes="(max-width: 338px) 100vw, 338px" />
+  </div></figure>
+</div>
+
+地铁站里怎么能那么破啊<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_163746-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1920" height="2560" data-id="461"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221229_163746-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-461"  sizes="(max-width: 1920px) 100vw, 1920px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_153904-1-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1920" height="2560" data-id="467"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20221230_153904-1-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-467"  sizes="(max-width: 1920px) 100vw, 1920px" />
+</div></figure> </figure> 
+
+东边画廊<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_113442-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1920" height="2560" data-id="459"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_113442-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-459"  sizes="(max-width: 1920px) 100vw, 1920px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_114818-1-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1920" height="2560" data-id="470"  data-original="http://apodized.com/wp-content/uploads/2023/01/IMG_20230101_114818-1-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-470"  sizes="(max-width: 1920px) 100vw, 1920px" />
+</div></figure> </figure> 
+
+不想写了就这样吧
+
+比斯德哥尔摩好玩多了，就是大街上抽烟的好多

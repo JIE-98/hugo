@@ -1,0 +1,51 @@
+# 海龟汤
+
+原来想写个海龟汤板块收集一些海龟汤故事，后来觉得做收集整理毫无意义。我也不会自己编海龟汤故事。  
+最近登录了初中时候上的论坛，<a rel="noreferrer noopener" href="http://www.tuilixy.net/" target="_blank">推理学院</a>，看了下自己的发言感觉像个傻逼。没想到那个时候就有用QQ登录这个选项了，所以我的账号没有丢。  
+翻以前的回帖记录，看到这个帖：_七道恐怖推理题!——2008年最新的美国FBI犯罪心理测试题_。这不就是海龟汤故事么。完整链接在<a rel="noreferrer noopener" href="http://blog.sina.com.cn/s/blog_4771329301008qcl.html" data-type="URL" data-id="http://blog.sina.com.cn/s/blog_4771329301008qcl.html" target="_blank">这里</a>，都是些老掉牙的故事了。
+
+<blockquote class="wp-block-quote">
+  <p>
+  </p>
+  
+  <cite>绿衣服<br />谜面：<br />一个刚退伍的老兵,一天夜裏起床上厕所时,发现老伴没有睡在身边,枕头掉在木头地板上,然后很疑惑的他走进厕所发现了马桶上有一件很小的绿色衣服,当场就被吓死了,请问为什麽?<br />谜底：<br /><span class='argon-hidden-text argon-hidden-text-blur'>老兵其实有梦游症，在他服役期间他由于梦游用枕头把他的战友闷死，他清醒过来后,就把他的战友的尸体用军刀肢解后扔进厕所里冲走。处理完尸体后只剩下战友的绿色军装.那天晚上老伴一边上厕所一边帮她们的儿子织绿色的小军装，结果把衣服忘在了厕所里。老兵下床没看见老伴是因为她老伴知道他老公有梦游症所以独自一个人在沙发上睡觉，而老兵误以为自己亲手杀了自己的老婆和儿子所以被自己的令人发指的恐怖行径吓死了。</span></cite>
+</blockquote>
+
+我这么热衷于初中时候看的故事，感觉自己好弱智。
+
+查了一下海龟汤的历史，起源于 1991 年的 Paul Sloane 的 _Lateral Thinking Puzzlers_ 这本书，当时游玩的规则就已经是：一位 quizmaster 知道谜底，且只能用 yes, no, irrelevant 来回答猜谜者的提问。其中的题目类似于：
+
+<blockquote class="wp-block-quote">
+  <p>
+  </p>
+  
+  <cite>A lonely man<br />谜面：<br />一个男人一个人在房子里住了三个月。他没有访客，也从未离开过房子。 一天晚上，他关了灯离开了房子。之后他再也出现过。但他的离开导致 100 人死亡。为什么？<br />谜底：<br /><span class='argon-hidden-text argon-hidden-text-blur'>男人是灯塔管理员，有一天他把灯塔的灯关了，导致有一艘船撞上灯塔，很多人死了。</span></cite>
+</blockquote>
+
+竟然是 30 年的老段子了，感谢 google books 有扫描版。
+
+之后 2004 年有一本书，_ポール・スローンのウミガメのスープ : 水平思考推理ゲーム_（保罗斯隆的海龟汤：水平思考推理游戏）。所以并不是百度百科说的“以欧美畅销书《保罗斯隆的海龟汤》为基础”。
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-full">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2021/10/51023ASDNDL.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="322" height="475" data-original="https://apodized.com/wp-content/uploads/2021/10/51023ASDNDL.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-156"  sizes="(max-width: 322px) 100vw, 322px" />
+  </div><figcaption>保罗斯隆的海龟汤</figcaption></figure>
+</div>
+
+2009 年 Level-5 在 NDS 上出了 _スローンとマクヘールの謎の物語_（斯隆与马克贝尔的谜之物语）。没玩过，看了下主播玩的视频，谜面以文字形式展现，玩家点击谜面中的词语，可以选择相关问题提问，最后解谜阶段是以选择题的形式还原故事。我以前怎么就不知道呢，不然肯定会玩。玩过一点点 Level-5 出的雷顿教授系列。
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-full is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2021/10/150728153722951-1.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2021/10/150728153722951-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-158" width="327" height="497"  sizes="(max-width: 327px) 100vw, 327px" />
+  </div><figcaption>猜不出谜底</figcaption></figure>
+</div>
+
+这么一看 taptap 上的游戏_你已经猜到结局了吗_，就是抄袭的这种形式。
+
+以上这些故事以前就听过很多，也很喜欢，我以前应该都是在《脑筋急转弯大全》这种书里看到的。但是我这几年才听说海龟汤这种形式，我完全不能接受，我<s>一天 25 小时</s>高强度上网冲浪竟然都不知道。我觉得海龟汤总是要死人的，重点在于推理死法或者凶手动机。其中大部分行为都是不符合常识的，比如弟弟为了回忆大哥，把双胞胎二哥劈成两半躺在中间，乐趣在于寻找线索之间的关联性，有猎奇恐怖要素就更好了，比如牛吃草。
+
+顺便提一嘴网页解谜游戏，以前也玩过，当时还蛮喜欢的，但是找不到链接了，估计网站已经没人维护down了，好烦。就是谜题答案的信息可能藏在 page source 里，图片像素里。就记得有一关的图片是个地球。就是想到了网页解谜游戏才去找推理学院的。网页解谜游戏指<a href="https://harrynull.tech/cipher/" target="_blank" rel="noreferrer noopener">这种</a>。

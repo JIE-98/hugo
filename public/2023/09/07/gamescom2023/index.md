@@ -1,0 +1,105 @@
+# 杜塞科隆3天
+
+**日程**
+
+8 月底  
+DAY1：中午到达杜塞，中午吃炒面，下午吃抹茶绵绵冰，晚上吃刺身盖饭  
+DAY2：早上火车去 gamescom，晚饭在科隆吃铁锅炖，然后返回杜塞  
+DAY3：早上吃温州 dim sum，然后喝奶茶，中午吃韩国烧烤，晚上吃小龙坎，然后去喝酒  
+DAY4：睡到中午去吃猪排饭，下午返回，晚上抗原测出来 covid positive  
+
+
+没啥好写的，看了上一篇去柏林的，都是些什么 p 话。博客建了两年了也没什么产出。刚又续了一年阿里云，只要几十块钱，再下一年就要恢复原价，一年好几千了，想到明年要考虑迁移就很头大。  
+就是感觉物产很丰富，和斯德哥尔摩相比。
+
+<hr class="wp-block-separator" />
+
+**DB**
+
+小红书上久闻 DB 延误大名了。  
+公共交通买票太折磨了，除了 VRR 还要 Rheinbahn，外地人搞得懂怎么买票？？？VRR 灵活扣费的那个功能用不了，因为我手机没法一直给 app 定位权限  
+坐的车都没有特别延误，第一感觉是车次那么多，有点延误很正常，可能还是坐的太少了。  
+一次都没有被查票，等于是白买票（）
+
+<hr class="wp-block-separator" />
+
+**吃**
+
+太好吃了，建议大家都去杜塞吃吃吃。好多日料，爽死了。  
+抹茶绵绵冰：里面还有抹茶酱，店家竟然还会在看不到的地方下功夫，太感动了  
+秦堡铁锅炖：从来没吃过铁锅炖，铁锅炖大鹅，贼辣  
+温州 dim sum：早餐，凉拌菜是家乡的味道，我怎么就拌不出来  
+好多日本人开的日料店，周日中午去吃猪排饭的时候有的拉面店门口都在排队<figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/IMG_20230825_191808__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="1569" data-id="526"  data-original="http://apodized.com/wp-content/uploads/2023/09/IMG_20230825_191808__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-526"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/IMG_20230826_083258__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2017" data-id="525"  data-original="http://apodized.com/wp-content/uploads/2023/09/IMG_20230826_083258__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-525"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/wx_camera_1693043446489__01.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1080" height="1080" data-id="521"  data-original="http://apodized.com/wp-content/uploads/2023/09/wx_camera_1693043446489__01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-521"  sizes="(max-width: 1080px) 100vw, 1080px" />
+</div></figure> </figure> <figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/IMG_20230826_094814__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="1661" data-id="527"  data-original="http://apodized.com/wp-content/uploads/2023/09/IMG_20230826_094814__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-527"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/IMG_20230824_181130__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2560" height="2560" data-id="524"  data-original="http://apodized.com/wp-content/uploads/2023/09/IMG_20230824_181130__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-524"  sizes="(max-width: 2560px) 100vw, 2560px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/mmexport1694008868167.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1702" height="1276" data-id="522"  data-original="http://apodized.com/wp-content/uploads/2023/09/mmexport1694008868167.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-522"  sizes="(max-width: 1702px) 100vw, 1702px" />
+</div></figure> </figure> <figure class="wp-block-gallery has-nested-images columns-default is-cropped"> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/IMG_20230826_214926__01-scaled.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2433" height="2560" data-id="536"  data-original="http://apodized.com/wp-content/uploads/2023/09/IMG_20230826_214926__01-scaled.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-536"  sizes="(max-width: 2433px) 100vw, 2433px" />
+</div></figure> <figure class="wp-block-image size-large">
+
+<div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/mmexport1692889143769__01.jpg'>
+  <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="2418" height="1934" data-id="520"  data-original="http://apodized.com/wp-content/uploads/2023/09/mmexport1692889143769__01.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-520"  sizes="(max-width: 2418px) 100vw, 2418px" />
+</div></figure> </figure> 
+
+<hr class="wp-block-separator" />
+
+**Gamescom**
+
+周五去的，普通观众票 10 am 进场，人挤人进去就差不多 10.30 了，黑神话就排队 300 分钟了。emmmm 我还是非常膈应游戏科学这个团队。  
+除了任天堂区都没什么感兴趣的，就当见见世面吧（）  
+下午有德国区 splatoon championship 的线下比赛。后面是涂地比赛就没看了，冠军队伍里有个贼强的电锯。
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/IMG_20230825_095238__01-1024x768.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/09/IMG_20230825_095238__01-1024x768.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-530" width="586" height="440"  sizes="(max-width: 586px) 100vw, 586px" />
+  </div><figcaption>等待进场的人人人人人</figcaption></figure>
+</div>
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/IMG_20230825_150943__01-1024x760.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/09/IMG_20230825_150943__01-1024x760.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-523" width="591" height="438"  sizes="(max-width: 591px) 100vw, 591px" />
+  </div><figcaption>比赛选手，就很刻板印象</figcaption></figure>
+</div>
+
+<div class="wp-block-image">
+  <figure class="aligncenter size-large is-resized">
+  
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2023/09/MTXX_MH20230829_181534316-1024x679.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2023/09/MTXX_MH20230829_181534316-1024x679.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-531" width="592" height="392"  sizes="(max-width: 592px) 100vw, 592px" />
+  </div><figcaption>战利品展示，领了一堆没啥用的贴纸</figcaption></figure>
+</div>
+
+<hr class="wp-block-separator" />
+
+**见网友**
+
+很开心，我和网友都好 i （mbti 的那个 i），一个个说话都贼客气，那种气氛我的语文水平描述不出来，也有可能是只有我跟大家不熟吧。  
+感觉像和高中同学出去玩，感谢喷喷，感谢任天堂。醒醒，我已经 25 岁了。
+
+以上就是我的 600 字小作文了。
