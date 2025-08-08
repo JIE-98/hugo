@@ -31,7 +31,7 @@ services:
         id:
 
 pagination:
-    pagerSize: 3
+    pagerSize: 5
 
 permalinks:
     post: /p/:slug/
@@ -53,7 +53,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        # emoji: 🍥
         # subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
@@ -199,7 +199,6 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: []
-
     social:
         - identifier: github
           name: GitHub
@@ -211,7 +210,7 @@ menu:
           name: qq 
           url: https://qm.qq.com/cgi-bin/qm/qr?k=xaCUgNDPBMHWFD5JqbhyUBj3eVYP4taE
           params: 
-              icon: brand-qq
+              icon: qq
 
 related:
     includeNewer: true
