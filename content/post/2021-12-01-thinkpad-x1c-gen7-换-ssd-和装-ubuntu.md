@@ -27,7 +27,7 @@ tags:
 原来的 8G + 256G 真的是丐中丐，2021 年了太难受了好吧  
 买的三星 EVO 970 EVO PLUS，1T 的。德亚 89 欧，运到瑞典就要 95 欧 +5 欧运费。在瑞亚买了一天德亚就降价了 20 欧，只好退了再买，然后瑞亚也降了，无语。
 
-### 安装新 SSD
+## 安装新 SSD
 
   1. 备份  
     旧 SSD 里也就几十G的东西，拷拷很快的
@@ -42,21 +42,26 @@ tags:
   5. 装 win10  
     U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然后进设置激活一下。
 
-<div class="wp-block-image">
+<!-- <div class="wp-block-image">
   <figure class="aligncenter size-large is-resized">
   
   <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg'>
     <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="http://apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-202" width="512" height="429"  sizes="(max-width: 512px) 100vw, 512px" />
   </div><figcaption>这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧</figcaption></figure>
-</div>
+</div> -->
 
-### 装 win10 专业版
+<figure class="wp-block-image">
+  <img src="https://apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg" alt="" style="width: 80%;">
+  <figcaption>这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧</figcaption>
+</figure>
+
+## 装 win10 专业版
 
 按照传统去淘宝花 8 块大洋买了 pro 版本的激活码，激活了。然而还是改不了语言。  
 然后又去淘宝从镜像装了 pro 版本，好慢好慢好慢好慢。装完之后记事本文件打不开，奸商让我重装，我真的好无语。可能我就是盗版软件的受害者吧，在设置里把记事本卸载重装就行了。  
 装完感觉我电脑中文字题显示有问题，算了，不想搞。
 
-### 其他
+## 其他
 
 重装完我发现我的油猴脚本没了，原来默认是没备份的啊，我以为会跟着谷歌账号走呢。其实也无所谓，反正都是用的别人的没有我自己写的。  
 发现 Typora 居然要收费了，然后文档里的图片全没了，因为默认保存在 `"C:\Users\用户名\AppData\Roaming\Typora\typora-user-images"`这种地方，显然我没注意备份。算了。感觉在本地写文档很容易丢内容，一不小心剪切一下都没了，不像 google doc 有历史版本。
@@ -78,13 +83,17 @@ tags:
     把 secure boot 打开。  
     我装完默认是从 ubuntu 启动。我不会改启动顺序，我的 BIOS 界面和普通的不一样，我不理解。不想搞了，算了，反正我平时也不关机。
 
-<div class="wp-block-image">
+<!-- <div class="wp-block-image">
   <figure class="aligncenter size-large is-resized">
   
   <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg'>
     <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-192" width="726" height="450"  sizes="(max-width: 726px) 100vw, 726px" />
   </div></figure>
-</div>
+</div> -->
+
+<figure class="wp-block-image">
+  <img src="https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg" alt="" style="width: 80%;">
+</figure>
 
 写英文区分大小写真烦啊，还要空格。  
 哎这个 wordpress 主题好像还不支持 markdown 的编辑器。

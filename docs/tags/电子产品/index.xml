@@ -16,8 +16,8 @@
         <description>&lt;p&gt;因为换了块 SSD，顺便装一下 ubuntu&lt;br&gt;
 原来的 8G + 256G 真的是丐中丐，2021 年了太难受了好吧&lt;br&gt;
 买的三星 EVO 970 EVO PLUS，1T 的。德亚 89 欧，运到瑞典就要 95 欧 +5 欧运费。在瑞亚买了一天德亚就降价了 20 欧，只好退了再买，然后瑞亚也降了，无语。&lt;/p&gt;
-&lt;h3 id=&#34;安装新-ssd&#34;&gt;安装新 SSD
-&lt;/h3&gt;&lt;ol&gt;
+&lt;h2 id=&#34;安装新-ssd&#34;&gt;安装新 SSD
+&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;备份&lt;br&gt;
 旧 SSD 里也就几十G的东西，拷拷很快的&lt;/li&gt;
 &lt;li&gt;做U盘启动盘，&lt;a data-wplink-edit=&#34;true&#34; href=&#34;https://www.microsoft.com/zh-cn/software-download/windows10&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/zh-cn/software-download/windows10&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -39,18 +39,23 @@
 &lt;li&gt;装 win10&lt;br&gt;
 U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然后进设置激活一下。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;wp-block-image&#34;&gt;
+&lt;!-- &lt;div class=&#34;wp-block-image&#34;&gt;
   &lt;figure class=&#34;aligncenter size-large is-resized&#34;&gt;
+  
   &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;http://apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg&#39;&gt;
     &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; data-original=&#34;http://apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-202&#34; width=&#34;512&#34; height=&#34;429&#34;  sizes=&#34;(max-width: 512px) 100vw, 512px&#34; /&gt;
   &lt;/div&gt;&lt;figcaption&gt;这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;装-win10-专业版&#34;&gt;装 win10 专业版
-&lt;/h3&gt;&lt;p&gt;按照传统去淘宝花 8 块大洋买了 pro 版本的激活码，激活了。然而还是改不了语言。&lt;br&gt;
+&lt;/div&gt; --&gt;
+&lt;figure class=&#34;wp-block-image&#34;&gt;
+  &lt;img src=&#34;https://apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg&#34; alt=&#34;&#34; style=&#34;width: 80%;&#34;&gt;
+  &lt;figcaption&gt;这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;装-win10-专业版&#34;&gt;装 win10 专业版
+&lt;/h2&gt;&lt;p&gt;按照传统去淘宝花 8 块大洋买了 pro 版本的激活码，激活了。然而还是改不了语言。&lt;br&gt;
 然后又去淘宝从镜像装了 pro 版本，好慢好慢好慢好慢。装完之后记事本文件打不开，奸商让我重装，我真的好无语。可能我就是盗版软件的受害者吧，在设置里把记事本卸载重装就行了。&lt;br&gt;
 装完感觉我电脑中文字题显示有问题，算了，不想搞。&lt;/p&gt;
-&lt;h3 id=&#34;其他&#34;&gt;其他
-&lt;/h3&gt;&lt;p&gt;重装完我发现我的油猴脚本没了，原来默认是没备份的啊，我以为会跟着谷歌账号走呢。其实也无所谓，反正都是用的别人的没有我自己写的。&lt;br&gt;
+&lt;h2 id=&#34;其他&#34;&gt;其他
+&lt;/h2&gt;&lt;p&gt;重装完我发现我的油猴脚本没了，原来默认是没备份的啊，我以为会跟着谷歌账号走呢。其实也无所谓，反正都是用的别人的没有我自己写的。&lt;br&gt;
 发现 Typora 居然要收费了，然后文档里的图片全没了，因为默认保存在 &lt;code&gt;&amp;quot;C:\Users\用户名\AppData\Roaming\Typora\typora-user-images&amp;quot;&lt;/code&gt;这种地方，显然我没注意备份。算了。感觉在本地写文档很容易丢内容，一不小心剪切一下都没了，不像 google doc 有历史版本。&lt;/p&gt;
 &lt;h3 id=&#34;装-ubuntu-双系统&#34;&gt;装 ubuntu 双系统
 &lt;/h3&gt;&lt;p&gt;就参考的这个：&lt;a class=&#34;link&#34; href=&#34;https://regulus.cc/2019/10/05/Windows10&amp;#43;Ubuntu18.04%E5%8F%8C%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85%E6%8C%87%E5%8C%97/&#34;  title=&#34;链接&#34;
@@ -77,12 +82,16 @@ U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然
 把 secure boot 打开。&lt;br&gt;
 我装完默认是从 ubuntu 启动。我不会改启动顺序，我的 BIOS 界面和普通的不一样，我不理解。不想搞了，算了，反正我平时也不关机。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;wp-block-image&#34;&gt;
+&lt;!-- &lt;div class=&#34;wp-block-image&#34;&gt;
   &lt;figure class=&#34;aligncenter size-large is-resized&#34;&gt;
+  
   &lt;div class=&#39;fancybox-wrapper lazyload-container-unload&#39; data-fancybox=&#39;post-images&#39; href=&#39;https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg&#39;&gt;
     &lt;img class=&#34;lazyload lazyload-style-1&#34; src=&#34;data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+&#34;  loading=&#34;lazy&#34; data-original=&#34;https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg&#34; src=&#34;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC&#34; alt=&#34;&#34; class=&#34;wp-image-192&#34; width=&#34;726&#34; height=&#34;450&#34;  sizes=&#34;(max-width: 726px) 100vw, 726px&#34; /&gt;
   &lt;/div&gt;&lt;/figure&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
+&lt;figure class=&#34;wp-block-image&#34;&gt;
+  &lt;img src=&#34;https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg&#34; alt=&#34;&#34; style=&#34;width: 80%;&#34;&gt;
+&lt;/figure&gt;
 &lt;p&gt;写英文区分大小写真烦啊，还要空格。&lt;br&gt;
 哎这个 wordpress 主题好像还不支持 markdown 的编辑器。&lt;/p&gt;
 </description>

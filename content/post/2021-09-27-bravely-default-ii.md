@@ -18,6 +18,7 @@ categories:
   - 二次元
 tags:
   - 游戏
+image:  "https://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg"
 
 ---
 
@@ -29,9 +30,10 @@ tags:
 <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='http://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg'>
   <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" width="1024" height="576" data-original="http://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-39"  sizes="(max-width: 1024px) 100vw, 1024px" />
 </div></figure>  -->
-<figure class="wp-block-image">
+
+<!-- <figure class="wp-block-image">
 <img src="https://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg" alt="" style="width: 80%;">
-</figure>
+</figure> -->
 
 30h一周目普通难度通关真结局，隐藏的boss（龙？）和剩余职业升级到15级没打，本来想打龙，刷刷馒头，但是打了几次盗贼的试炼不掉道具就不想打了。二周目是不可能的，还不如去打八方旅人的最终大boss。
 

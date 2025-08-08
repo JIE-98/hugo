@@ -21,22 +21,18 @@ categories:
 ---
 GNU Radio OOT, Out Of Tree Modules
 
-<div style="height:21px" aria-hidden="true" class="wp-block-spacer">
-</div>
+ 
 
-#### 安装 gnuradio
+## 安装 gnuradio
 
 不会  
 我装的版本是 3.10，在 ubuntu 22.04 上
 
-#### 什么是 OOT
+## 什么是 OOT
 
 就是自己写 gnuradio 的 block
 
-<div style="height:21px" aria-hidden="true" class="wp-block-spacer">
-</div>
-
-#### 怎么写
+## 怎么写
 
   1. 参考官方教程 <a href="https://wiki.gnuradio.org/index.php/OutOfTreeModules" target="_blank" rel="noreferrer noopener">https://wiki.gnuradio.org/index.php/OutOfTreeModules</a>  
     真的是这些 wiki 都怎么写的，懂的都懂，不懂的就是不懂，
@@ -54,7 +50,7 @@ GNU Radio OOT, Out Of Tree Modules
 
 以下内容算笔记
 
-#### 添加 arguments
+## 添加 arguments
 
 在添加新 block 时就设置 arguments 类型和名称，比如 `int arg1, float arg2`
 
@@ -69,7 +65,7 @@ Enter valid argument list, including default arguments: </code></pre>
 <div style="height:21px" aria-hidden="true" class="wp-block-spacer">
 </div>
 
-#### OOT 核心
+## OOT 核心
 
 就是 `block_name_impl::general_work`
 
@@ -99,15 +95,15 @@ gnuradio 是个 streaming 的系统，但并不是进一个 sample 就处理一�
 <div style="height:21px" aria-hidden="true" class="wp-block-spacer">
 </div>
 
-#### 关于 work
+## 关于 work
 
-##### work 是什么
+### work 是什么
 
   * 先看这个 wiki <a href="https://wiki.gnuradio.org/index.php/Types_of_Blocks" target="_blank" rel="noreferrer noopener">https://wiki.gnuradio.org/index.php/Types_of_Blocks</a>  
     然后你会觉得你懂了，但是你不懂
   * 大概就是指定输入输出的速度比例
 
-##### work 的类型
+### work 的类型
 
   * 在添加 block 时就需要指定 block 的类型
   * `$ gr_modtool add -t general -l cpp some_name`  
@@ -177,7 +173,7 @@ gnuradio 是个 streaming 的系统，但并不是进一个 sample 就处理一�
 <div style="height:21px" aria-hidden="true" class="wp-block-spacer">
 </div>
 
-##### 不同类型的 work 怎么写
+### 不同类型的 work 怎么写
 
 建议参考 gnuradio 自己的模块，看上面的 wiki 链接是不会懂的
 
@@ -242,7 +238,7 @@ gnuradio 是个 streaming 的系统，但并不是进一个 sample 就处理一�
 <div style="height:21px" aria-hidden="true" class="wp-block-spacer">
 </div>
 
-#### 编译错误怎么办
+## 编译错误怎么办
 
   * 我根本搞不懂 cmakelists.txt 怎么写
   * 如果出问题

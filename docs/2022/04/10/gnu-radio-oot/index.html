@@ -166,21 +166,19 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li>
+    <li><a href="#安装-gnuradio">安装 gnuradio</a></li>
+    <li><a href="#什么是-oot">什么是 OOT</a></li>
+    <li><a href="#怎么写">怎么写</a></li>
+    <li><a href="#添加-arguments">添加 arguments</a></li>
+    <li><a href="#oot-核心">OOT 核心</a></li>
+    <li><a href="#关于-work">关于 work</a>
       <ol>
-        <li>
-          <ol>
-            <li><a href="#安装-gnuradio">安装 gnuradio</a></li>
-            <li><a href="#什么是-oot">什么是 OOT</a></li>
-            <li><a href="#怎么写">怎么写</a></li>
-            <li><a href="#添加-arguments">添加 arguments</a></li>
-            <li><a href="#oot-核心">OOT 核心</a></li>
-            <li><a href="#关于-work">关于 work</a></li>
-            <li><a href="#编译错误怎么办">编译错误怎么办</a></li>
-          </ol>
-        </li>
+        <li><a href="#work-是什么">work 是什么</a></li>
+        <li><a href="#work-的类型">work 的类型</a></li>
+        <li><a href="#不同类型的-work-怎么写">不同类型的 work 怎么写</a></li>
       </ol>
     </li>
+    <li><a href="#编译错误怎么办">编译错误怎么办</a></li>
   </ol>
 </nav>
         </div>
@@ -261,17 +259,13 @@
     
     
     <p>GNU Radio OOT, Out Of Tree Modules</p>
-<div style="height:21px" aria-hidden="true" class="wp-block-spacer">
-</div>
-<h4 id="安装-gnuradio">安装 gnuradio
-</h4><p>不会<br>
+<h2 id="安装-gnuradio">安装 gnuradio
+</h2><p>不会<br>
 我装的版本是 3.10，在 ubuntu 22.04 上</p>
-<h4 id="什么是-oot">什么是 OOT
-</h4><p>就是自己写 gnuradio 的 block</p>
-<div style="height:21px" aria-hidden="true" class="wp-block-spacer">
-</div>
-<h4 id="怎么写">怎么写
-</h4><ol>
+<h2 id="什么是-oot">什么是 OOT
+</h2><p>就是自己写 gnuradio 的 block</p>
+<h2 id="怎么写">怎么写
+</h2><ol>
 <li>参考官方教程 <a href="https://wiki.gnuradio.org/index.php/OutOfTreeModules" target="_blank" rel="noreferrer noopener"><a class="link" href="https://wiki.gnuradio.org/index.php/OutOfTreeModules"  target="_blank" rel="noopener"
     >https://wiki.gnuradio.org/index.php/OutOfTreeModules
 <span style="white-space: nowrap;"><svg width=".7em"
@@ -299,8 +293,8 @@
 <div style="height:21px" aria-hidden="true" class="wp-block-spacer">
 </div>
 <p>以下内容算笔记</p>
-<h4 id="添加-arguments">添加 arguments
-</h4><p>在添加新 block 时就设置 arguments 类型和名称，比如 <code>int arg1, float arg2</code></p>
+<h2 id="添加-arguments">添加 arguments
+</h2><p>在添加新 block 时就设置 arguments 类型和名称，比如 <code>int arg1, float arg2</code></p>
 <p>如果添加新 block 时没有写，后期想加，很麻烦，得手动改</p>
 <pre class="wp-block-code"><code>gr-howto$ gr_modtool add -t general -l cpp square_ff
 GNU Radio module name identified: howto
@@ -309,8 +303,8 @@ Block/code identifier: square_ff
 Enter valid argument list, including default arguments: </code></pre>
 <div style="height:21px" aria-hidden="true" class="wp-block-spacer">
 </div>
-<h4 id="oot-核心">OOT 核心
-</h4><p>就是 <code>block_name_impl::general_work</code></p>
+<h2 id="oot-核心">OOT 核心
+</h2><p>就是 <code>block_name_impl::general_work</code></p>
 <p>gnuradio 是个 streaming 的系统，但并不是进一个 sample 就处理一个，而是有一个 buffer。buffer 的大小就是下面这个例子里的 <code>i &lt; noutput_items</code>, <code>noutput_items</code>的大小大概几千吧（不确定）。当这个 buffer 都 consume 完后，就再进来一个大小类似的 buffer。（我猜的）</p>
 <pre class="wp-block-code"><code>    int
     square_ff_impl::general_work (int noutput_items,
@@ -332,9 +326,9 @@ Enter valid argument list, including default arguments: </code></pre>
     }</code></pre>
 <div style="height:21px" aria-hidden="true" class="wp-block-spacer">
 </div>
-<h4 id="关于-work">关于 work
-</h4><h5 id="work-是什么">work 是什么
-</h5><ul>
+<h2 id="关于-work">关于 work
+</h2><h3 id="work-是什么">work 是什么
+</h3><ul>
 <li>先看这个 wiki <a href="https://wiki.gnuradio.org/index.php/Types_of_Blocks" target="_blank" rel="noreferrer noopener"><a class="link" href="https://wiki.gnuradio.org/index.php/Types_of_Blocks"  target="_blank" rel="noopener"
     >https://wiki.gnuradio.org/index.php/Types_of_Blocks
 <span style="white-space: nowrap;"><svg width=".7em"
@@ -347,8 +341,8 @@ Enter valid argument list, including default arguments: </code></pre>
 然后你会觉得你懂了，但是你不懂</li>
 <li>大概就是指定输入输出的速度比例</li>
 </ul>
-<h5 id="work-的类型">work 的类型
-</h5><ul>
+<h3 id="work-的类型">work 的类型
+</h3><ul>
 <li>在添加 block 时就需要指定 block 的类型</li>
 <li><code>$ gr_modtool add -t general -l cpp some_name</code><br>
 -t 后面</li>
@@ -406,8 +400,8 @@ Enter valid argument list, including default arguments: </code></pre>
 </ul>
 <div style="height:21px" aria-hidden="true" class="wp-block-spacer">
 </div>
-<h5 id="不同类型的-work-怎么写">不同类型的 work 怎么写
-</h5><p>建议参考 gnuradio 自己的模块，看上面的 wiki 链接是不会懂的</p>
+<h3 id="不同类型的-work-怎么写">不同类型的 work 怎么写
+</h3><p>建议参考 gnuradio 自己的模块，看上面的 wiki 链接是不会懂的</p>
 <ul>
 <li><strong>Decimation</strong><br>
 参考 <a href="https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits_bb_impl.cc" target="_blank" rel="noreferrer noopener">gnuradio/gr-blocks/lib/pack_k_bits_bb_impl.cc</a><br>
@@ -486,8 +480,8 @@ pack 用的 decimation，unpack 用的 general work，想不到吧 <a href="http
 </ul>
 <div style="height:21px" aria-hidden="true" class="wp-block-spacer">
 </div>
-<h4 id="编译错误怎么办">编译错误怎么办
-</h4><ul>
+<h2 id="编译错误怎么办">编译错误怎么办
+</h2><ul>
 <li>我根本搞不懂 cmakelists.txt 怎么写</li>
 <li>如果出问题</li>
 </ul>

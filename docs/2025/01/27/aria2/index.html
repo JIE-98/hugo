@@ -144,7 +144,41 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#安装-aria2">安装 Aria2</a></li>
+    <li><a href="#安装-ariang">安装 AriaNg</a></li>
+    <li><a href="#安装-samba">安装 Samba</a></li>
+    <li><a href="#小米盒子">小米盒子</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -219,10 +253,8 @@
 <p>需要用到以下工具<br>
 Aria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。</p>
 <p>网上搜了下完全没什么正儿八经的教程，可能是 SEO 太低了，很多都是两三年前的，新的也就是内容农场重写的💩。也许现在有了新的工具，但是我没搜到。</p>
-<ol>
-<li>安装 Aria2</li>
-</ol>
-<p>一个种子下载工具</p>
+<h2 id="安装-aria2">安装 Aria2
+</h2><p>一个种子下载工具</p>
 <p><a class="link" href="https://github.com/aria2/aria2"  target="_blank" rel="noopener"
     >https://github.com/aria2/aria2
 <span style="white-space: nowrap;"><svg width=".7em"
@@ -255,13 +287,8 @@ Aria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和
 </ul>
 </li>
 </ul>
-<hr class="wp-block-separator" />
-<ol start="2">
-  <li>
-    安装 AriaNg
-  </li>
-</ol>
-<p><a href="https://github.com/mayswind/AriaNg" target="_blank" rel="noreferrer noopener"><a class="link" href="https://github.com/mayswind/AriaNg"  target="_blank" rel="noopener"
+<h2 id="安装-ariang">安装 AriaNg
+</h2><p><a href="https://github.com/mayswind/AriaNg" target="_blank" rel="noreferrer noopener"><a class="link" href="https://github.com/mayswind/AriaNg"  target="_blank" rel="noopener"
     >https://github.com/mayswind/AriaNg
 <span style="white-space: nowrap;"><svg width=".7em"
     height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
@@ -312,18 +339,10 @@ sudo chown -R www-data:www-data /var/www/html/aria</li>
 </svg></span>
 </a> 找种子。应该可以 RSS 自动下，没搞懂呢。</p>
 <div class="wp-block-image">
-  <figure class="aligncenter size-large is-resized">
-  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2024/11/Snipaste_2024-11-05_15-45-32-1024x492.jpg'>
-    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2024/11/Snipaste_2024-11-05_15-45-32-1024x492.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-679" width="674" height="323"  sizes="(max-width: 674px) 100vw, 674px" />
-  </div></figure>
+<figure class="wp-block-image"><img alt="" src="https://apodized.com/wp-content/uploads/2024/11/Snipaste_2024-11-05_15-45-32-1024x492.jpg" style="width: 60%;"/><figcaption></figcaption></figure>
 </div>
-<hr class="wp-block-separator" />
-<ol start="3">
-  <li>
-    安装 Samba
-  </li>
-</ol>
-<p>用来让小米盒子访问 Server 上的共享文件夹</p>
+<h2 id="安装-samba">安装 Samba
+</h2><p>用来让小米盒子访问 Server 上的共享文件夹</p>
 <ul>
 <li>
 <p>sudo apt install samba<br>
@@ -352,12 +371,9 @@ guest ok = yes</p>
 </ul>
 </li>
 </ul>
-<ol start="4">
-  <li>
-    小米盒子我买的是国内刷好系统的版本，直接有当贝投屏，里面有 Samba，输入server ip，上面设置的用户名密码，就能查看共享文件里的内容，直接播放视频。
-  </li>
-</ol>
-<hr class="wp-block-separator" />
+<h2 id="小米盒子">小米盒子
+</h2><p>小米盒子我买的是国内刷好系统的版本，直接有当贝投屏，里面有 Samba，输入server ip，上面设置的用户名密码，就能查看共享文件里的内容，直接播放视频。</p>
+<br>
 <p>总结：看了柯南新剧场版和怪化猫剧场版，达咩。</p>
 
 </section>
@@ -394,9 +410,15 @@ guest ok = yes</p>
         <div class="flex article-list--tile">
             
                 
-<article class="">
+<article class="has-image">
     <a href="/2024/10/23/dolomites/">
         
+        
+            <div class="article-image">
+                
+                    <img src="https://apodized.com/wp-content/uploads/2024/10/Weixin-Image_20241022171718-scaled.jpg" loading="lazy" data-key="" data-hash="https://apodized.com/wp-content/uploads/2024/10/Weixin-Image_20241022171718-scaled.jpg"/>
+                
+            </div>
         
 
         <div class="article-details">
@@ -407,9 +429,15 @@ guest ok = yes</p>
 
             
                 
-<article class="">
+<article class="has-image">
     <a href="/2024/03/27/helan/">
         
+        
+            <div class="article-image">
+                
+                    <img src="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326172110453997076651272574179.jpg" loading="lazy" data-key="" data-hash="https://apodized.com/wp-content/uploads/2024/03/retouch_20240326172110453997076651272574179.jpg"/>
+                
+            </div>
         
 
         <div class="article-details">
@@ -420,9 +448,15 @@ guest ok = yes</p>
 
             
                 
-<article class="">
+<article class="has-image">
     <a href="/2023/12/08/%E5%9C%A8%E7%91%9E%E5%85%B8%E8%80%83%E9%A9%BE%E7%85%A7/">
         
+        
+            <div class="article-image">
+                
+                    <img src="https://apodized.com/wp-content/uploads/2023/12/2023-12-07_23-49.png" loading="lazy" data-key="" data-hash="https://apodized.com/wp-content/uploads/2023/12/2023-12-07_23-49.png"/>
+                
+            </div>
         
 
         <div class="article-details">
@@ -433,9 +467,15 @@ guest ok = yes</p>
 
             
                 
-<article class="">
+<article class="has-image">
     <a href="/2023/10/10/%E6%8C%AA%E5%A8%81%E5%8D%97%E9%83%A8%E4%B8%83%E5%A4%A9/">
         
+        
+            <div class="article-image">
+                
+                    <img src="https://apodized.com/wp-content/uploads/2023/10/wp-1696948429725-scaled.jpg" loading="lazy" data-key="" data-hash="https://apodized.com/wp-content/uploads/2023/10/wp-1696948429725-scaled.jpg"/>
+                
+            </div>
         
 
         <div class="article-details">
@@ -446,9 +486,15 @@ guest ok = yes</p>
 
             
                 
-<article class="">
+<article class="has-image">
     <a href="/2023/09/07/gamescom2023/">
         
+        
+            <div class="article-image">
+                
+                    <img src="https://apodized.com/wp-content/uploads/2023/09/mmexport1694016617914__01.jpg" loading="lazy" data-key="" data-hash="https://apodized.com/wp-content/uploads/2023/09/mmexport1694016617914__01.jpg"/>
+                
+            </div>
         
 
         <div class="article-details">

@@ -14,17 +14,13 @@
         
         <guid>https://apodized.com/2022/04/10/gnu-radio-oot/</guid>
         <description>&lt;p&gt;GNU Radio OOT, Out Of Tree Modules&lt;/p&gt;
-&lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
-&lt;h4 id=&#34;安装-gnuradio&#34;&gt;安装 gnuradio
-&lt;/h4&gt;&lt;p&gt;不会&lt;br&gt;
+&lt;h2 id=&#34;安装-gnuradio&#34;&gt;安装 gnuradio
+&lt;/h2&gt;&lt;p&gt;不会&lt;br&gt;
 我装的版本是 3.10，在 ubuntu 22.04 上&lt;/p&gt;
-&lt;h4 id=&#34;什么是-oot&#34;&gt;什么是 OOT
-&lt;/h4&gt;&lt;p&gt;就是自己写 gnuradio 的 block&lt;/p&gt;
-&lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
-&lt;/div&gt;
-&lt;h4 id=&#34;怎么写&#34;&gt;怎么写
-&lt;/h4&gt;&lt;ol&gt;
+&lt;h2 id=&#34;什么是-oot&#34;&gt;什么是 OOT
+&lt;/h2&gt;&lt;p&gt;就是自己写 gnuradio 的 block&lt;/p&gt;
+&lt;h2 id=&#34;怎么写&#34;&gt;怎么写
+&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;参考官方教程 &lt;a href=&#34;https://wiki.gnuradio.org/index.php/OutOfTreeModules&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gnuradio.org/index.php/OutOfTreeModules&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://wiki.gnuradio.org/index.php/OutOfTreeModules
 &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
@@ -52,8 +48,8 @@
 &lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
 &lt;/div&gt;
 &lt;p&gt;以下内容算笔记&lt;/p&gt;
-&lt;h4 id=&#34;添加-arguments&#34;&gt;添加 arguments
-&lt;/h4&gt;&lt;p&gt;在添加新 block 时就设置 arguments 类型和名称，比如 &lt;code&gt;int arg1, float arg2&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;添加-arguments&#34;&gt;添加 arguments
+&lt;/h2&gt;&lt;p&gt;在添加新 block 时就设置 arguments 类型和名称，比如 &lt;code&gt;int arg1, float arg2&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;如果添加新 block 时没有写，后期想加，很麻烦，得手动改&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;gr-howto$ gr_modtool add -t general -l cpp square_ff
 GNU Radio module name identified: howto
@@ -62,8 +58,8 @@ Block/code identifier: square_ff
 Enter valid argument list, including default arguments: &lt;/code&gt;&lt;/pre&gt;
 &lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
 &lt;/div&gt;
-&lt;h4 id=&#34;oot-核心&#34;&gt;OOT 核心
-&lt;/h4&gt;&lt;p&gt;就是 &lt;code&gt;block_name_impl::general_work&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;oot-核心&#34;&gt;OOT 核心
+&lt;/h2&gt;&lt;p&gt;就是 &lt;code&gt;block_name_impl::general_work&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;gnuradio 是个 streaming 的系统，但并不是进一个 sample 就处理一个，而是有一个 buffer。buffer 的大小就是下面这个例子里的 &lt;code&gt;i &amp;lt; noutput_items&lt;/code&gt;, &lt;code&gt;noutput_items&lt;/code&gt;的大小大概几千吧（不确定）。当这个 buffer 都 consume 完后，就再进来一个大小类似的 buffer。（我猜的）&lt;/p&gt;
 &lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;    int
     square_ff_impl::general_work (int noutput_items,
@@ -85,9 +81,9 @@ Enter valid argument list, including default arguments: &lt;/code&gt;&lt;/pre&gt
     }&lt;/code&gt;&lt;/pre&gt;
 &lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
 &lt;/div&gt;
-&lt;h4 id=&#34;关于-work&#34;&gt;关于 work
-&lt;/h4&gt;&lt;h5 id=&#34;work-是什么&#34;&gt;work 是什么
-&lt;/h5&gt;&lt;ul&gt;
+&lt;h2 id=&#34;关于-work&#34;&gt;关于 work
+&lt;/h2&gt;&lt;h3 id=&#34;work-是什么&#34;&gt;work 是什么
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;先看这个 wiki &lt;a href=&#34;https://wiki.gnuradio.org/index.php/Types_of_Blocks&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gnuradio.org/index.php/Types_of_Blocks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://wiki.gnuradio.org/index.php/Types_of_Blocks
 &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
@@ -100,8 +96,8 @@ Enter valid argument list, including default arguments: &lt;/code&gt;&lt;/pre&gt
 然后你会觉得你懂了，但是你不懂&lt;/li&gt;
 &lt;li&gt;大概就是指定输入输出的速度比例&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;work-的类型&#34;&gt;work 的类型
-&lt;/h5&gt;&lt;ul&gt;
+&lt;h3 id=&#34;work-的类型&#34;&gt;work 的类型
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;在添加 block 时就需要指定 block 的类型&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;$ gr_modtool add -t general -l cpp some_name&lt;/code&gt;&lt;br&gt;
 -t 后面&lt;/li&gt;
@@ -159,8 +155,8 @@ Enter valid argument list, including default arguments: &lt;/code&gt;&lt;/pre&gt
 &lt;/ul&gt;
 &lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
 &lt;/div&gt;
-&lt;h5 id=&#34;不同类型的-work-怎么写&#34;&gt;不同类型的 work 怎么写
-&lt;/h5&gt;&lt;p&gt;建议参考 gnuradio 自己的模块，看上面的 wiki 链接是不会懂的&lt;/p&gt;
+&lt;h3 id=&#34;不同类型的-work-怎么写&#34;&gt;不同类型的 work 怎么写
+&lt;/h3&gt;&lt;p&gt;建议参考 gnuradio 自己的模块，看上面的 wiki 链接是不会懂的&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Decimation&lt;/strong&gt;&lt;br&gt;
 参考 &lt;a href=&#34;https://github.com/gnuradio/gnuradio/blob/main/gr-blocks/lib/pack_k_bits_bb_impl.cc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer noopener&#34;&gt;gnuradio/gr-blocks/lib/pack_k_bits_bb_impl.cc&lt;/a&gt;&lt;br&gt;
@@ -239,8 +235,8 @@ pack 用的 decimation，unpack 用的 general work，想不到吧 &lt;a href=&#
 &lt;/ul&gt;
 &lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
 &lt;/div&gt;
-&lt;h4 id=&#34;编译错误怎么办&#34;&gt;编译错误怎么办
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;编译错误怎么办&#34;&gt;编译错误怎么办
+&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;我根本搞不懂 cmakelists.txt 怎么写&lt;/li&gt;
 &lt;li&gt;如果出问题&lt;/li&gt;
 &lt;/ul&gt;
