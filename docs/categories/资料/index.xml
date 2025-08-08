@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>资料 on APODIZED</title>
-        <link>http://10.147.20.5:1313/categories/%E8%B5%84%E6%96%99/</link>
+        <link>https://apodized.com/categories/%E8%B5%84%E6%96%99/</link>
         <description>Recent content in 资料 on APODIZED</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>HJ</copyright>
-        <lastBuildDate>Sun, 10 Apr 2022 11:52:25 +0000</lastBuildDate><atom:link href="http://10.147.20.5:1313/categories/%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Apr 2022 11:52:25 +0000</lastBuildDate><atom:link href="https://apodized.com/categories/%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>GNU Radio OOT</title>
-        <link>http://10.147.20.5:1313/2022/04/10/gnu-radio-oot/</link>
+        <link>https://apodized.com/2022/04/10/gnu-radio-oot/</link>
         <pubDate>Sun, 10 Apr 2022 11:52:25 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2022/04/10/gnu-radio-oot/</guid>
+        <guid>https://apodized.com/2022/04/10/gnu-radio-oot/</guid>
         <description>&lt;p&gt;GNU Radio OOT, Out Of Tree Modules&lt;/p&gt;
 &lt;div style=&#34;height:21px&#34; aria-hidden=&#34;true&#34; class=&#34;wp-block-spacer&#34;&gt;
 &lt;/div&gt;

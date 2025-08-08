@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>生活 on APODIZED</title>
-        <link>http://10.147.20.5:1313/categories/%E7%94%9F%E6%B4%BB/</link>
+        <link>https://apodized.com/categories/%E7%94%9F%E6%B4%BB/</link>
         <description>Recent content in 生活 on APODIZED</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>HJ</copyright>
-        <lastBuildDate>Mon, 27 Jan 2025 12:30:00 +0000</lastBuildDate><atom:link href="http://10.147.20.5:1313/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 27 Jan 2025 12:30:00 +0000</lastBuildDate><atom:link href="https://apodized.com/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Aria2 配置</title>
-        <link>http://10.147.20.5:1313/2025/01/27/aria2/</link>
+        <link>https://apodized.com/2025/01/27/aria2/</link>
         <pubDate>Mon, 27 Jan 2025 12:30:00 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2025/01/27/aria2/</guid>
+        <guid>https://apodized.com/2025/01/27/aria2/</guid>
         <description>&lt;p&gt;搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。&lt;/p&gt;
 &lt;p&gt;需要用到以下工具&lt;br&gt;
 Aria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。&lt;/p&gt;
@@ -161,10 +161,10 @@ guest ok = yes&lt;/p&gt;
         </item>
         <item>
         <title>10 月多洛米蒂流水账</title>
-        <link>http://10.147.20.5:1313/2024/10/23/dolomites/</link>
+        <link>https://apodized.com/2024/10/23/dolomites/</link>
         <pubDate>Tue, 22 Oct 2024 16:39:33 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2024/10/23/dolomites/</guid>
+        <guid>https://apodized.com/2024/10/23/dolomites/</guid>
         <description>&lt;p&gt;去多洛米蒂的流水账游记。一切都是那么不确定，但是一切都有按计划进行。&lt;/p&gt;
 &lt;hr class=&#34;wp-block-separator&#34; /&gt;
 &lt;blockquote class=&#34;wp-block-quote&#34;&gt;
@@ -403,10 +403,10 @@ guest ok = yes&lt;/p&gt;
         </item>
         <item>
         <title>又去见网友了之荷(hé)兰(lán)篇</title>
-        <link>http://10.147.20.5:1313/2024/03/27/helan/</link>
+        <link>https://apodized.com/2024/03/27/helan/</link>
         <pubDate>Tue, 26 Mar 2024 19:50:40 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2024/03/27/helan/</guid>
+        <guid>https://apodized.com/2024/03/27/helan/</guid>
         <description>&lt;p&gt;自己的语言表达能力真的很差。&lt;br&gt;
 不过我读其他人的非技术类的博客的时候，也是快速看一遍图片罢了。&lt;/p&gt;
 &lt;p&gt;去之前对荷兰的想象：小红书上的霍肯霍夫公园照片和传统木质风车。&lt;br&gt;
@@ -588,10 +588,10 @@ TUD 周围就能看到一些 townhouse，感觉非常宁静，（本地人）在
         </item>
         <item>
         <title>在瑞典考驾照</title>
-        <link>http://10.147.20.5:1313/2023/12/08/%E5%9C%A8%E7%91%9E%E5%85%B8%E8%80%83%E9%A9%BE%E7%85%A7/</link>
+        <link>https://apodized.com/2023/12/08/%E5%9C%A8%E7%91%9E%E5%85%B8%E8%80%83%E9%A9%BE%E7%85%A7/</link>
         <pubDate>Thu, 07 Dec 2023 22:50:01 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2023/12/08/%E5%9C%A8%E7%91%9E%E5%85%B8%E8%80%83%E9%A9%BE%E7%85%A7/</guid>
+        <guid>https://apodized.com/2023/12/08/%E5%9C%A8%E7%91%9E%E5%85%B8%E8%80%83%E9%A9%BE%E7%85%A7/</guid>
         <description>&lt;p&gt;写点关于学车的。&lt;/p&gt;
 &lt;p&gt;为什么要在瑞典学车？因为我身边的人都学车了。&lt;/p&gt;
 &lt;h3 id=&#34;步骤&#34;&gt;步骤
@@ -685,10 +685,10 @@ Level crossing: 如何观察火车&lt;/p&gt;
         </item>
         <item>
         <title>挪威南部七天</title>
-        <link>http://10.147.20.5:1313/2023/10/10/%E6%8C%AA%E5%A8%81%E5%8D%97%E9%83%A8%E4%B8%83%E5%A4%A9/</link>
+        <link>https://apodized.com/2023/10/10/%E6%8C%AA%E5%A8%81%E5%8D%97%E9%83%A8%E4%B8%83%E5%A4%A9/</link>
         <pubDate>Tue, 10 Oct 2023 14:58:04 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2023/10/10/%E6%8C%AA%E5%A8%81%E5%8D%97%E9%83%A8%E4%B8%83%E5%A4%A9/</guid>
+        <guid>https://apodized.com/2023/10/10/%E6%8C%AA%E5%A8%81%E5%8D%97%E9%83%A8%E4%B8%83%E5%A4%A9/</guid>
         <description>&lt;p&gt;写的太差了呜呜呜，先看看我朋友写的吧：&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://mp.weixin.qq.com/s/2yS8jNCVsqkOJ-x07EWrvw&#34; target=&#34;_blank&#34;&gt;[&lt;/a&gt;&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://mp.weixin.qq.com/s/2yS8jNCVsqkOJ-x07EWrvw&#34; target=&#34;_blank&#34;&gt;微信文章]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;整体行程：&lt;br&gt;
 时间： 9 月下旬&lt;br&gt;
@@ -793,10 +793,10 @@ DAY7：卑尔根 -&amp;gt; 斯塔万格，下午离开&lt;/p&gt;
         </item>
         <item>
         <title>杜塞科隆3天</title>
-        <link>http://10.147.20.5:1313/2023/09/07/gamescom2023/</link>
+        <link>https://apodized.com/2023/09/07/gamescom2023/</link>
         <pubDate>Wed, 06 Sep 2023 16:15:56 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2023/09/07/gamescom2023/</guid>
+        <guid>https://apodized.com/2023/09/07/gamescom2023/</guid>
         <description>&lt;p&gt;&lt;strong&gt;日程&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;8 月底&lt;br&gt;
 DAY1：中午到达杜塞，中午吃炒面，下午吃抹茶绵绵冰，晚上吃刺身盖饭&lt;br&gt;
@@ -874,10 +874,10 @@ DAY4：睡到中午去吃猪排饭，下午返回，晚上抗原测出来 covid 
         </item>
         <item>
         <title>去柏林玩的流水账</title>
-        <link>http://10.147.20.5:1313/2023/02/03/%E6%9F%8F%E6%9E%97/</link>
+        <link>https://apodized.com/2023/02/03/%E6%9F%8F%E6%9E%97/</link>
         <pubDate>Fri, 03 Feb 2023 10:27:27 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2023/02/03/%E6%9F%8F%E6%9E%97/</guid>
+        <guid>https://apodized.com/2023/02/03/%E6%9F%8F%E6%9E%97/</guid>
         <description>&lt;p&gt;去柏林玩的游记，2022 年 12 月 28 日 – 2023 年 1 月 1 日，过了两个月已经完全忘了，只能把手机里的照片找出来看图说话了。&lt;/p&gt;
 &lt;p&gt;住了 4 个晚上，还跨了年，1 月 1 号正好是周日，大部分的店都没开门。只玩一个城市的感觉还蛮好的，不用坐火车赶场子，柏林能玩的蛮多的。&lt;/p&gt;
 &lt;p&gt;我对历史完全不感兴趣，去了等于没去，逛博物馆/美术馆的时候，我就是假装自己在读英文的说明文字，其实一点都没有进脑子。&lt;/p&gt;
@@ -1041,10 +1041,10 @@ DAY4：睡到中午去吃猪排饭，下午返回，晚上抗原测出来 covid 
         </item>
         <item>
         <title>随笔</title>
-        <link>http://10.147.20.5:1313/2022/08/02/%E9%9A%8F%E7%AC%94-2/</link>
+        <link>https://apodized.com/2022/08/02/%E9%9A%8F%E7%AC%94-2/</link>
         <pubDate>Mon, 01 Aug 2022 21:10:37 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2022/08/02/%E9%9A%8F%E7%AC%94-2/</guid>
+        <guid>https://apodized.com/2022/08/02/%E9%9A%8F%E7%AC%94-2/</guid>
         <description>&lt;p&gt;7 月份去波兰玩的流水账，之前玩的梦境档案2，unpacking，跑团和剧本杀。&lt;/p&gt;
 &lt;p&gt;P 图的时候觉得我拍照怎么那么丑，都怪我手机&lt;/p&gt;
 &lt;hr class=&#34;wp-block-separator&#34; /&gt;
@@ -1244,10 +1244,10 @@ DAY4：睡到中午去吃猪排饭，下午返回，晚上抗原测出来 covid 
         </item>
         <item>
         <title>随笔</title>
-        <link>http://10.147.20.5:1313/2022/05/21/%E9%9A%8F%E7%AC%94/</link>
+        <link>https://apodized.com/2022/05/21/%E9%9A%8F%E7%AC%94/</link>
         <pubDate>Sat, 21 May 2022 08:04:32 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2022/05/21/%E9%9A%8F%E7%AC%94/</guid>
+        <guid>https://apodized.com/2022/05/21/%E9%9A%8F%E7%AC%94/</guid>
         <description>&lt;p&gt;上个月的事情已经完全忘了，写写流水账吧，就蛮无聊的吧，就是想象中的欧洲城市的样子。安特卫普比布鲁塞尔好玩一点。&lt;/p&gt;
 &lt;p&gt;大概日程：&lt;br&gt;
 1 天布鲁日（当天往返），安特卫普住了 4 个晚上，布鲁塞尔住了 2 个晚上&lt;/p&gt;
@@ -1368,10 +1368,10 @@ DAY4：睡到中午去吃猪排饭，下午返回，晚上抗原测出来 covid 
         </item>
         <item>
         <title>比利时旅游指南</title>
-        <link>http://10.147.20.5:1313/2022/05/06/belgium/</link>
+        <link>https://apodized.com/2022/05/06/belgium/</link>
         <pubDate>Fri, 06 May 2022 14:54:28 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2022/05/06/belgium/</guid>
+        <guid>https://apodized.com/2022/05/06/belgium/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;本文目的在于提供旅游攻略，包含 &lt;strong&gt;交通、景点、饭店&lt;/strong&gt; 的基本信息和我的主观评价。&lt;/p&gt;
 &lt;p&gt;没什么图，因为每次我查攻略看到别人的游记 tmd 放一堆游客照，烦死了，刷半天刷不出来。所以说马蜂窝没人看了，现在查游记都是直接查小红书。&lt;/p&gt;
@@ -1616,10 +1616,10 @@ weeeeeeeeeeb&lt;/li&gt;
         </item>
         <item>
         <title>关于申请瑞典硕士延毕签</title>
-        <link>http://10.147.20.5:1313/2022/03/30/yanbi/</link>
+        <link>https://apodized.com/2022/03/30/yanbi/</link>
         <pubDate>Wed, 30 Mar 2022 09:11:58 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2022/03/30/yanbi/</guid>
+        <guid>https://apodized.com/2022/03/30/yanbi/</guid>
         <description>&lt;p&gt;主要写一些申请延毕签信息。针对瑞典 2 年的硕士项目，毕设在毕业当年 6 月底前完不成的。包含延毕签需要提交哪些文件和移民局多久能下 decision。还有其余有关毕业的东西，比如：找工作签，毕业证书，SSSB 的房子。&lt;/p&gt;
 &lt;h4 id=&#34;基本信息&#34;&gt;基本信息
 &lt;/h4&gt;&lt;p&gt;我 2019 年 9 月入学，应当是 2021 年 6 月毕业，签证是 6 月下旬过期。我申请的日期大概是这样的：&lt;/p&gt;
@@ -1655,10 +1655,10 @@ weeeeeeeeeeb&lt;/li&gt;
         </item>
         <item>
         <title>ThinkPad x1c gen7 换 SSD 和装 ubuntu</title>
-        <link>http://10.147.20.5:1313/2021/12/01/thinkpad-x1c-gen7-%E6%8D%A2-ssd-%E5%92%8C%E8%A3%85-ubuntu/</link>
+        <link>https://apodized.com/2021/12/01/thinkpad-x1c-gen7-%E6%8D%A2-ssd-%E5%92%8C%E8%A3%85-ubuntu/</link>
         <pubDate>Wed, 01 Dec 2021 13:11:45 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2021/12/01/thinkpad-x1c-gen7-%E6%8D%A2-ssd-%E5%92%8C%E8%A3%85-ubuntu/</guid>
+        <guid>https://apodized.com/2021/12/01/thinkpad-x1c-gen7-%E6%8D%A2-ssd-%E5%92%8C%E8%A3%85-ubuntu/</guid>
         <description>&lt;p&gt;因为换了块 SSD，顺便装一下 ubuntu&lt;br&gt;
 原来的 8G + 256G 真的是丐中丐，2021 年了太难受了好吧&lt;br&gt;
 买的三星 EVO 970 EVO PLUS，1T 的。德亚 89 欧，运到瑞典就要 95 欧 +5 欧运费。在瑞亚买了一天德亚就降价了 20 欧，只好退了再买，然后瑞亚也降了，无语。&lt;/p&gt;
@@ -1735,10 +1735,10 @@ U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然
         </item>
         <item>
         <title>海龟汤</title>
-        <link>http://10.147.20.5:1313/2021/10/15/%E6%B5%B7%E9%BE%9F%E6%B1%A4/</link>
+        <link>https://apodized.com/2021/10/15/%E6%B5%B7%E9%BE%9F%E6%B1%A4/</link>
         <pubDate>Fri, 15 Oct 2021 12:34:33 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2021/10/15/%E6%B5%B7%E9%BE%9F%E6%B1%A4/</guid>
+        <guid>https://apodized.com/2021/10/15/%E6%B5%B7%E9%BE%9F%E6%B1%A4/</guid>
         <description>&lt;p&gt;原来想写个海龟汤板块收集一些海龟汤故事，后来觉得做收集整理毫无意义。我也不会自己编海龟汤故事。&lt;br&gt;
 最近登录了初中时候上的论坛，&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;http://www.tuilixy.net/&#34; target=&#34;_blank&#34;&gt;推理学院&lt;/a&gt;，看了下自己的发言感觉像个傻逼。没想到那个时候就有用QQ登录这个选项了，所以我的账号没有丢。&lt;br&gt;
 翻以前的回帖记录，看到这个帖：&lt;em&gt;七道恐怖推理题!——2008年最新的美国FBI犯罪心理测试题&lt;/em&gt;。这不就是海龟汤故事么。完整链接在&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;http://blog.sina.com.cn/s/blog_4771329301008qcl.html&#34; data-type=&#34;URL&#34; data-id=&#34;http://blog.sina.com.cn/s/blog_4771329301008qcl.html&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;，都是些老掉牙的故事了。&lt;/p&gt;
@@ -1776,10 +1776,10 @@ U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然
         </item>
         <item>
         <title>喜欢的播客</title>
-        <link>http://10.147.20.5:1313/2021/10/01/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%92%AD%E5%AE%A2/</link>
+        <link>https://apodized.com/2021/10/01/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%92%AD%E5%AE%A2/</link>
         <pubDate>Thu, 30 Sep 2021 22:34:00 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2021/10/01/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%92%AD%E5%AE%A2/</guid>
+        <guid>https://apodized.com/2021/10/01/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%92%AD%E5%AE%A2/</guid>
         <description>&lt;p&gt;从大学的时候开始听播客，之后还在QQ的说说里写了一段小作文推荐播客。总之是为了消磨时间，我不是很喜欢在走路的时候听歌，可能因为我当时没有无线降噪耳机。还有一部分是出于学英语的考虑，当然这里面五成是为了练听力，五成是为了吹嘘我用这种方式学英语。&lt;/p&gt;
 &lt;p&gt;大学的时候喜欢时长20分钟左右的，比如planet money之类的，大概就是从韵院走到东九的时候（但我明明有电动车？)，自己一个人吃饭的时候可以听。当时很不屑于听日谈公园这种长一个多小时的闲聊节目，也可能是我抵触北京口音，现在就不一样了。中文播客也就是18、19年兴起的吧，之前估计只有日谈公园、机核这种老牌播客节目。现在有很多&lt;s&gt;境外势力&lt;/s&gt;有海外留学工作背景的人创建的播客节目。闲聊节目不算，从主播的个人背景基本上就能知道这节目是讲什么的。&lt;/p&gt;
 &lt;!-- &lt;div class=&#34;wp-block-image&#34;&gt;
@@ -1914,10 +1914,10 @@ U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然
         </item>
         <item>
         <title>网站搭好了</title>
-        <link>http://10.147.20.5:1313/2021/09/25/%E7%BD%91%E7%AB%99%E6%90%AD%E5%A5%BD%E4%BA%86/</link>
+        <link>https://apodized.com/2021/09/25/%E7%BD%91%E7%AB%99%E6%90%AD%E5%A5%BD%E4%BA%86/</link>
         <pubDate>Fri, 24 Sep 2021 17:36:09 +0000</pubDate>
         
-        <guid>http://10.147.20.5:1313/2021/09/25/%E7%BD%91%E7%AB%99%E6%90%AD%E5%A5%BD%E4%BA%86/</guid>
+        <guid>https://apodized.com/2021/09/25/%E7%BD%91%E7%AB%99%E6%90%AD%E5%A5%BD%E4%BA%86/</guid>
         <description>&lt;p&gt;网站备案等了好久，大概15天吧&lt;br&gt;
 感觉访问服务器好慢，太让人抓狂了，配置各种东西好复杂，ssl证书还没有搞定&lt;br&gt;
 也不知道之后能写啥，目前为止就找了一个比较喜欢的主题&lt;/p&gt;
