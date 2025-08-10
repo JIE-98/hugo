@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://apodized.com/2024/03/27/helan/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="又去见网友了之荷(hé)兰(lán)篇">
+<link rel="stylesheet" href="/scss/style.min.cdc9285c0828ffcaa88b99e3e74c8be115eaba4c916008e7ff1848564adfe4ee.css"><meta property='og:title' content="又去见网友了之荷(hé)兰(lán)篇">
 <meta property='og:description' content="自己的语言表达能力真的很差。\n不过我读其他人的非技术类的博客的时候，也是快速看一遍图片罢了。\n去之前对荷兰的想象：小红书上的霍肯霍夫公园照片和传统木质风车。\n去了之后：风大是真的。\n以下是流水账\n2024 三月末的周五周六周日，为什么不复活节去呢，因为 May 和 Mar. 长得真的很像。\n周五 早上使用了最后有机会使用的 160 kr 阿兰达快线青年票到机场，然后是 SAS 青年票。飞机坐满了，好臭。\nAMS 机场：感觉旧旧的，体验了带我名字的接机服务（\n然后乘坐城际列车来到阿姆市区。在荷兰的三天被查了一次车票，车票买的值了（\n阿姆市区\n主火旁边好乱\n好多自行车√ 老头乐√ 奶牛鸭（白骨顶鸡）√\n黄赌毒罢了 游客商店，试吃了个爽 梵高博物馆：\n好多人，我为什么要去，为什么灯光那么暗。\n纪念品商店必须买票才能进去，好坏。\n旁边的美术馆有玛丽娜·阿布拉莫维奇的展览，排了好多人\n梵高周边 A’DAM lookout\n从楼上可以看到下面的摆渡船里飞快地骑进骑出的自行车\n秋千还挺好玩的\n视频是两倍速\n見ろ，人がゴミのようだ！ 阿姆的市徽：[wiki] 好邪恶\n">
 <meta property='og:url' content='https://apodized.com/2024/03/27/helan/'>
 <meta property='og:site_name' content='APODIZED'>
@@ -69,7 +69,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">APODIZED</a></h1>
-            <h2 class="site-description">博客博客博客</h2>
+            <h2 class="site-description">暂时还没有简介</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -598,46 +598,49 @@ TUD 周围就能看到一些 townhouse，感觉非常宁静，（本地人）在
      
     
         
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
 <style>
-    .disqus-container {
+    .twikoo {
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
         padding: var(--card-padding);
     }
-</style>
-
-<script>
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (typeof DISQUS == 'object') {
-            DISQUS.reset({
-                reload: true
-            });
-        }
-    })
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/comments.apodized.com\/.netlify\/functions\/twikoo',
+        el: '#tcomment',lang: 'zh-CN',})
 </script>
 
     
@@ -738,11 +741,38 @@ TUD 周围就能看到一些 townhouse，感觉非常宁静，（本地人）在
 
             </main>
         </div>
-        <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
-                
-                >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+        
+<script>
+    function backToTop() {
+      document.documentElement.scrollIntoView({
+        behavior: 'smooth',
+      })
+    }
+  
+    window.onload = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop > 0) {
+        totopBtn.style.display = 'inline'
+      } else {
+        totopBtn.style.display = 'none'
+      }
+    }
+  
+    window.onscroll = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop < 200) {
+        totopBtn.style.display = 'none'
+      } else {
+        totopBtn.style.display = 'inline'
+        totopBtn.addEventListener('click', backToTop, false)
+      }
+    }
+  </script>
+
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -754,6 +784,85 @@ TUD 周围就能看到一些 townhouse，感觉非常宁静，（本地人）在
         document.head.appendChild(customFont);
     }());
 </script>
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    background-color: var(--body-background);
+    box-shadow: var(--shadow-l2);
+    font-size: 20px;  
+    text-align: center;
+    line-height: 38px;  
+    cursor: pointer;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease;  
+  }
+
+  #back-to-top:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    transform: rotate(135deg);
+    height: 8px;  
+    width: 8px;  
+    border-width: 0 0 2px 2px;
+    border-color: var(--back-to-top-color);
+    border-style: solid;
+  }
+
+  #back-to-top:hover {
+    transform: scale(1.1);  
+    background-color: var(--accent-background);  
+  }
+
+  #back-to-top:hover:before {
+    border-color: var(--accent-color);  
+  }
+
+   
+  @media screen and (max-width: 768px) {
+    #back-to-top {
+      bottom: 5px;
+      right: var(--container-padding);
+      width: 30px;  
+      height: 30px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    #back-to-top {
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+       
+    }
+  }
+</style>
 
     </body>
 </html>

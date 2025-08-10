@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://apodized.com/2023/12/08/%E5%9C%A8%E7%91%9E%E5%85%B8%E8%80%83%E9%A9%BE%E7%85%A7/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="在瑞典考驾照">
+<link rel="stylesheet" href="/scss/style.min.cdc9285c0828ffcaa88b99e3e74c8be115eaba4c916008e7ff1848564adfe4ee.css"><meta property='og:title' content="在瑞典考驾照">
 <meta property='og:description' content="写点关于学车的。\n为什么要在瑞典学车？因为我身边的人都学车了。\n步骤 去眼镜店测视力，很水，大概 2 分钟就结束了，测完视力眼镜店会把结果上报系统 在测完视力的 X 月内，在某某网站上填写学习驾照的申请，填个名字和报名的驾照类型，听说有的眼镜店会帮你完成这一步 同时进行 Risk 1 and 2，理论学习，练车 路考 理论考试有效期 4 个月，太坑了。疫情期间因为路考不好约，有效期延长到 6 个月，现在恢复到 4 个月。从第三步开始，一般是先完成 Risk 1 and 2，然后练车，练了几个月了考理论，最后路考。运气不好时间拖得长了，理论过期了，还得再考理论。\nRisk part 1 &amp; 2 Risk training 的有效期好像是 5 年\nRisk part 1:\n理论学习，老师是瑞典语和英语混上的，只能说很混，用的 PPT 感觉至少有十年历史了。上课的时候我就感觉：我得上课学这个？这个还用教？\n课上还讨论了性别和驾车习惯的关系，这是可以讨论的？\nRisk part 2:\n体验冰面驾驶，感受刹车距离和紧急刹车的时候打方向。如果之前不会开车，一下子去上这个课，应该不太行。去的 Taby 北面一个驾校。开的小破电车 Leaf。\n两种地面，一个是正常柏油路，另一个是泼了水的像停车场的地面，很滑。\n第一部分是在两种地面加速到 40 km/h 和 70 km/h，紧急刹车，体验刹车距离，ABS等。\n第二部分是模拟开车在很滑的路面上，旁边窜出来一个动物，紧急刹车然后避让。只能说在很滑的地面上打方向是一点用没有，吓人，我完全没有记忆了，人生第一次体验漂移。有一辆车刹车比较拉，刹车打方向的时候整个车转了 180 度，是我我就吓死了。\n理论 好难，不过国内做题家过来的我觉得没什么问题，虽然也有认识理论挂了的（x）。刷题买的 https://korkortonline.se/ ，一共 1000 题好像。体感这个题库不行，建议买别的，这个题库的题比考题简单。书没必要买，直接刷题。刷题刷到最后就会变成只记得住选项答案。我准备了两三个礼拜的样子，就刷了一遍题。\n">
 <meta property='og:url' content='https://apodized.com/2023/12/08/%E5%9C%A8%E7%91%9E%E5%85%B8%E8%80%83%E9%A9%BE%E7%85%A7/'>
 <meta property='og:site_name' content='APODIZED'>
@@ -69,7 +69,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">APODIZED</a></h1>
-            <h2 class="site-description">博客博客博客</h2>
+            <h2 class="site-description">暂时还没有简介</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -555,46 +555,49 @@ Level crossing: 如何观察火车</p>
      
     
         
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
 <style>
-    .disqus-container {
+    .twikoo {
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
         padding: var(--card-padding);
     }
-</style>
-
-<script>
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (typeof DISQUS == 'object') {
-            DISQUS.reset({
-                reload: true
-            });
-        }
-    })
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/comments.apodized.com\/.netlify\/functions\/twikoo',
+        el: '#tcomment',lang: 'zh-CN',})
 </script>
 
     
@@ -695,11 +698,38 @@ Level crossing: 如何观察火车</p>
 
             </main>
         </div>
-        <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
-                
-                >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+        
+<script>
+    function backToTop() {
+      document.documentElement.scrollIntoView({
+        behavior: 'smooth',
+      })
+    }
+  
+    window.onload = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop > 0) {
+        totopBtn.style.display = 'inline'
+      } else {
+        totopBtn.style.display = 'none'
+      }
+    }
+  
+    window.onscroll = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop < 200) {
+        totopBtn.style.display = 'none'
+      } else {
+        totopBtn.style.display = 'inline'
+        totopBtn.addEventListener('click', backToTop, false)
+      }
+    }
+  </script>
+
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -711,6 +741,85 @@ Level crossing: 如何观察火车</p>
         document.head.appendChild(customFont);
     }());
 </script>
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    background-color: var(--body-background);
+    box-shadow: var(--shadow-l2);
+    font-size: 20px;  
+    text-align: center;
+    line-height: 38px;  
+    cursor: pointer;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease;  
+  }
+
+  #back-to-top:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    transform: rotate(135deg);
+    height: 8px;  
+    width: 8px;  
+    border-width: 0 0 2px 2px;
+    border-color: var(--back-to-top-color);
+    border-style: solid;
+  }
+
+  #back-to-top:hover {
+    transform: scale(1.1);  
+    background-color: var(--accent-background);  
+  }
+
+  #back-to-top:hover:before {
+    border-color: var(--accent-color);  
+  }
+
+   
+  @media screen and (max-width: 768px) {
+    #back-to-top {
+      bottom: 5px;
+      right: var(--container-padding);
+      width: 30px;  
+      height: 30px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    #back-to-top {
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+       
+    }
+  }
+</style>
 
     </body>
 </html>

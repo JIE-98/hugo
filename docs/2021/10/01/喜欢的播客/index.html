@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://apodized.com/2021/10/01/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%92%AD%E5%AE%A2/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="喜欢的播客">
+<link rel="stylesheet" href="/scss/style.min.cdc9285c0828ffcaa88b99e3e74c8be115eaba4c916008e7ff1848564adfe4ee.css"><meta property='og:title' content="喜欢的播客">
 <meta property='og:description' content="从大学的时候开始听播客，之后还在QQ的说说里写了一段小作文推荐播客。总之是为了消磨时间，我不是很喜欢在走路的时候听歌，可能因为我当时没有无线降噪耳机。还有一部分是出于学英语的考虑，当然这里面五成是为了练听力，五成是为了吹嘘我用这种方式学英语。\n大学的时候喜欢时长20分钟左右的，比如planet money之类的，大概就是从韵院走到东九的时候（但我明明有电动车？)，自己一个人吃饭的时候可以听。当时很不屑于听日谈公园这种长一个多小时的闲聊节目，也可能是我抵触北京口音，现在就不一样了。中文播客也就是18、19年兴起的吧，之前估计只有日谈公园、机核这种老牌播客节目。现在有很多境外势力有海外留学工作背景的人创建的播客节目。闲聊节目不算，从主播的个人背景基本上就能知道这节目是讲什么的。\napp是castbox，有的是听着听着睡着了 聊聊我喜欢的播客\n有的虽然订阅了但从来不会听，总觉得以后有机会会听 几乎每期都会听的 Fit4life\n两个35岁北京女人的闲聊节目，运动、生活相关。提到暴饮暴食，抵触运动的情绪的时候，我会想原来大家都一样。这两个女的真的蛮privileged的。 Anyway.FM 设计杂谈\n“由UI设计师JJ Ying和Leon Gao主播的设计杂谈播客“\n难得的南方口音的男主播的播客，讲一些网页设计相关的，感觉比较理工科思维。不请嘉宾，蛮难得的，每期都有新主题，可能因为我不懂UI设计，感觉很时髦。 疯投圈\n商业类，请嘉宾，更新比较慢。 有感兴趣的内容就听 随机波动 StochasticVolatility\n剩余价值的秽土转生，推荐一下讲疫情的这期 。节目质量取决于请的嘉宾的质量，特别喜欢性别议题。 Loud Murmurs 小声喧哗\n">
 <meta property='og:url' content='https://apodized.com/2021/10/01/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%92%AD%E5%AE%A2/'>
 <meta property='og:site_name' content='APODIZED'>
@@ -69,7 +69,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">APODIZED</a></h1>
-            <h2 class="site-description">博客博客博客</h2>
+            <h2 class="site-description">暂时还没有简介</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -589,46 +589,49 @@
      
     
         
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
 <style>
-    .disqus-container {
+    .twikoo {
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
         padding: var(--card-padding);
     }
-</style>
-
-<script>
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (typeof DISQUS == 'object') {
-            DISQUS.reset({
-                reload: true
-            });
-        }
-    })
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/comments.apodized.com\/.netlify\/functions\/twikoo',
+        el: '#tcomment',lang: 'zh-CN',})
 </script>
 
     
@@ -729,11 +732,38 @@
 
             </main>
         </div>
-        <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
-                
-                >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+        
+<script>
+    function backToTop() {
+      document.documentElement.scrollIntoView({
+        behavior: 'smooth',
+      })
+    }
+  
+    window.onload = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop > 0) {
+        totopBtn.style.display = 'inline'
+      } else {
+        totopBtn.style.display = 'none'
+      }
+    }
+  
+    window.onscroll = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop < 200) {
+        totopBtn.style.display = 'none'
+      } else {
+        totopBtn.style.display = 'inline'
+        totopBtn.addEventListener('click', backToTop, false)
+      }
+    }
+  </script>
+
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -745,6 +775,85 @@
         document.head.appendChild(customFont);
     }());
 </script>
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    background-color: var(--body-background);
+    box-shadow: var(--shadow-l2);
+    font-size: 20px;  
+    text-align: center;
+    line-height: 38px;  
+    cursor: pointer;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease;  
+  }
+
+  #back-to-top:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    transform: rotate(135deg);
+    height: 8px;  
+    width: 8px;  
+    border-width: 0 0 2px 2px;
+    border-color: var(--back-to-top-color);
+    border-style: solid;
+  }
+
+  #back-to-top:hover {
+    transform: scale(1.1);  
+    background-color: var(--accent-background);  
+  }
+
+  #back-to-top:hover:before {
+    border-color: var(--accent-color);  
+  }
+
+   
+  @media screen and (max-width: 768px) {
+    #back-to-top {
+      bottom: 5px;
+      right: var(--container-padding);
+      width: 30px;  
+      height: 30px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    #back-to-top {
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+       
+    }
+  }
+</style>
 
     </body>
 </html>

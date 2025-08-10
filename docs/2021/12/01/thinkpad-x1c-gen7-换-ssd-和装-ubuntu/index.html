@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://apodized.com/2021/12/01/thinkpad-x1c-gen7-%E6%8D%A2-ssd-%E5%92%8C%E8%A3%85-ubuntu/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="ThinkPad x1c gen7 换 SSD 和装 ubuntu">
+<link rel="stylesheet" href="/scss/style.min.cdc9285c0828ffcaa88b99e3e74c8be115eaba4c916008e7ff1848564adfe4ee.css"><meta property='og:title' content="ThinkPad x1c gen7 换 SSD 和装 ubuntu">
 <meta property='og:description' content="因为换了块 SSD，顺便装一下 ubuntu\n原来的 8G + 256G 真的是丐中丐，2021 年了太难受了好吧\n买的三星 EVO 970 EVO PLUS，1T 的。德亚 89 欧，运到瑞典就要 95 欧 +5 欧运费。在瑞亚买了一天德亚就降价了 20 欧，只好退了再买，然后瑞亚也降了，无语。\n安装新 SSD 备份\n旧 SSD 里也就几十G的东西，拷拷很快的 做U盘启动盘，https://www.microsoft.com/zh-cn/software-download/windows10 上面说要 8G 的空间，但实际上装完就 5G，我觉得应该 8G 大小的U盘够了，我猜的。装的是家庭中文版，因为我知道我的是家庭中文版。之后安装完后需要激活 windows，用的激活码应该在注册表里。 断电\n把充电器拔了，进 BIOS 选彻底断电。我看也有人拆了后盖之后把电池的线断开的。 换 SSD\n一直不敢掰有卡扣的，铰链那条边是螺丝拧下来就松开了，两条短边用塑料片把卡扣撬开，最后一条边用力向上掰。原来底板是金属的。装回去的时候螺丝掉了个垫片，算了。\n打开来发现几根猫毛，铰链粘了好多灰。\n原来是有散热贴的，可是为什么是朝向主板那一面。新的 SSD 背面有个厚贴纸，不知道是啥，没撕，可能是散热用的吧，上面写着撕了就不给保修，要是有人去保修 SSD 也太惨了吧。 装 win10\nU盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然后进设置激活一下。 这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧 装 win10 专业版 按照传统去淘宝花 8 块大洋买了 pro 版本的激活码，激活了。然而还是改不了语言。\n然后又去淘宝从镜像装了 pro 版本，好慢好慢好慢好慢。装完之后记事本文件打不开，奸商让我重装，我真的好无语。可能我就是盗版软件的受害者吧，在设置里把记事本卸载重装就行了。\n装完感觉我电脑中文字题显示有问题，算了，不想搞。\n">
 <meta property='og:url' content='https://apodized.com/2021/12/01/thinkpad-x1c-gen7-%E6%8D%A2-ssd-%E5%92%8C%E8%A3%85-ubuntu/'>
 <meta property='og:site_name' content='APODIZED'>
@@ -68,7 +68,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">APODIZED</a></h1>
-            <h2 class="site-description">博客博客博客</h2>
+            <h2 class="site-description">暂时还没有简介</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -542,46 +542,49 @@ U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然
      
     
         
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
 <style>
-    .disqus-container {
+    .twikoo {
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
         padding: var(--card-padding);
     }
-</style>
-
-<script>
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (typeof DISQUS == 'object') {
-            DISQUS.reset({
-                reload: true
-            });
-        }
-    })
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/comments.apodized.com\/.netlify\/functions\/twikoo',
+        el: '#tcomment',lang: 'zh-CN',})
 </script>
 
     
@@ -682,11 +685,38 @@ U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然
 
             </main>
         </div>
-        <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
-                
-                >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+        
+<script>
+    function backToTop() {
+      document.documentElement.scrollIntoView({
+        behavior: 'smooth',
+      })
+    }
+  
+    window.onload = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop > 0) {
+        totopBtn.style.display = 'inline'
+      } else {
+        totopBtn.style.display = 'none'
+      }
+    }
+  
+    window.onscroll = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop < 200) {
+        totopBtn.style.display = 'none'
+      } else {
+        totopBtn.style.display = 'inline'
+        totopBtn.addEventListener('click', backToTop, false)
+      }
+    }
+  </script>
+
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -698,6 +728,85 @@ U盘插进去装就完事了，好快，大概也就 10 分钟就开机了。然
         document.head.appendChild(customFont);
     }());
 </script>
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    background-color: var(--body-background);
+    box-shadow: var(--shadow-l2);
+    font-size: 20px;  
+    text-align: center;
+    line-height: 38px;  
+    cursor: pointer;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease;  
+  }
+
+  #back-to-top:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    transform: rotate(135deg);
+    height: 8px;  
+    width: 8px;  
+    border-width: 0 0 2px 2px;
+    border-color: var(--back-to-top-color);
+    border-style: solid;
+  }
+
+  #back-to-top:hover {
+    transform: scale(1.1);  
+    background-color: var(--accent-background);  
+  }
+
+  #back-to-top:hover:before {
+    border-color: var(--accent-color);  
+  }
+
+   
+  @media screen and (max-width: 768px) {
+    #back-to-top {
+      bottom: 5px;
+      right: var(--container-padding);
+      width: 30px;  
+      height: 30px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    #back-to-top {
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+       
+    }
+  }
+</style>
 
     </body>
 </html>

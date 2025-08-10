@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://apodized.com/2021/10/15/%E6%B5%B7%E9%BE%9F%E6%B1%A4/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="海龟汤">
+<link rel="stylesheet" href="/scss/style.min.cdc9285c0828ffcaa88b99e3e74c8be115eaba4c916008e7ff1848564adfe4ee.css"><meta property='og:title' content="海龟汤">
 <meta property='og:description' content="原来想写个海龟汤板块收集一些海龟汤故事，后来觉得做收集整理毫无意义。我也不会自己编海龟汤故事。\n最近登录了初中时候上的论坛，推理学院 ，看了下自己的发言感觉像个傻逼。没想到那个时候就有用QQ登录这个选项了，所以我的账号没有丢。\n翻以前的回帖记录，看到这个帖：七道恐怖推理题!——2008年最新的美国FBI犯罪心理测试题。这不就是海龟汤故事么。完整链接在这里 ，都是些老掉牙的故事了。\n绿衣服\n谜面：\n一个刚退伍的老兵,一天夜裏起床上厕所时,发现老伴没有睡在身边,枕头掉在木头地板上,然后很疑惑的他走进厕所发现了马桶上有一件很小的绿色衣服,当场就被吓死了,请问为什麽?\n谜底：\n老兵其实有梦游症，在他服役期间他由于梦游用枕头把他的战友闷死，他清醒过来后,就把他的战友的尸体用军刀肢解后扔进厕所里冲走。处理完尸体后只剩下战友的绿色军装.那天晚上老伴一边上厕所一边帮她们的儿子织绿色的小军装，结果把衣服忘在了厕所里。老兵下床没看见老伴是因为她老伴知道他老公有梦游症所以独自一个人在沙发上睡觉，而老兵误以为自己亲手杀了自己的老婆和儿子所以被自己的令人发指的恐怖行径吓死了。\n我这么热衷于初中时候看的故事，感觉自己好弱智。\n查了一下海龟汤的历史，起源于 1991 年的 Paul Sloane 的 Lateral Thinking Puzzlers 这本书，当时游玩的规则就已经是：一位 quizmaster 知道谜底，且只能用 yes, no, irrelevant 来回答猜谜者的提问。其中的题目类似于：\n">
 <meta property='og:url' content='https://apodized.com/2021/10/15/%E6%B5%B7%E9%BE%9F%E6%B1%A4/'>
 <meta property='og:site_name' content='APODIZED'>
@@ -68,7 +68,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">APODIZED</a></h1>
-            <h2 class="site-description">博客博客博客</h2>
+            <h2 class="site-description">暂时还没有简介</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -485,46 +485,49 @@
      
     
         
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
 <style>
-    .disqus-container {
+    .twikoo {
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
         padding: var(--card-padding);
     }
-</style>
-
-<script>
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (typeof DISQUS == 'object') {
-            DISQUS.reset({
-                reload: true
-            });
-        }
-    })
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/comments.apodized.com\/.netlify\/functions\/twikoo',
+        el: '#tcomment',lang: 'zh-CN',})
 </script>
 
     
@@ -625,11 +628,38 @@
 
             </main>
         </div>
-        <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
-                
-                >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+        
+<script>
+    function backToTop() {
+      document.documentElement.scrollIntoView({
+        behavior: 'smooth',
+      })
+    }
+  
+    window.onload = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop > 0) {
+        totopBtn.style.display = 'inline'
+      } else {
+        totopBtn.style.display = 'none'
+      }
+    }
+  
+    window.onscroll = function () {
+      let scrollTop =
+        this.document.documentElement.scrollTop || this.document.body.scrollTop
+      let totopBtn = this.document.getElementById('back-to-top')
+      if (scrollTop < 200) {
+        totopBtn.style.display = 'none'
+      } else {
+        totopBtn.style.display = 'inline'
+        totopBtn.addEventListener('click', backToTop, false)
+      }
+    }
+  </script>
+
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -641,6 +671,85 @@
         document.head.appendChild(customFont);
     }());
 </script>
+
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
+
+<style>
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    background-color: var(--body-background);
+    box-shadow: var(--shadow-l2);
+    font-size: 20px;  
+    text-align: center;
+    line-height: 38px;  
+    cursor: pointer;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease;  
+  }
+
+  #back-to-top:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    transform: rotate(135deg);
+    height: 8px;  
+    width: 8px;  
+    border-width: 0 0 2px 2px;
+    border-color: var(--back-to-top-color);
+    border-style: solid;
+  }
+
+  #back-to-top:hover {
+    transform: scale(1.1);  
+    background-color: var(--accent-background);  
+  }
+
+  #back-to-top:hover:before {
+    border-color: var(--accent-color);  
+  }
+
+   
+  @media screen and (max-width: 768px) {
+    #back-to-top {
+      bottom: 5px;
+      right: var(--container-padding);
+      width: 30px;  
+      height: 30px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    #back-to-top {
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+       
+    }
+  }
+</style>
 
     </body>
 </html>
