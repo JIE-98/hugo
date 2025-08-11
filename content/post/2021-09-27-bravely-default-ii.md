@@ -18,7 +18,7 @@ categories:
   - 二次元
 tags:
   - 游戏
-image:  "https://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg"
+image:  "https://static.apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg"
 
 ---
 
@@ -32,7 +32,7 @@ image:  "https://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x
 </div></figure>  -->
 
 <!-- <figure class="wp-block-image">
-<img src="https://apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg" alt="" style="width: 80%;">
+<img src="https://static.apodized.com/wp-content/uploads/2021/09/Bravely-Default-2-1024x576.jpg" alt="" style="width: 80%;">
 </figure> -->
 
 30h一周目普通难度通关真结局，隐藏的boss（龙？）和剩余职业升级到15级没打，本来想打龙，刷刷馒头，但是打了几次盗贼的试炼不掉道具就不想打了。二周目是不可能的，还不如去打八方旅人的最终大boss。
@@ -57,7 +57,7 @@ bdff2没看攻略完全不会玩，全怪简中互联网游戏攻略全tm是垃�
 </div><figcaption>幸好这个讲话文绉绉的的老头（其实根本没有）最开始的一章就挂了</figcaption></figure>  -->
 
 <figure class="wp-block-image">
-  <img src="https://apodized.com/wp-content/uploads/2021/09/bdff2_1-1024x576.jpg" alt="" style="width: 80%;">
+  <img src="https://static.apodized.com/wp-content/uploads/2021/09/bdff2_1-1024x576.jpg" alt="" style="width: 80%;">
   <figcaption>幸好这个讲话文绉绉的的老头（其实根本没有）最开始的一章就挂了</figcaption>
 </figure>
 

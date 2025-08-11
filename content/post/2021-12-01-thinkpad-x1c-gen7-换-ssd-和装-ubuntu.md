@@ -51,7 +51,7 @@ tags:
 </div> -->
 
 <figure class="wp-block-image">
-  <img src="https://apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg" alt="" style="width: 80%;">
+  <img src="https://static.apodized.com/wp-content/uploads/2021/12/20211206154455-1024x857.jpg" alt="" style="width: 80%;">
   <figcaption>这个白色应该是散热贴吧？里面好多悉悉索索的东西，应该是人渣吧</figcaption>
 </figure>
 
@@ -86,13 +86,13 @@ tags:
 <!-- <div class="wp-block-image">
   <figure class="aligncenter size-large is-resized">
   
-  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg'>
-    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-192" width="726" height="450"  sizes="(max-width: 726px) 100vw, 726px" />
+  <div class='fancybox-wrapper lazyload-container-unload' data-fancybox='post-images' href='https://static.apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg'>
+    <img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  loading="lazy" data-original="https://static.apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="" class="wp-image-192" width="726" height="450"  sizes="(max-width: 726px) 100vw, 726px" />
   </div></figure>
 </div> -->
 
 <figure class="wp-block-image">
-  <img src="https://apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg" alt="" style="width: 80%;">
+  <img src="https://static.apodized.com/wp-content/uploads/2021/12/20211201130153-1-1024x636.jpg" alt="" style="width: 80%;">
 </figure>
 
 写英文区分大小写真烦啊，还要空格。  
