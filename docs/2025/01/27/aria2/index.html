@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。\n需要用到以下工具\nAria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。\n网上搜了下完全没什么正儿八经的教程，可能是 SEO 太低了，很多都是两三年前的，新的也就是内容农场重写的💩。也许现在有了新的工具，但是我没搜到。\n安装 Aria2 一个种子下载工具\nhttps://github.com/aria2/aria2 （似乎可以直接 apt 安装） Git clone 根据 README apt-install 各种库 ./configure 然后 make，等待 20 分钟 make check 我没编译通过，不懂 编译出的执行文件在 src/aria2c https://wiki.archlinux.org/title/Aria2 根据这里新建配置文件，里面要添加 enable rpc 的配置 ufw 设置一下 变成 service：具体内容在上面链接中的 Using aria2 as a Daemon, 然后 start，然后 enable 我遇到了这个问题 update-rc.d: error: cannot find a LSB script for aria2，没懂，Chatgpt 解决了 安装 AriaNg https://github.com/mayswind/AriaNg ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。\n需要用到以下工具\nAria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。\n">
 <title>Aria2 配置</title>
 
 <link rel='canonical' href='https://apodized.com/2025/01/27/aria2/'>
 
-<link rel="stylesheet" href="/scss/style.min.cdc9285c0828ffcaa88b99e3e74c8be115eaba4c916008e7ff1848564adfe4ee.css"><meta property='og:title' content="Aria2 配置">
-<meta property='og:description' content="搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。\n需要用到以下工具\nAria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。\n网上搜了下完全没什么正儿八经的教程，可能是 SEO 太低了，很多都是两三年前的，新的也就是内容农场重写的💩。也许现在有了新的工具，但是我没搜到。\n安装 Aria2 一个种子下载工具\nhttps://github.com/aria2/aria2 （似乎可以直接 apt 安装） Git clone 根据 README apt-install 各种库 ./configure 然后 make，等待 20 分钟 make check 我没编译通过，不懂 编译出的执行文件在 src/aria2c https://wiki.archlinux.org/title/Aria2 根据这里新建配置文件，里面要添加 enable rpc 的配置 ufw 设置一下 变成 service：具体内容在上面链接中的 Using aria2 as a Daemon, 然后 start，然后 enable 我遇到了这个问题 update-rc.d: error: cannot find a LSB script for aria2，没懂，Chatgpt 解决了 安装 AriaNg https://github.com/mayswind/AriaNg ">
+<link rel="stylesheet" href="/scss/style.min.72b8ed424537598413e5c2ec4a19d09852259328301213fc0685297c86021674.css"><meta property='og:title' content="Aria2 配置">
+<meta property='og:description' content="搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。\n需要用到以下工具\nAria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。\n">
 <meta property='og:url' content='https://apodized.com/2025/01/27/aria2/'>
 <meta property='og:site_name' content='APODIZED'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-27T12:30:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-27T12:30:00&#43;00:00'/>
 <meta name="twitter:title" content="Aria2 配置">
-<meta name="twitter:description" content="搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。\n需要用到以下工具\nAria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。\n网上搜了下完全没什么正儿八经的教程，可能是 SEO 太低了，很多都是两三年前的，新的也就是内容农场重写的💩。也许现在有了新的工具，但是我没搜到。\n安装 Aria2 一个种子下载工具\nhttps://github.com/aria2/aria2 （似乎可以直接 apt 安装） Git clone 根据 README apt-install 各种库 ./configure 然后 make，等待 20 分钟 make check 我没编译通过，不懂 编译出的执行文件在 src/aria2c https://wiki.archlinux.org/title/Aria2 根据这里新建配置文件，里面要添加 enable rpc 的配置 ufw 设置一下 变成 service：具体内容在上面链接中的 Using aria2 as a Daemon, 然后 start，然后 enable 我遇到了这个问题 update-rc.d: error: cannot find a LSB script for aria2，没懂，Chatgpt 解决了 安装 AriaNg https://github.com/mayswind/AriaNg ">
+<meta name="twitter:description" content="搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。\n需要用到以下工具\nAria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。\n">
     <link rel="shortcut icon" href="/cat.png" />
 
     </head>
@@ -263,7 +263,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E7%94%9F%E6%B4%BB/" >
+            <a href="/categories/%E7%94%9F%E6%B4%BB/" style="background-color: #f5baba; color: #fff;">
                 生活
             </a>
         
@@ -309,7 +309,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -634,6 +634,74 @@ guest ok = yes</p>
             2021 - 
         
         2025 HJ
+    </section>
+
+    
+    <section class="totalcount">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        发表了 24 篇文章 ·
+        总计 2 万 7 千字
+        <br>
+
     </section>
     
     <section class="powerby">
