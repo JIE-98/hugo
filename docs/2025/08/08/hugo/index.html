@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。\n需要用到以下工具\nAria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。\n网上搜了下完全没什么正儿八经的教程，可能是 SEO 太低了，很多都是两三年前的，新的也就是内容农场重写的💩。也许现在有了新的工具，但是我没搜到。\n安装 Aria2 一个种子下载工具\nhttps://github.com/aria2/aria2 （似乎可以直接 apt 安装） Git clone 根据 README apt-install 各种库 ./configure 然后 make，等待 20 分钟 make check 我没编译通过，不懂 编译出的执行文件在 src/aria2c https://wiki.archlinux.org/title/Aria2 根据这里新建配置文件，里面要添加 enable rpc 的配置 ufw 设置一下 变成 service：具体内容在上面链接中的 Using aria2 as a Daemon, 然后 start，然后 enable 我遇到了这个问题 update-rc.d: error: cannot find a LSB script for aria2，没懂，Chatgpt 解决了 安装 AriaNg https://github.com/mayswind/AriaNg ">
-<title>Aria2 配置</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="原因 我受够阿里云 ECS 了，一是国内的服务器，我在欧洲访问无敌慢；二是 SSL 证书问题，每隔三个月要手动换一次，每次等阿里云 console 加载出来都感觉寿命在流逝。\n还有就是看了这位博主的文章 https://blog.douchi.space/blog-migrate-wordpress-hugo/ ，看上去迁移不是很麻烦，而且 Hugo 的主题也挺好看的。\n我始终纠结的点是放 github page 托管的话，国内可能无法访问。我始终想让我网站国内国外都能访问，并且我在国外操作也不能太慢。在询问了 ChatGPT 之后，选择了 github page + Cloudflare R2，放弃了国内外都能访问的想法，被墙了就被墙了吧。我觉得不能责怪观众不会翻墙，是我不想折腾了，对我来说我回国梯子真是找不到啊。\n迁移过程 从 Wordpress 导出 参考上面那个链接，有一个 wordpress to hugo 插件。比我想象中简单，会把文章导出成 md 文件，图片放在对应文件夹里，最终生成一个 zip。我 20 篇文章导出来 900 多 MB，很怪，wordpress 每个图片有 5 个尺寸。\n导出的 md 里的图片引用代码不对，hugo 没法显示，让 chatgpt 写了一个改的脚本，就都改好了。\n">
+<title>从 Wordpress 迁移到 Hugo</title>
 
-<link rel='canonical' href='https://apodized.com/2025/01/27/aria2/'>
+<link rel='canonical' href='https://apodized.com/2025/08/08/hugo/'>
 
-<link rel="stylesheet" href="/scss/style.min.cdc9285c0828ffcaa88b99e3e74c8be115eaba4c916008e7ff1848564adfe4ee.css"><meta property='og:title' content="Aria2 配置">
-<meta property='og:description' content="搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。\n需要用到以下工具\nAria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。\n网上搜了下完全没什么正儿八经的教程，可能是 SEO 太低了，很多都是两三年前的，新的也就是内容农场重写的💩。也许现在有了新的工具，但是我没搜到。\n安装 Aria2 一个种子下载工具\nhttps://github.com/aria2/aria2 （似乎可以直接 apt 安装） Git clone 根据 README apt-install 各种库 ./configure 然后 make，等待 20 分钟 make check 我没编译通过，不懂 编译出的执行文件在 src/aria2c https://wiki.archlinux.org/title/Aria2 根据这里新建配置文件，里面要添加 enable rpc 的配置 ufw 设置一下 变成 service：具体内容在上面链接中的 Using aria2 as a Daemon, 然后 start，然后 enable 我遇到了这个问题 update-rc.d: error: cannot find a LSB script for aria2，没懂，Chatgpt 解决了 安装 AriaNg https://github.com/mayswind/AriaNg ">
-<meta property='og:url' content='https://apodized.com/2025/01/27/aria2/'>
+<link rel="stylesheet" href="/scss/style.min.cdc9285c0828ffcaa88b99e3e74c8be115eaba4c916008e7ff1848564adfe4ee.css"><meta property='og:title' content="从 Wordpress 迁移到 Hugo">
+<meta property='og:description' content="原因 我受够阿里云 ECS 了，一是国内的服务器，我在欧洲访问无敌慢；二是 SSL 证书问题，每隔三个月要手动换一次，每次等阿里云 console 加载出来都感觉寿命在流逝。\n还有就是看了这位博主的文章 https://blog.douchi.space/blog-migrate-wordpress-hugo/ ，看上去迁移不是很麻烦，而且 Hugo 的主题也挺好看的。\n我始终纠结的点是放 github page 托管的话，国内可能无法访问。我始终想让我网站国内国外都能访问，并且我在国外操作也不能太慢。在询问了 ChatGPT 之后，选择了 github page + Cloudflare R2，放弃了国内外都能访问的想法，被墙了就被墙了吧。我觉得不能责怪观众不会翻墙，是我不想折腾了，对我来说我回国梯子真是找不到啊。\n迁移过程 从 Wordpress 导出 参考上面那个链接，有一个 wordpress to hugo 插件。比我想象中简单，会把文章导出成 md 文件，图片放在对应文件夹里，最终生成一个 zip。我 20 篇文章导出来 900 多 MB，很怪，wordpress 每个图片有 5 个尺寸。\n导出的 md 里的图片引用代码不对，hugo 没法显示，让 chatgpt 写了一个改的脚本，就都改好了。\n">
+<meta property='og:url' content='https://apodized.com/2025/08/08/hugo/'>
 <meta property='og:site_name' content='APODIZED'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-27T12:30:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-27T12:30:00&#43;00:00'/>
-<meta name="twitter:title" content="Aria2 配置">
-<meta name="twitter:description" content="搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。\n需要用到以下工具\nAria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。\n网上搜了下完全没什么正儿八经的教程，可能是 SEO 太低了，很多都是两三年前的，新的也就是内容农场重写的💩。也许现在有了新的工具，但是我没搜到。\n安装 Aria2 一个种子下载工具\nhttps://github.com/aria2/aria2 （似乎可以直接 apt 安装） Git clone 根据 README apt-install 各种库 ./configure 然后 make，等待 20 分钟 make check 我没编译通过，不懂 编译出的执行文件在 src/aria2c https://wiki.archlinux.org/title/Aria2 根据这里新建配置文件，里面要添加 enable rpc 的配置 ufw 设置一下 变成 service：具体内容在上面链接中的 Using aria2 as a Daemon, 然后 start，然后 enable 我遇到了这个问题 update-rc.d: error: cannot find a LSB script for aria2，没懂，Chatgpt 解决了 安装 AriaNg https://github.com/mayswind/AriaNg ">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-08-08T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-08T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="从 Wordpress 迁移到 Hugo">
+<meta name="twitter:description" content="原因 我受够阿里云 ECS 了，一是国内的服务器，我在欧洲访问无敌慢；二是 SSL 证书问题，每隔三个月要手动换一次，每次等阿里云 console 加载出来都感觉寿命在流逝。\n还有就是看了这位博主的文章 https://blog.douchi.space/blog-migrate-wordpress-hugo/ ，看上去迁移不是很麻烦，而且 Hugo 的主题也挺好看的。\n我始终纠结的点是放 github page 托管的话，国内可能无法访问。我始终想让我网站国内国外都能访问，并且我在国外操作也不能太慢。在询问了 ChatGPT 之后，选择了 github page + Cloudflare R2，放弃了国内外都能访问的想法，被墙了就被墙了吧。我觉得不能责怪观众不会翻墙，是我不想折腾了，对我来说我回国梯子真是找不到啊。\n迁移过程 从 Wordpress 导出 参考上面那个链接，有一个 wordpress to hugo 插件。比我想象中简单，会把文章导出成 md 文件，图片放在对应文件夹里，最终生成一个 zip。我 20 篇文章导出来 900 多 MB，很怪，wordpress 每个图片有 5 个尺寸。\n导出的 md 里的图片引用代码不对，hugo 没法显示，让 chatgpt 写了一个改的脚本，就都改好了。\n">
     <link rel="shortcut icon" href="/cat.png" />
 
     </head>
@@ -241,10 +241,15 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#安装-aria2">安装 Aria2</a></li>
-    <li><a href="#安装-ariang">安装 AriaNg</a></li>
-    <li><a href="#安装-samba">安装 Samba</a></li>
-    <li><a href="#小米盒子">小米盒子</a></li>
+    <li><a href="#原因">原因</a></li>
+    <li><a href="#迁移过程">迁移过程</a>
+      <ol>
+        <li><a href="#从-wordpress-导出">从 Wordpress 导出</a></li>
+        <li><a href="#总的配置">总的配置</a></li>
+      </ol>
+    </li>
+    <li><a href="#主题配置">主题配置</a></li>
+    <li><a href="#总结">总结</a></li>
   </ol>
 </nav>
         </div>
@@ -272,7 +277,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/2025/01/27/aria2/">Aria2 配置</a>
+            <a href="/2025/08/08/hugo/">从 Wordpress 迁移到 Hugo</a>
         </h2>
     
         
@@ -294,7 +299,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jan 27, 2025</time>
+                <time class="article-time--published">Aug 08, 2025</time>
             </div>
         
 
@@ -324,132 +329,93 @@
     <section class="article-content">
     
     
-    <p>搞这个的主要动机是想在手机上点点点就能下载动画片，下载完成之后通过小米盒子直接在电视上播放。爱一帆上有的片源清晰度实在太低了。</p>
-<p>需要用到以下工具<br>
-Aria2：一个命令行种子下载工具，和 AriaNg：一个 web 前端，和 Samba：一个 file sharing 工具，和小米盒子。</p>
-<p>网上搜了下完全没什么正儿八经的教程，可能是 SEO 太低了，很多都是两三年前的，新的也就是内容农场重写的💩。也许现在有了新的工具，但是我没搜到。</p>
-<h2 id="安装-aria2">安装 Aria2
-</h2><p>一个种子下载工具</p>
-<p><a class="link" href="https://github.com/aria2/aria2"  target="_blank" rel="noopener"
-    >https://github.com/aria2/aria2
+    <h2 id="原因">原因
+</h2><p>我受够阿里云 ECS 了，一是国内的服务器，我在欧洲访问无敌慢；二是 SSL 证书问题，每隔三个月要手动换一次，每次等阿里云 console 加载出来都感觉寿命在流逝。</p>
+<p>还有就是看了这位博主的文章 <a class="link" href="https://blog.douchi.space/blog-migrate-wordpress-hugo/"  target="_blank" rel="noopener"
+    >https://blog.douchi.space/blog-migrate-wordpress-hugo/
 <span style="white-space: nowrap;"><svg width=".7em"
     height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
     <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
     <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
         fill="currentColor">
 </svg></span>
-</a></p>
+</a> ，看上去迁移不是很麻烦，而且 Hugo 的主题也挺好看的。</p>
+<p>我始终纠结的点是放 github page 托管的话，国内可能无法访问。我始终想让我网站国内国外都能访问，并且我在国外操作也不能太慢。在询问了 ChatGPT 之后，选择了 github page + Cloudflare R2，放弃了国内外都能访问的想法，被墙了就被墙了吧。我觉得不能责怪观众不会翻墙，是我不想折腾了，对我来说我回国梯子真是找不到啊。</p>
+<h2 id="迁移过程">迁移过程
+</h2><h3 id="从-wordpress-导出">从 Wordpress 导出
+</h3><p>参考上面那个链接，有一个 wordpress to hugo 插件。比我想象中简单，会把文章导出成 md 文件，图片放在对应文件夹里，最终生成一个 zip。我 20 篇文章导出来 900 多 MB，很怪，wordpress 每个图片有 5 个尺寸。</p>
+<p>导出的 md 里的图片引用代码不对，hugo 没法显示，让 chatgpt 写了一个改的脚本，就都改好了。</p>
+<h3 id="总的配置">总的配置
+</h3><p>然后遇到一个问题就是直接访问 apodized.com 是 404， 以下是 Chatgpt 的回答，总之就是我 cloudflare 的配置有问题。</p>
 <ul>
-<li>（似乎可以直接 apt 安装）</li>
-<li>Git clone</li>
-<li>根据 README apt-install 各种库</li>
-<li>./configure 然后 make，等待 20 分钟</li>
-<li>make check 我没编译通过，不懂</li>
-<li>编译出的执行文件在 src/aria2c</li>
-<li><a rel="noreferrer noopener" href="https://wiki.archlinux.org/title/Aria2" target="_blank"><a class="link" href="https://wiki.archlinux.org/title/Aria2"  target="_blank" rel="noopener"
-    >https://wiki.archlinux.org/title/Aria2
+<li>域名：阿里云注册（管理权已经转到 Cloudflare DNS）</li>
+<li>博客：Hugo → GitHub Pages</li>
+<li>图床：Cloudflare R2（可能目前挂在根域）</li>
+<li>DNS：Cloudflare 托管</li>
+</ul>
+<p>当前问题：</p>
+<ul>
+<li><a class="link" href="https://www.apodized.com"  target="_blank" rel="noopener"
+    >www.apodized.com
 <span style="white-space: nowrap;"><svg width=".7em"
     height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
     <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
     <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
         fill="currentColor">
 </svg></span>
-</a></a> 根据这里新建配置文件，里面要添加 enable rpc 的配置</li>
-<li>ufw 设置一下</li>
-<li>变成 service：具体内容在上面链接中的 <code>Using aria2 as a Daemon</code>, 然后 start，然后 enable
-<ul>
-<li>我遇到了这个问题 <code>update-rc.d: error: cannot find a LSB script for aria2</code>，没懂，Chatgpt 解决了</li>
+</a> 正常（CNAME → GitHub Pages）</li>
+<li>apodized.com 打开是 404（因为 GitHub Pages 没配根域）</li>
+<li>R2 可能与根域占用冲突</li>
 </ul>
-</li>
-</ul>
-<h2 id="安装-ariang">安装 AriaNg
-</h2><p><a href="https://github.com/mayswind/AriaNg" target="_blank" rel="noreferrer noopener"><a class="link" href="https://github.com/mayswind/AriaNg"  target="_blank" rel="noopener"
-    >https://github.com/mayswind/AriaNg
+<p>解决办法：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>子域名</th>
+          <th>用途</th>
+          <th>DNS 配置方式</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong><a class="link" href="http://www.apodized.com"  target="_blank" rel="noopener"
+    >www.apodized.com
 <span style="white-space: nowrap;"><svg width=".7em"
     height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
     <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
     <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
         fill="currentColor">
 </svg></span>
-</a></a></p>
-<p>AriaNg 是一个 Web 用户界面，控制 Aria2 的下载等等</p>
-<ul>
-<li>下载 AriaNg-1.3.7-AllInOne.zip，解压出来 index.html</li>
-<li>安装 web server，因为要在另一台设备上访问这个网页<br>
-sudo apt-get install apache2</li>
-<li>以下内容来自 chatgpt<br>
-sudo mkdir -p /var/www/html/aria<br>
-sudo cp index.html /var/www/html/aria<br>
-sudo chown -R www-data:www-data /var/www/html/aria</li>
-<li>访问 <a class="link" href="http://192.168.xx.xx/aria/index.html"  target="_blank" rel="noopener"
-    >http://192.168.xx.xx/aria/index.html
+</a></strong></td>
+          <td>博客主站</td>
+          <td>CNAME → <code>&lt;你的GitHub用户名&gt;.github.io</code>（橙云）</td>
+      </tr>
+      <tr>
+          <td><strong>apodized.com</strong></td>
+          <td>根域</td>
+          <td>A 记录 → GitHub Pages 4 个 IP（橙云），Cloudflare Page Rule 或 Redirect Rule 301 跳到 <code>www.apodized.com</code></td>
+      </tr>
+      <tr>
+          <td><strong>static.apodized.com</strong>（或 <code>img.apodized.com</code>）</td>
+          <td>图床（R2）</td>
+          <td>CNAME → R2 提供的自定义域地址（灰云或橙云，取决于是否需要代理）</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="主题配置">主题配置
+</h2><p>参考了这个 <a class="link" href="https://thirdshire.com/series/hugo-stack-%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE/"  target="_blank" rel="noopener"
+    >https://thirdshire.com/series/hugo-stack-%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE/
 <span style="white-space: nowrap;"><svg width=".7em"
     height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
     <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
     <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
         fill="currentColor">
 </svg></span>
-</a>
-<ul>
-<li>可以看到 Aria2 是连接上的</li>
-<li>然后可以修改 Aria2 的一些配置，我只改了下载路径</li>
-</ul>
-</li>
-</ul>
-<p>上面的 Aria2，AiraNg 步骤实现后，就能在另一台电脑上通过访问 <a class="link" href="http://192.168.xx.xx/aria/index.html"  target="_blank" rel="noopener"
-    >http://192.168.xx.xx/aria/index.html
-<span style="white-space: nowrap;"><svg width=".7em"
-    height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
-    <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
-    <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
-        fill="currentColor">
-</svg></span>
-</a> 来下载动画片，我用的 <a class="link" href="https://mikanani.me/"  target="_blank" rel="noopener"
-    >https://mikanani.me/
-<span style="white-space: nowrap;"><svg width=".7em"
-    height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
-    <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
-    <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
-        fill="currentColor">
-</svg></span>
-</a> 找种子。应该可以 RSS 自动下，没搞懂呢。</p>
-<div class="wp-block-image">
-<figure class="wp-block-image"><img alt="" src="https://static.apodized.com/wp-content/uploads/2024/11/Snipaste_2024-11-05_15-45-32-1024x492.jpg" style="width: 60%;"/><figcaption></figcaption></figure>
-</div>
-<h2 id="安装-samba">安装 Samba
-</h2><p>用来让小米盒子访问 Server 上的共享文件夹</p>
-<ul>
-<li>
-<p>sudo apt install samba<br>
-sudo mkdir -p /home/xxx/aaa<br>
-sudo chown nobody:nogroup /home/xxx/aaa<br>
-sudo chmod 777 /home/xxx/aaa<br>
-我设置的共享文件夹就是 Aria2 的下载路径</p>
-</li>
-<li>
-<p>新建配置文件 （好像默认是有的，修改一下就行） <code>/etc/samba/smb.conf</code> 添加下面内容[SharedFolder]  <br>
-path = /home/xxx/aaa<br>
-browseable = yes  <br>
-read only = no  <br>
-guest ok = yes</p>
-</li>
-<li>
-<p><code>sudo systemctl restart smbd</code></p>
-</li>
-<li>
-<p><code>sudo ufw allow samba</code></p>
-</li>
-<li>
-<p>添加 user，pwd</p>
-<ul>
-<li><code>sudo smbpasswd -a username</code></li>
-</ul>
-</li>
-</ul>
-<h2 id="小米盒子">小米盒子
-</h2><p>小米盒子我买的是国内刷好系统的版本，直接有当贝投屏，里面有 Samba，输入server ip，上面设置的用户名密码，就能查看共享文件里的内容，直接播放视频。</p>
-<br>
-<p>总结：看了柯南新剧场版和怪化猫剧场版，达咩。</p>
+</a> 。抄了很多博客配置，很好看，很好抄。</p>
+<p>改配置的时候就想什么时候 chatgpt 可以直接接大脑，我现在觉得描述 “在xx主题下，怎么把超链接颜色改明显一点” 都很困难。</p>
+<h2 id="总结">总结
+</h2><p>Chatgpt 太好用了，完全不用懂原理，只要会 prompt 提问就可以了。
+对比下来阿里云的 console 加载速度真的慢。</p>
 
 </section>
 
@@ -457,19 +423,7 @@ guest ok = yes</p>
     <footer class="article-footer">
     
 
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            最后更新于 Jan 27, 2025 12:30 UTC
-        </span>
-    </section></footer>
+    </footer>
 
 
     
@@ -486,12 +440,12 @@ guest ok = yes</p>
             
                 
 <article class="">
-    <a href="/2025/08/08/hugo/">
+    <a href="/2025/01/27/aria2/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">从 Wordpress 迁移到 Hugo</h2>
+            <h2 class="article-title">Aria2 配置</h2>
         </div>
     </a>
 </article>
